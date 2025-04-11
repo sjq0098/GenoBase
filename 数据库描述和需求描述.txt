@@ -1,0 +1,36 @@
+ER 图设计
+主要实体与子类设计
+Organism（物种）
+
+属性：organism_id (主键)，name，taxonomy_info，其他描述字段
+
+Gene（基因）
+
+属性：gene_id (主键)，organism_id (外键，关联 Organism)，gene_symbol，description，chromosome，start_pos，end_pos
+
+Transcript（转录本）
+
+属性：transcript_id (主键)，gene_id (外键，关联 Gene)，transcript_type，exon_count，其他注释信息
+
+Sequence（序列） – 子类
+序列作为一个超类，分为以下三类子表：
+
+DNASequence
+
+属性：sequence_id (主键)，transcript_id (外键)，sequence（碱基序列），seq_length
+
+RNASequence
+
+属性：sequence_id (主键)，transcript_id (外键)，sequence（碱基序列），seq_length
+
+ProteinSequence
+
+属性：sequence_id (主键)，transcript_id (外键)，sequence（氨基酸序列），seq_length
+
+Expression（表达信息）
+
+属性：expression_id (主键)，gene_id (外键)，sample_id，expression_value，experiment_date，condition
+
+现在的需求是：
+由于我需要获取相当大量的基因用于准备数据库，但其实数据的真实性没有那么重要，重要的是数据的是否支持上述ER图描述的模型状态，请删除爬取数据的脚本和爬取的数据、日志，但创建一个类似于
+

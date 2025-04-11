@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Homo sapiens",
+    "taxonomy_id": "9606",
+    "common_name": "Human"
+  },
+  {
+    "name": "Mus musculus",
+    "taxonomy_id": "10090",
+    "common_name": "Mouse"
+  },
+  {
+    "name": "Rattus norvegicus",
+    "taxonomy_id": "10116",
+    "common_name": "Rat"
+  },
+  {
+    "name": "Drosophila melanogaster",
+    "taxonomy_id": "7227",
+    "common_name": "Fruit fly"
+  },
+  {
+    "name": "Saccharomyces cerevisiae",
+    "taxonomy_id": "4932",
+    "common_name": "Baker's yeast"
+  }
+]

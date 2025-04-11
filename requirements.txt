@@ -1,0 +1,18 @@
+# 数据库连接
+mysql-connector-python==8.0.33
+SQLAlchemy==2.0.23
+
+# Web框架
+Flask==2.3.3
+Flask-CORS==4.0.0
+
+# NCBI数据获取
+biopython==1.83
+requests==2.31.0
+
+# 数据处理
+pandas==2.1.1
+numpy==1.24.3
+
+# 工具包
+python-dotenv==1.0.0 

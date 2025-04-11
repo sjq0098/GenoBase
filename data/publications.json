@@ -1,0 +1,4002 @@
+[
+  {
+    "publication_id": "PUB000000",
+    "title": "Research Paper 0",
+    "authors": "Author_3, Author_9",
+    "journal": "Science",
+    "publication_date": "2021-07-22",
+    "doi": "10.1234/paper.000000"
+  },
+  {
+    "publication_id": "PUB000001",
+    "title": "Research Paper 1",
+    "authors": "Author_1, Author_7",
+    "journal": "BMC Genomics",
+    "publication_date": "2014-07-15",
+    "doi": "10.1234/paper.000001"
+  },
+  {
+    "publication_id": "PUB000002",
+    "title": "Research Paper 2",
+    "authors": "Author_2, Author_9",
+    "journal": "Nature",
+    "publication_date": "2023-06-09",
+    "doi": "10.1234/paper.000002"
+  },
+  {
+    "publication_id": "PUB000003",
+    "title": "Research Paper 3",
+    "authors": "Author_1, Author_10",
+    "journal": "PLOS ONE",
+    "publication_date": "2019-07-04",
+    "doi": "10.1234/paper.000003"
+  },
+  {
+    "publication_id": "PUB000004",
+    "title": "Research Paper 4",
+    "authors": "Author_1, Author_8",
+    "journal": "Cell",
+    "publication_date": "2023-07-15",
+    "doi": "10.1234/paper.000004"
+  },
+  {
+    "publication_id": "PUB000005",
+    "title": "Research Paper 5",
+    "authors": "Author_2, Author_7",
+    "journal": "Nature",
+    "publication_date": "2019-09-11",
+    "doi": "10.1234/paper.000005"
+  },
+  {
+    "publication_id": "PUB000006",
+    "title": "Research Paper 6",
+    "authors": "Author_5, Author_6",
+    "journal": "Cell",
+    "publication_date": "2011-05-01",
+    "doi": "10.1234/paper.000006"
+  },
+  {
+    "publication_id": "PUB000007",
+    "title": "Research Paper 7",
+    "authors": "Author_4, Author_9",
+    "journal": "Nature",
+    "publication_date": "2011-09-01",
+    "doi": "10.1234/paper.000007"
+  },
+  {
+    "publication_id": "PUB000008",
+    "title": "Research Paper 8",
+    "authors": "Author_4, Author_7",
+    "journal": "Science",
+    "publication_date": "2022-02-01",
+    "doi": "10.1234/paper.000008"
+  },
+  {
+    "publication_id": "PUB000009",
+    "title": "Research Paper 9",
+    "authors": "Author_1, Author_9",
+    "journal": "Nature",
+    "publication_date": "2014-04-03",
+    "doi": "10.1234/paper.000009"
+  },
+  {
+    "publication_id": "PUB000010",
+    "title": "Research Paper 10",
+    "authors": "Author_5, Author_10",
+    "journal": "BMC Genomics",
+    "publication_date": "2013-09-12",
+    "doi": "10.1234/paper.000010"
+  },
+  {
+    "publication_id": "PUB000011",
+    "title": "Research Paper 11",
+    "authors": "Author_2, Author_6",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2022-03-01",
+    "doi": "10.1234/paper.000011"
+  },
+  {
+    "publication_id": "PUB000012",
+    "title": "Research Paper 12",
+    "authors": "Author_2, Author_8",
+    "journal": "BMC Genomics",
+    "publication_date": "2011-02-04",
+    "doi": "10.1234/paper.000012"
+  },
+  {
+    "publication_id": "PUB000013",
+    "title": "Research Paper 13",
+    "authors": "Author_3, Author_8",
+    "journal": "Genome Research",
+    "publication_date": "2018-07-08",
+    "doi": "10.1234/paper.000013"
+  },
+  {
+    "publication_id": "PUB000014",
+    "title": "Research Paper 14",
+    "authors": "Author_5, Author_7",
+    "journal": "Bioinformatics",
+    "publication_date": "2020-07-02",
+    "doi": "10.1234/paper.000014"
+  },
+  {
+    "publication_id": "PUB000015",
+    "title": "Research Paper 15",
+    "authors": "Author_5, Author_6",
+    "journal": "BMC Genomics",
+    "publication_date": "2012-06-22",
+    "doi": "10.1234/paper.000015"
+  },
+  {
+    "publication_id": "PUB000016",
+    "title": "Research Paper 16",
+    "authors": "Author_4, Author_6",
+    "journal": "Genome Research",
+    "publication_date": "2018-07-28",
+    "doi": "10.1234/paper.000016"
+  },
+  {
+    "publication_id": "PUB000017",
+    "title": "Research Paper 17",
+    "authors": "Author_4, Author_6",
+    "journal": "Bioinformatics",
+    "publication_date": "2014-05-19",
+    "doi": "10.1234/paper.000017"
+  },
+  {
+    "publication_id": "PUB000018",
+    "title": "Research Paper 18",
+    "authors": "Author_4, Author_9",
+    "journal": "Nature",
+    "publication_date": "2013-08-22",
+    "doi": "10.1234/paper.000018"
+  },
+  {
+    "publication_id": "PUB000019",
+    "title": "Research Paper 19",
+    "authors": "Author_3, Author_9",
+    "journal": "BMC Genomics",
+    "publication_date": "2021-08-28",
+    "doi": "10.1234/paper.000019"
+  },
+  {
+    "publication_id": "PUB000020",
+    "title": "Research Paper 20",
+    "authors": "Author_5, Author_8",
+    "journal": "BMC Genomics",
+    "publication_date": "2017-08-13",
+    "doi": "10.1234/paper.000020"
+  },
+  {
+    "publication_id": "PUB000021",
+    "title": "Research Paper 21",
+    "authors": "Author_5, Author_10",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2010-11-11",
+    "doi": "10.1234/paper.000021"
+  },
+  {
+    "publication_id": "PUB000022",
+    "title": "Research Paper 22",
+    "authors": "Author_4, Author_8",
+    "journal": "Cell",
+    "publication_date": "2014-07-15",
+    "doi": "10.1234/paper.000022"
+  },
+  {
+    "publication_id": "PUB000023",
+    "title": "Research Paper 23",
+    "authors": "Author_1, Author_9",
+    "journal": "Cell",
+    "publication_date": "2022-12-06",
+    "doi": "10.1234/paper.000023"
+  },
+  {
+    "publication_id": "PUB000024",
+    "title": "Research Paper 24",
+    "authors": "Author_1, Author_7",
+    "journal": "Bioinformatics",
+    "publication_date": "2014-05-12",
+    "doi": "10.1234/paper.000024"
+  },
+  {
+    "publication_id": "PUB000025",
+    "title": "Research Paper 25",
+    "authors": "Author_2, Author_10",
+    "journal": "BMC Genomics",
+    "publication_date": "2017-03-03",
+    "doi": "10.1234/paper.000025"
+  },
+  {
+    "publication_id": "PUB000026",
+    "title": "Research Paper 26",
+    "authors": "Author_1, Author_9",
+    "journal": "Nature",
+    "publication_date": "2013-12-07",
+    "doi": "10.1234/paper.000026"
+  },
+  {
+    "publication_id": "PUB000027",
+    "title": "Research Paper 27",
+    "authors": "Author_5, Author_8",
+    "journal": "Bioinformatics",
+    "publication_date": "2019-10-25",
+    "doi": "10.1234/paper.000027"
+  },
+  {
+    "publication_id": "PUB000028",
+    "title": "Research Paper 28",
+    "authors": "Author_2, Author_9",
+    "journal": "Bioinformatics",
+    "publication_date": "2016-07-11",
+    "doi": "10.1234/paper.000028"
+  },
+  {
+    "publication_id": "PUB000029",
+    "title": "Research Paper 29",
+    "authors": "Author_4, Author_10",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2012-01-18",
+    "doi": "10.1234/paper.000029"
+  },
+  {
+    "publication_id": "PUB000030",
+    "title": "Research Paper 30",
+    "authors": "Author_3, Author_6",
+    "journal": "Science",
+    "publication_date": "2022-06-01",
+    "doi": "10.1234/paper.000030"
+  },
+  {
+    "publication_id": "PUB000031",
+    "title": "Research Paper 31",
+    "authors": "Author_4, Author_8",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2010-11-02",
+    "doi": "10.1234/paper.000031"
+  },
+  {
+    "publication_id": "PUB000032",
+    "title": "Research Paper 32",
+    "authors": "Author_3, Author_9",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2017-11-20",
+    "doi": "10.1234/paper.000032"
+  },
+  {
+    "publication_id": "PUB000033",
+    "title": "Research Paper 33",
+    "authors": "Author_4, Author_9",
+    "journal": "Cell",
+    "publication_date": "2010-01-26",
+    "doi": "10.1234/paper.000033"
+  },
+  {
+    "publication_id": "PUB000034",
+    "title": "Research Paper 34",
+    "authors": "Author_2, Author_6",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2022-01-17",
+    "doi": "10.1234/paper.000034"
+  },
+  {
+    "publication_id": "PUB000035",
+    "title": "Research Paper 35",
+    "authors": "Author_4, Author_10",
+    "journal": "Bioinformatics",
+    "publication_date": "2023-08-02",
+    "doi": "10.1234/paper.000035"
+  },
+  {
+    "publication_id": "PUB000036",
+    "title": "Research Paper 36",
+    "authors": "Author_2, Author_9",
+    "journal": "Genome Research",
+    "publication_date": "2018-08-21",
+    "doi": "10.1234/paper.000036"
+  },
+  {
+    "publication_id": "PUB000037",
+    "title": "Research Paper 37",
+    "authors": "Author_5, Author_6",
+    "journal": "Science",
+    "publication_date": "2015-10-19",
+    "doi": "10.1234/paper.000037"
+  },
+  {
+    "publication_id": "PUB000038",
+    "title": "Research Paper 38",
+    "authors": "Author_2, Author_7",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2012-09-17",
+    "doi": "10.1234/paper.000038"
+  },
+  {
+    "publication_id": "PUB000039",
+    "title": "Research Paper 39",
+    "authors": "Author_3, Author_7",
+    "journal": "PLOS ONE",
+    "publication_date": "2010-08-09",
+    "doi": "10.1234/paper.000039"
+  },
+  {
+    "publication_id": "PUB000040",
+    "title": "Research Paper 40",
+    "authors": "Author_2, Author_7",
+    "journal": "Science",
+    "publication_date": "2013-10-09",
+    "doi": "10.1234/paper.000040"
+  },
+  {
+    "publication_id": "PUB000041",
+    "title": "Research Paper 41",
+    "authors": "Author_2, Author_6",
+    "journal": "Genome Research",
+    "publication_date": "2010-05-23",
+    "doi": "10.1234/paper.000041"
+  },
+  {
+    "publication_id": "PUB000042",
+    "title": "Research Paper 42",
+    "authors": "Author_3, Author_9",
+    "journal": "BMC Genomics",
+    "publication_date": "2019-12-22",
+    "doi": "10.1234/paper.000042"
+  },
+  {
+    "publication_id": "PUB000043",
+    "title": "Research Paper 43",
+    "authors": "Author_2, Author_8",
+    "journal": "Genome Research",
+    "publication_date": "2022-06-08",
+    "doi": "10.1234/paper.000043"
+  },
+  {
+    "publication_id": "PUB000044",
+    "title": "Research Paper 44",
+    "authors": "Author_3, Author_10",
+    "journal": "Bioinformatics",
+    "publication_date": "2011-03-20",
+    "doi": "10.1234/paper.000044"
+  },
+  {
+    "publication_id": "PUB000045",
+    "title": "Research Paper 45",
+    "authors": "Author_4, Author_9",
+    "journal": "Science",
+    "publication_date": "2017-04-04",
+    "doi": "10.1234/paper.000045"
+  },
+  {
+    "publication_id": "PUB000046",
+    "title": "Research Paper 46",
+    "authors": "Author_4, Author_9",
+    "journal": "Genome Research",
+    "publication_date": "2016-09-02",
+    "doi": "10.1234/paper.000046"
+  },
+  {
+    "publication_id": "PUB000047",
+    "title": "Research Paper 47",
+    "authors": "Author_4, Author_9",
+    "journal": "Nature",
+    "publication_date": "2018-10-05",
+    "doi": "10.1234/paper.000047"
+  },
+  {
+    "publication_id": "PUB000048",
+    "title": "Research Paper 48",
+    "authors": "Author_5, Author_10",
+    "journal": "Nature",
+    "publication_date": "2019-03-06",
+    "doi": "10.1234/paper.000048"
+  },
+  {
+    "publication_id": "PUB000049",
+    "title": "Research Paper 49",
+    "authors": "Author_5, Author_9",
+    "journal": "BMC Genomics",
+    "publication_date": "2016-12-11",
+    "doi": "10.1234/paper.000049"
+  },
+  {
+    "publication_id": "PUB000050",
+    "title": "Research Paper 50",
+    "authors": "Author_5, Author_6",
+    "journal": "BMC Genomics",
+    "publication_date": "2011-06-05",
+    "doi": "10.1234/paper.000050"
+  },
+  {
+    "publication_id": "PUB000051",
+    "title": "Research Paper 51",
+    "authors": "Author_4, Author_10",
+    "journal": "Science",
+    "publication_date": "2017-01-26",
+    "doi": "10.1234/paper.000051"
+  },
+  {
+    "publication_id": "PUB000052",
+    "title": "Research Paper 52",
+    "authors": "Author_5, Author_10",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2014-08-22",
+    "doi": "10.1234/paper.000052"
+  },
+  {
+    "publication_id": "PUB000053",
+    "title": "Research Paper 53",
+    "authors": "Author_3, Author_8",
+    "journal": "Bioinformatics",
+    "publication_date": "2015-04-04",
+    "doi": "10.1234/paper.000053"
+  },
+  {
+    "publication_id": "PUB000054",
+    "title": "Research Paper 54",
+    "authors": "Author_5, Author_6",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2017-02-18",
+    "doi": "10.1234/paper.000054"
+  },
+  {
+    "publication_id": "PUB000055",
+    "title": "Research Paper 55",
+    "authors": "Author_2, Author_9",
+    "journal": "Nature",
+    "publication_date": "2017-06-11",
+    "doi": "10.1234/paper.000055"
+  },
+  {
+    "publication_id": "PUB000056",
+    "title": "Research Paper 56",
+    "authors": "Author_3, Author_7",
+    "journal": "Bioinformatics",
+    "publication_date": "2013-01-22",
+    "doi": "10.1234/paper.000056"
+  },
+  {
+    "publication_id": "PUB000057",
+    "title": "Research Paper 57",
+    "authors": "Author_4, Author_9",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2019-06-06",
+    "doi": "10.1234/paper.000057"
+  },
+  {
+    "publication_id": "PUB000058",
+    "title": "Research Paper 58",
+    "authors": "Author_4, Author_9",
+    "journal": "BMC Genomics",
+    "publication_date": "2010-05-17",
+    "doi": "10.1234/paper.000058"
+  },
+  {
+    "publication_id": "PUB000059",
+    "title": "Research Paper 59",
+    "authors": "Author_4, Author_7",
+    "journal": "Genome Research",
+    "publication_date": "2020-04-26",
+    "doi": "10.1234/paper.000059"
+  },
+  {
+    "publication_id": "PUB000060",
+    "title": "Research Paper 60",
+    "authors": "Author_1, Author_6",
+    "journal": "Science",
+    "publication_date": "2022-12-24",
+    "doi": "10.1234/paper.000060"
+  },
+  {
+    "publication_id": "PUB000061",
+    "title": "Research Paper 61",
+    "authors": "Author_5, Author_9",
+    "journal": "PLOS ONE",
+    "publication_date": "2019-12-24",
+    "doi": "10.1234/paper.000061"
+  },
+  {
+    "publication_id": "PUB000062",
+    "title": "Research Paper 62",
+    "authors": "Author_3, Author_10",
+    "journal": "Science",
+    "publication_date": "2020-01-14",
+    "doi": "10.1234/paper.000062"
+  },
+  {
+    "publication_id": "PUB000063",
+    "title": "Research Paper 63",
+    "authors": "Author_2, Author_6",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2011-10-05",
+    "doi": "10.1234/paper.000063"
+  },
+  {
+    "publication_id": "PUB000064",
+    "title": "Research Paper 64",
+    "authors": "Author_2, Author_8",
+    "journal": "Bioinformatics",
+    "publication_date": "2010-11-20",
+    "doi": "10.1234/paper.000064"
+  },
+  {
+    "publication_id": "PUB000065",
+    "title": "Research Paper 65",
+    "authors": "Author_5, Author_9",
+    "journal": "Cell",
+    "publication_date": "2013-06-02",
+    "doi": "10.1234/paper.000065"
+  },
+  {
+    "publication_id": "PUB000066",
+    "title": "Research Paper 66",
+    "authors": "Author_1, Author_7",
+    "journal": "Genome Research",
+    "publication_date": "2019-02-17",
+    "doi": "10.1234/paper.000066"
+  },
+  {
+    "publication_id": "PUB000067",
+    "title": "Research Paper 67",
+    "authors": "Author_1, Author_10",
+    "journal": "Nature",
+    "publication_date": "2018-05-20",
+    "doi": "10.1234/paper.000067"
+  },
+  {
+    "publication_id": "PUB000068",
+    "title": "Research Paper 68",
+    "authors": "Author_3, Author_7",
+    "journal": "PLOS ONE",
+    "publication_date": "2018-06-22",
+    "doi": "10.1234/paper.000068"
+  },
+  {
+    "publication_id": "PUB000069",
+    "title": "Research Paper 69",
+    "authors": "Author_2, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2022-09-01",
+    "doi": "10.1234/paper.000069"
+  },
+  {
+    "publication_id": "PUB000070",
+    "title": "Research Paper 70",
+    "authors": "Author_4, Author_6",
+    "journal": "PLOS ONE",
+    "publication_date": "2015-08-08",
+    "doi": "10.1234/paper.000070"
+  },
+  {
+    "publication_id": "PUB000071",
+    "title": "Research Paper 71",
+    "authors": "Author_3, Author_7",
+    "journal": "Cell",
+    "publication_date": "2013-09-17",
+    "doi": "10.1234/paper.000071"
+  },
+  {
+    "publication_id": "PUB000072",
+    "title": "Research Paper 72",
+    "authors": "Author_3, Author_10",
+    "journal": "Genome Research",
+    "publication_date": "2014-04-21",
+    "doi": "10.1234/paper.000072"
+  },
+  {
+    "publication_id": "PUB000073",
+    "title": "Research Paper 73",
+    "authors": "Author_2, Author_8",
+    "journal": "Bioinformatics",
+    "publication_date": "2017-09-18",
+    "doi": "10.1234/paper.000073"
+  },
+  {
+    "publication_id": "PUB000074",
+    "title": "Research Paper 74",
+    "authors": "Author_3, Author_7",
+    "journal": "Nature",
+    "publication_date": "2010-07-16",
+    "doi": "10.1234/paper.000074"
+  },
+  {
+    "publication_id": "PUB000075",
+    "title": "Research Paper 75",
+    "authors": "Author_1, Author_10",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2012-07-22",
+    "doi": "10.1234/paper.000075"
+  },
+  {
+    "publication_id": "PUB000076",
+    "title": "Research Paper 76",
+    "authors": "Author_4, Author_8",
+    "journal": "BMC Genomics",
+    "publication_date": "2015-03-08",
+    "doi": "10.1234/paper.000076"
+  },
+  {
+    "publication_id": "PUB000077",
+    "title": "Research Paper 77",
+    "authors": "Author_2, Author_9",
+    "journal": "Cell",
+    "publication_date": "2017-06-23",
+    "doi": "10.1234/paper.000077"
+  },
+  {
+    "publication_id": "PUB000078",
+    "title": "Research Paper 78",
+    "authors": "Author_4, Author_6",
+    "journal": "Cell",
+    "publication_date": "2018-07-22",
+    "doi": "10.1234/paper.000078"
+  },
+  {
+    "publication_id": "PUB000079",
+    "title": "Research Paper 79",
+    "authors": "Author_3, Author_6",
+    "journal": "Cell",
+    "publication_date": "2012-10-08",
+    "doi": "10.1234/paper.000079"
+  },
+  {
+    "publication_id": "PUB000080",
+    "title": "Research Paper 80",
+    "authors": "Author_2, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2012-06-10",
+    "doi": "10.1234/paper.000080"
+  },
+  {
+    "publication_id": "PUB000081",
+    "title": "Research Paper 81",
+    "authors": "Author_2, Author_7",
+    "journal": "Bioinformatics",
+    "publication_date": "2015-08-13",
+    "doi": "10.1234/paper.000081"
+  },
+  {
+    "publication_id": "PUB000082",
+    "title": "Research Paper 82",
+    "authors": "Author_5, Author_10",
+    "journal": "BMC Genomics",
+    "publication_date": "2016-02-17",
+    "doi": "10.1234/paper.000082"
+  },
+  {
+    "publication_id": "PUB000083",
+    "title": "Research Paper 83",
+    "authors": "Author_5, Author_6",
+    "journal": "Genome Research",
+    "publication_date": "2023-06-16",
+    "doi": "10.1234/paper.000083"
+  },
+  {
+    "publication_id": "PUB000084",
+    "title": "Research Paper 84",
+    "authors": "Author_4, Author_7",
+    "journal": "Bioinformatics",
+    "publication_date": "2016-07-01",
+    "doi": "10.1234/paper.000084"
+  },
+  {
+    "publication_id": "PUB000085",
+    "title": "Research Paper 85",
+    "authors": "Author_2, Author_6",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2012-06-02",
+    "doi": "10.1234/paper.000085"
+  },
+  {
+    "publication_id": "PUB000086",
+    "title": "Research Paper 86",
+    "authors": "Author_4, Author_6",
+    "journal": "Genome Research",
+    "publication_date": "2021-10-23",
+    "doi": "10.1234/paper.000086"
+  },
+  {
+    "publication_id": "PUB000087",
+    "title": "Research Paper 87",
+    "authors": "Author_4, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2011-07-22",
+    "doi": "10.1234/paper.000087"
+  },
+  {
+    "publication_id": "PUB000088",
+    "title": "Research Paper 88",
+    "authors": "Author_3, Author_8",
+    "journal": "Science",
+    "publication_date": "2018-01-17",
+    "doi": "10.1234/paper.000088"
+  },
+  {
+    "publication_id": "PUB000089",
+    "title": "Research Paper 89",
+    "authors": "Author_1, Author_10",
+    "journal": "Cell",
+    "publication_date": "2019-03-07",
+    "doi": "10.1234/paper.000089"
+  },
+  {
+    "publication_id": "PUB000090",
+    "title": "Research Paper 90",
+    "authors": "Author_5, Author_9",
+    "journal": "Bioinformatics",
+    "publication_date": "2010-11-24",
+    "doi": "10.1234/paper.000090"
+  },
+  {
+    "publication_id": "PUB000091",
+    "title": "Research Paper 91",
+    "authors": "Author_2, Author_8",
+    "journal": "Nature",
+    "publication_date": "2019-09-07",
+    "doi": "10.1234/paper.000091"
+  },
+  {
+    "publication_id": "PUB000092",
+    "title": "Research Paper 92",
+    "authors": "Author_2, Author_8",
+    "journal": "Cell",
+    "publication_date": "2011-07-27",
+    "doi": "10.1234/paper.000092"
+  },
+  {
+    "publication_id": "PUB000093",
+    "title": "Research Paper 93",
+    "authors": "Author_3, Author_8",
+    "journal": "Bioinformatics",
+    "publication_date": "2015-03-01",
+    "doi": "10.1234/paper.000093"
+  },
+  {
+    "publication_id": "PUB000094",
+    "title": "Research Paper 94",
+    "authors": "Author_1, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2017-01-07",
+    "doi": "10.1234/paper.000094"
+  },
+  {
+    "publication_id": "PUB000095",
+    "title": "Research Paper 95",
+    "authors": "Author_4, Author_10",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2021-03-12",
+    "doi": "10.1234/paper.000095"
+  },
+  {
+    "publication_id": "PUB000096",
+    "title": "Research Paper 96",
+    "authors": "Author_2, Author_7",
+    "journal": "PLOS ONE",
+    "publication_date": "2012-03-04",
+    "doi": "10.1234/paper.000096"
+  },
+  {
+    "publication_id": "PUB000097",
+    "title": "Research Paper 97",
+    "authors": "Author_1, Author_10",
+    "journal": "BMC Genomics",
+    "publication_date": "2015-04-26",
+    "doi": "10.1234/paper.000097"
+  },
+  {
+    "publication_id": "PUB000098",
+    "title": "Research Paper 98",
+    "authors": "Author_1, Author_9",
+    "journal": "Nature",
+    "publication_date": "2015-05-19",
+    "doi": "10.1234/paper.000098"
+  },
+  {
+    "publication_id": "PUB000099",
+    "title": "Research Paper 99",
+    "authors": "Author_5, Author_9",
+    "journal": "Bioinformatics",
+    "publication_date": "2018-11-11",
+    "doi": "10.1234/paper.000099"
+  },
+  {
+    "publication_id": "PUB000100",
+    "title": "Research Paper 100",
+    "authors": "Author_3, Author_10",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2011-04-20",
+    "doi": "10.1234/paper.000100"
+  },
+  {
+    "publication_id": "PUB000101",
+    "title": "Research Paper 101",
+    "authors": "Author_3, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2017-04-24",
+    "doi": "10.1234/paper.000101"
+  },
+  {
+    "publication_id": "PUB000102",
+    "title": "Research Paper 102",
+    "authors": "Author_3, Author_9",
+    "journal": "PLOS ONE",
+    "publication_date": "2021-07-07",
+    "doi": "10.1234/paper.000102"
+  },
+  {
+    "publication_id": "PUB000103",
+    "title": "Research Paper 103",
+    "authors": "Author_5, Author_10",
+    "journal": "Science",
+    "publication_date": "2017-06-24",
+    "doi": "10.1234/paper.000103"
+  },
+  {
+    "publication_id": "PUB000104",
+    "title": "Research Paper 104",
+    "authors": "Author_1, Author_9",
+    "journal": "Bioinformatics",
+    "publication_date": "2022-04-21",
+    "doi": "10.1234/paper.000104"
+  },
+  {
+    "publication_id": "PUB000105",
+    "title": "Research Paper 105",
+    "authors": "Author_4, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2017-01-25",
+    "doi": "10.1234/paper.000105"
+  },
+  {
+    "publication_id": "PUB000106",
+    "title": "Research Paper 106",
+    "authors": "Author_5, Author_7",
+    "journal": "PLOS ONE",
+    "publication_date": "2019-03-09",
+    "doi": "10.1234/paper.000106"
+  },
+  {
+    "publication_id": "PUB000107",
+    "title": "Research Paper 107",
+    "authors": "Author_5, Author_8",
+    "journal": "Nature",
+    "publication_date": "2019-11-17",
+    "doi": "10.1234/paper.000107"
+  },
+  {
+    "publication_id": "PUB000108",
+    "title": "Research Paper 108",
+    "authors": "Author_4, Author_9",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2019-02-12",
+    "doi": "10.1234/paper.000108"
+  },
+  {
+    "publication_id": "PUB000109",
+    "title": "Research Paper 109",
+    "authors": "Author_1, Author_7",
+    "journal": "Science",
+    "publication_date": "2019-06-08",
+    "doi": "10.1234/paper.000109"
+  },
+  {
+    "publication_id": "PUB000110",
+    "title": "Research Paper 110",
+    "authors": "Author_4, Author_10",
+    "journal": "Nature",
+    "publication_date": "2011-08-09",
+    "doi": "10.1234/paper.000110"
+  },
+  {
+    "publication_id": "PUB000111",
+    "title": "Research Paper 111",
+    "authors": "Author_5, Author_8",
+    "journal": "Genome Research",
+    "publication_date": "2010-10-12",
+    "doi": "10.1234/paper.000111"
+  },
+  {
+    "publication_id": "PUB000112",
+    "title": "Research Paper 112",
+    "authors": "Author_2, Author_10",
+    "journal": "Genome Research",
+    "publication_date": "2022-06-16",
+    "doi": "10.1234/paper.000112"
+  },
+  {
+    "publication_id": "PUB000113",
+    "title": "Research Paper 113",
+    "authors": "Author_2, Author_7",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2018-09-12",
+    "doi": "10.1234/paper.000113"
+  },
+  {
+    "publication_id": "PUB000114",
+    "title": "Research Paper 114",
+    "authors": "Author_2, Author_10",
+    "journal": "PLOS ONE",
+    "publication_date": "2018-10-22",
+    "doi": "10.1234/paper.000114"
+  },
+  {
+    "publication_id": "PUB000115",
+    "title": "Research Paper 115",
+    "authors": "Author_1, Author_7",
+    "journal": "Nature",
+    "publication_date": "2014-09-17",
+    "doi": "10.1234/paper.000115"
+  },
+  {
+    "publication_id": "PUB000116",
+    "title": "Research Paper 116",
+    "authors": "Author_3, Author_8",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2015-10-24",
+    "doi": "10.1234/paper.000116"
+  },
+  {
+    "publication_id": "PUB000117",
+    "title": "Research Paper 117",
+    "authors": "Author_4, Author_10",
+    "journal": "BMC Genomics",
+    "publication_date": "2016-03-26",
+    "doi": "10.1234/paper.000117"
+  },
+  {
+    "publication_id": "PUB000118",
+    "title": "Research Paper 118",
+    "authors": "Author_3, Author_8",
+    "journal": "Genome Research",
+    "publication_date": "2013-08-02",
+    "doi": "10.1234/paper.000118"
+  },
+  {
+    "publication_id": "PUB000119",
+    "title": "Research Paper 119",
+    "authors": "Author_2, Author_6",
+    "journal": "Bioinformatics",
+    "publication_date": "2020-10-25",
+    "doi": "10.1234/paper.000119"
+  },
+  {
+    "publication_id": "PUB000120",
+    "title": "Research Paper 120",
+    "authors": "Author_1, Author_10",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2017-07-12",
+    "doi": "10.1234/paper.000120"
+  },
+  {
+    "publication_id": "PUB000121",
+    "title": "Research Paper 121",
+    "authors": "Author_5, Author_9",
+    "journal": "Cell",
+    "publication_date": "2021-11-05",
+    "doi": "10.1234/paper.000121"
+  },
+  {
+    "publication_id": "PUB000122",
+    "title": "Research Paper 122",
+    "authors": "Author_2, Author_8",
+    "journal": "Science",
+    "publication_date": "2023-10-23",
+    "doi": "10.1234/paper.000122"
+  },
+  {
+    "publication_id": "PUB000123",
+    "title": "Research Paper 123",
+    "authors": "Author_5, Author_8",
+    "journal": "Genome Research",
+    "publication_date": "2010-10-14",
+    "doi": "10.1234/paper.000123"
+  },
+  {
+    "publication_id": "PUB000124",
+    "title": "Research Paper 124",
+    "authors": "Author_3, Author_7",
+    "journal": "Cell",
+    "publication_date": "2018-09-03",
+    "doi": "10.1234/paper.000124"
+  },
+  {
+    "publication_id": "PUB000125",
+    "title": "Research Paper 125",
+    "authors": "Author_5, Author_6",
+    "journal": "Bioinformatics",
+    "publication_date": "2021-12-13",
+    "doi": "10.1234/paper.000125"
+  },
+  {
+    "publication_id": "PUB000126",
+    "title": "Research Paper 126",
+    "authors": "Author_2, Author_6",
+    "journal": "Cell",
+    "publication_date": "2014-02-16",
+    "doi": "10.1234/paper.000126"
+  },
+  {
+    "publication_id": "PUB000127",
+    "title": "Research Paper 127",
+    "authors": "Author_5, Author_10",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2021-05-01",
+    "doi": "10.1234/paper.000127"
+  },
+  {
+    "publication_id": "PUB000128",
+    "title": "Research Paper 128",
+    "authors": "Author_3, Author_6",
+    "journal": "PLOS ONE",
+    "publication_date": "2018-03-23",
+    "doi": "10.1234/paper.000128"
+  },
+  {
+    "publication_id": "PUB000129",
+    "title": "Research Paper 129",
+    "authors": "Author_1, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2022-07-11",
+    "doi": "10.1234/paper.000129"
+  },
+  {
+    "publication_id": "PUB000130",
+    "title": "Research Paper 130",
+    "authors": "Author_1, Author_9",
+    "journal": "Cell",
+    "publication_date": "2020-07-23",
+    "doi": "10.1234/paper.000130"
+  },
+  {
+    "publication_id": "PUB000131",
+    "title": "Research Paper 131",
+    "authors": "Author_4, Author_9",
+    "journal": "PLOS ONE",
+    "publication_date": "2017-12-10",
+    "doi": "10.1234/paper.000131"
+  },
+  {
+    "publication_id": "PUB000132",
+    "title": "Research Paper 132",
+    "authors": "Author_2, Author_8",
+    "journal": "Genome Research",
+    "publication_date": "2017-05-27",
+    "doi": "10.1234/paper.000132"
+  },
+  {
+    "publication_id": "PUB000133",
+    "title": "Research Paper 133",
+    "authors": "Author_2, Author_10",
+    "journal": "Cell",
+    "publication_date": "2022-10-07",
+    "doi": "10.1234/paper.000133"
+  },
+  {
+    "publication_id": "PUB000134",
+    "title": "Research Paper 134",
+    "authors": "Author_4, Author_6",
+    "journal": "BMC Genomics",
+    "publication_date": "2011-11-12",
+    "doi": "10.1234/paper.000134"
+  },
+  {
+    "publication_id": "PUB000135",
+    "title": "Research Paper 135",
+    "authors": "Author_2, Author_10",
+    "journal": "Nature",
+    "publication_date": "2012-04-20",
+    "doi": "10.1234/paper.000135"
+  },
+  {
+    "publication_id": "PUB000136",
+    "title": "Research Paper 136",
+    "authors": "Author_5, Author_10",
+    "journal": "Nature",
+    "publication_date": "2020-08-16",
+    "doi": "10.1234/paper.000136"
+  },
+  {
+    "publication_id": "PUB000137",
+    "title": "Research Paper 137",
+    "authors": "Author_4, Author_8",
+    "journal": "Nature",
+    "publication_date": "2010-06-03",
+    "doi": "10.1234/paper.000137"
+  },
+  {
+    "publication_id": "PUB000138",
+    "title": "Research Paper 138",
+    "authors": "Author_2, Author_7",
+    "journal": "BMC Genomics",
+    "publication_date": "2021-01-18",
+    "doi": "10.1234/paper.000138"
+  },
+  {
+    "publication_id": "PUB000139",
+    "title": "Research Paper 139",
+    "authors": "Author_2, Author_9",
+    "journal": "Cell",
+    "publication_date": "2012-03-26",
+    "doi": "10.1234/paper.000139"
+  },
+  {
+    "publication_id": "PUB000140",
+    "title": "Research Paper 140",
+    "authors": "Author_5, Author_10",
+    "journal": "Genome Research",
+    "publication_date": "2010-05-14",
+    "doi": "10.1234/paper.000140"
+  },
+  {
+    "publication_id": "PUB000141",
+    "title": "Research Paper 141",
+    "authors": "Author_5, Author_10",
+    "journal": "Nature",
+    "publication_date": "2020-01-17",
+    "doi": "10.1234/paper.000141"
+  },
+  {
+    "publication_id": "PUB000142",
+    "title": "Research Paper 142",
+    "authors": "Author_5, Author_7",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2012-02-13",
+    "doi": "10.1234/paper.000142"
+  },
+  {
+    "publication_id": "PUB000143",
+    "title": "Research Paper 143",
+    "authors": "Author_4, Author_6",
+    "journal": "BMC Genomics",
+    "publication_date": "2018-11-25",
+    "doi": "10.1234/paper.000143"
+  },
+  {
+    "publication_id": "PUB000144",
+    "title": "Research Paper 144",
+    "authors": "Author_2, Author_6",
+    "journal": "Bioinformatics",
+    "publication_date": "2021-11-19",
+    "doi": "10.1234/paper.000144"
+  },
+  {
+    "publication_id": "PUB000145",
+    "title": "Research Paper 145",
+    "authors": "Author_2, Author_6",
+    "journal": "Bioinformatics",
+    "publication_date": "2018-05-16",
+    "doi": "10.1234/paper.000145"
+  },
+  {
+    "publication_id": "PUB000146",
+    "title": "Research Paper 146",
+    "authors": "Author_1, Author_10",
+    "journal": "BMC Genomics",
+    "publication_date": "2011-04-12",
+    "doi": "10.1234/paper.000146"
+  },
+  {
+    "publication_id": "PUB000147",
+    "title": "Research Paper 147",
+    "authors": "Author_1, Author_8",
+    "journal": "Cell",
+    "publication_date": "2013-08-19",
+    "doi": "10.1234/paper.000147"
+  },
+  {
+    "publication_id": "PUB000148",
+    "title": "Research Paper 148",
+    "authors": "Author_4, Author_10",
+    "journal": "Cell",
+    "publication_date": "2015-07-07",
+    "doi": "10.1234/paper.000148"
+  },
+  {
+    "publication_id": "PUB000149",
+    "title": "Research Paper 149",
+    "authors": "Author_1, Author_8",
+    "journal": "Genome Research",
+    "publication_date": "2016-05-01",
+    "doi": "10.1234/paper.000149"
+  },
+  {
+    "publication_id": "PUB000150",
+    "title": "Research Paper 150",
+    "authors": "Author_4, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2013-06-23",
+    "doi": "10.1234/paper.000150"
+  },
+  {
+    "publication_id": "PUB000151",
+    "title": "Research Paper 151",
+    "authors": "Author_1, Author_8",
+    "journal": "BMC Genomics",
+    "publication_date": "2023-03-22",
+    "doi": "10.1234/paper.000151"
+  },
+  {
+    "publication_id": "PUB000152",
+    "title": "Research Paper 152",
+    "authors": "Author_1, Author_10",
+    "journal": "Science",
+    "publication_date": "2018-07-22",
+    "doi": "10.1234/paper.000152"
+  },
+  {
+    "publication_id": "PUB000153",
+    "title": "Research Paper 153",
+    "authors": "Author_4, Author_6",
+    "journal": "Science",
+    "publication_date": "2016-11-01",
+    "doi": "10.1234/paper.000153"
+  },
+  {
+    "publication_id": "PUB000154",
+    "title": "Research Paper 154",
+    "authors": "Author_2, Author_10",
+    "journal": "PLOS ONE",
+    "publication_date": "2017-05-17",
+    "doi": "10.1234/paper.000154"
+  },
+  {
+    "publication_id": "PUB000155",
+    "title": "Research Paper 155",
+    "authors": "Author_3, Author_9",
+    "journal": "Nature",
+    "publication_date": "2016-11-25",
+    "doi": "10.1234/paper.000155"
+  },
+  {
+    "publication_id": "PUB000156",
+    "title": "Research Paper 156",
+    "authors": "Author_5, Author_7",
+    "journal": "Science",
+    "publication_date": "2011-05-19",
+    "doi": "10.1234/paper.000156"
+  },
+  {
+    "publication_id": "PUB000157",
+    "title": "Research Paper 157",
+    "authors": "Author_5, Author_9",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2018-12-19",
+    "doi": "10.1234/paper.000157"
+  },
+  {
+    "publication_id": "PUB000158",
+    "title": "Research Paper 158",
+    "authors": "Author_1, Author_7",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2013-06-04",
+    "doi": "10.1234/paper.000158"
+  },
+  {
+    "publication_id": "PUB000159",
+    "title": "Research Paper 159",
+    "authors": "Author_5, Author_10",
+    "journal": "Nature",
+    "publication_date": "2018-02-07",
+    "doi": "10.1234/paper.000159"
+  },
+  {
+    "publication_id": "PUB000160",
+    "title": "Research Paper 160",
+    "authors": "Author_1, Author_9",
+    "journal": "Bioinformatics",
+    "publication_date": "2010-06-01",
+    "doi": "10.1234/paper.000160"
+  },
+  {
+    "publication_id": "PUB000161",
+    "title": "Research Paper 161",
+    "authors": "Author_1, Author_9",
+    "journal": "Cell",
+    "publication_date": "2014-06-28",
+    "doi": "10.1234/paper.000161"
+  },
+  {
+    "publication_id": "PUB000162",
+    "title": "Research Paper 162",
+    "authors": "Author_1, Author_8",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2017-08-02",
+    "doi": "10.1234/paper.000162"
+  },
+  {
+    "publication_id": "PUB000163",
+    "title": "Research Paper 163",
+    "authors": "Author_2, Author_8",
+    "journal": "Nature",
+    "publication_date": "2017-08-03",
+    "doi": "10.1234/paper.000163"
+  },
+  {
+    "publication_id": "PUB000164",
+    "title": "Research Paper 164",
+    "authors": "Author_1, Author_8",
+    "journal": "BMC Genomics",
+    "publication_date": "2010-08-13",
+    "doi": "10.1234/paper.000164"
+  },
+  {
+    "publication_id": "PUB000165",
+    "title": "Research Paper 165",
+    "authors": "Author_1, Author_8",
+    "journal": "Bioinformatics",
+    "publication_date": "2015-03-22",
+    "doi": "10.1234/paper.000165"
+  },
+  {
+    "publication_id": "PUB000166",
+    "title": "Research Paper 166",
+    "authors": "Author_2, Author_6",
+    "journal": "Nature",
+    "publication_date": "2012-11-28",
+    "doi": "10.1234/paper.000166"
+  },
+  {
+    "publication_id": "PUB000167",
+    "title": "Research Paper 167",
+    "authors": "Author_5, Author_7",
+    "journal": "BMC Genomics",
+    "publication_date": "2017-01-15",
+    "doi": "10.1234/paper.000167"
+  },
+  {
+    "publication_id": "PUB000168",
+    "title": "Research Paper 168",
+    "authors": "Author_5, Author_9",
+    "journal": "Bioinformatics",
+    "publication_date": "2021-01-04",
+    "doi": "10.1234/paper.000168"
+  },
+  {
+    "publication_id": "PUB000169",
+    "title": "Research Paper 169",
+    "authors": "Author_4, Author_6",
+    "journal": "BMC Genomics",
+    "publication_date": "2014-03-12",
+    "doi": "10.1234/paper.000169"
+  },
+  {
+    "publication_id": "PUB000170",
+    "title": "Research Paper 170",
+    "authors": "Author_3, Author_7",
+    "journal": "PLOS ONE",
+    "publication_date": "2021-12-05",
+    "doi": "10.1234/paper.000170"
+  },
+  {
+    "publication_id": "PUB000171",
+    "title": "Research Paper 171",
+    "authors": "Author_5, Author_6",
+    "journal": "BMC Genomics",
+    "publication_date": "2016-10-01",
+    "doi": "10.1234/paper.000171"
+  },
+  {
+    "publication_id": "PUB000172",
+    "title": "Research Paper 172",
+    "authors": "Author_2, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2019-04-12",
+    "doi": "10.1234/paper.000172"
+  },
+  {
+    "publication_id": "PUB000173",
+    "title": "Research Paper 173",
+    "authors": "Author_5, Author_8",
+    "journal": "Cell",
+    "publication_date": "2010-07-28",
+    "doi": "10.1234/paper.000173"
+  },
+  {
+    "publication_id": "PUB000174",
+    "title": "Research Paper 174",
+    "authors": "Author_4, Author_9",
+    "journal": "BMC Genomics",
+    "publication_date": "2013-04-23",
+    "doi": "10.1234/paper.000174"
+  },
+  {
+    "publication_id": "PUB000175",
+    "title": "Research Paper 175",
+    "authors": "Author_1, Author_10",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2010-05-04",
+    "doi": "10.1234/paper.000175"
+  },
+  {
+    "publication_id": "PUB000176",
+    "title": "Research Paper 176",
+    "authors": "Author_3, Author_8",
+    "journal": "BMC Genomics",
+    "publication_date": "2016-08-24",
+    "doi": "10.1234/paper.000176"
+  },
+  {
+    "publication_id": "PUB000177",
+    "title": "Research Paper 177",
+    "authors": "Author_4, Author_7",
+    "journal": "PLOS ONE",
+    "publication_date": "2023-07-19",
+    "doi": "10.1234/paper.000177"
+  },
+  {
+    "publication_id": "PUB000178",
+    "title": "Research Paper 178",
+    "authors": "Author_5, Author_7",
+    "journal": "Bioinformatics",
+    "publication_date": "2020-01-01",
+    "doi": "10.1234/paper.000178"
+  },
+  {
+    "publication_id": "PUB000179",
+    "title": "Research Paper 179",
+    "authors": "Author_3, Author_8",
+    "journal": "Science",
+    "publication_date": "2016-04-01",
+    "doi": "10.1234/paper.000179"
+  },
+  {
+    "publication_id": "PUB000180",
+    "title": "Research Paper 180",
+    "authors": "Author_3, Author_6",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2016-01-17",
+    "doi": "10.1234/paper.000180"
+  },
+  {
+    "publication_id": "PUB000181",
+    "title": "Research Paper 181",
+    "authors": "Author_5, Author_6",
+    "journal": "Science",
+    "publication_date": "2019-09-10",
+    "doi": "10.1234/paper.000181"
+  },
+  {
+    "publication_id": "PUB000182",
+    "title": "Research Paper 182",
+    "authors": "Author_5, Author_7",
+    "journal": "BMC Genomics",
+    "publication_date": "2020-05-12",
+    "doi": "10.1234/paper.000182"
+  },
+  {
+    "publication_id": "PUB000183",
+    "title": "Research Paper 183",
+    "authors": "Author_2, Author_8",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2013-10-07",
+    "doi": "10.1234/paper.000183"
+  },
+  {
+    "publication_id": "PUB000184",
+    "title": "Research Paper 184",
+    "authors": "Author_3, Author_9",
+    "journal": "Cell",
+    "publication_date": "2010-12-07",
+    "doi": "10.1234/paper.000184"
+  },
+  {
+    "publication_id": "PUB000185",
+    "title": "Research Paper 185",
+    "authors": "Author_1, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2010-09-28",
+    "doi": "10.1234/paper.000185"
+  },
+  {
+    "publication_id": "PUB000186",
+    "title": "Research Paper 186",
+    "authors": "Author_3, Author_6",
+    "journal": "PLOS ONE",
+    "publication_date": "2010-05-02",
+    "doi": "10.1234/paper.000186"
+  },
+  {
+    "publication_id": "PUB000187",
+    "title": "Research Paper 187",
+    "authors": "Author_1, Author_9",
+    "journal": "Cell",
+    "publication_date": "2022-12-26",
+    "doi": "10.1234/paper.000187"
+  },
+  {
+    "publication_id": "PUB000188",
+    "title": "Research Paper 188",
+    "authors": "Author_4, Author_8",
+    "journal": "Nature",
+    "publication_date": "2019-01-09",
+    "doi": "10.1234/paper.000188"
+  },
+  {
+    "publication_id": "PUB000189",
+    "title": "Research Paper 189",
+    "authors": "Author_2, Author_10",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2021-01-10",
+    "doi": "10.1234/paper.000189"
+  },
+  {
+    "publication_id": "PUB000190",
+    "title": "Research Paper 190",
+    "authors": "Author_1, Author_9",
+    "journal": "Science",
+    "publication_date": "2021-01-09",
+    "doi": "10.1234/paper.000190"
+  },
+  {
+    "publication_id": "PUB000191",
+    "title": "Research Paper 191",
+    "authors": "Author_3, Author_7",
+    "journal": "Bioinformatics",
+    "publication_date": "2023-12-03",
+    "doi": "10.1234/paper.000191"
+  },
+  {
+    "publication_id": "PUB000192",
+    "title": "Research Paper 192",
+    "authors": "Author_5, Author_7",
+    "journal": "Bioinformatics",
+    "publication_date": "2022-06-06",
+    "doi": "10.1234/paper.000192"
+  },
+  {
+    "publication_id": "PUB000193",
+    "title": "Research Paper 193",
+    "authors": "Author_2, Author_9",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2021-09-06",
+    "doi": "10.1234/paper.000193"
+  },
+  {
+    "publication_id": "PUB000194",
+    "title": "Research Paper 194",
+    "authors": "Author_2, Author_9",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2020-01-01",
+    "doi": "10.1234/paper.000194"
+  },
+  {
+    "publication_id": "PUB000195",
+    "title": "Research Paper 195",
+    "authors": "Author_3, Author_9",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2019-06-22",
+    "doi": "10.1234/paper.000195"
+  },
+  {
+    "publication_id": "PUB000196",
+    "title": "Research Paper 196",
+    "authors": "Author_5, Author_6",
+    "journal": "Genome Research",
+    "publication_date": "2022-05-26",
+    "doi": "10.1234/paper.000196"
+  },
+  {
+    "publication_id": "PUB000197",
+    "title": "Research Paper 197",
+    "authors": "Author_4, Author_7",
+    "journal": "PLOS ONE",
+    "publication_date": "2014-06-07",
+    "doi": "10.1234/paper.000197"
+  },
+  {
+    "publication_id": "PUB000198",
+    "title": "Research Paper 198",
+    "authors": "Author_2, Author_10",
+    "journal": "PLOS ONE",
+    "publication_date": "2014-06-21",
+    "doi": "10.1234/paper.000198"
+  },
+  {
+    "publication_id": "PUB000199",
+    "title": "Research Paper 199",
+    "authors": "Author_2, Author_9",
+    "journal": "PLOS ONE",
+    "publication_date": "2015-02-28",
+    "doi": "10.1234/paper.000199"
+  },
+  {
+    "publication_id": "PUB000200",
+    "title": "Research Paper 200",
+    "authors": "Author_2, Author_9",
+    "journal": "BMC Genomics",
+    "publication_date": "2012-02-05",
+    "doi": "10.1234/paper.000200"
+  },
+  {
+    "publication_id": "PUB000201",
+    "title": "Research Paper 201",
+    "authors": "Author_3, Author_8",
+    "journal": "Science",
+    "publication_date": "2013-09-25",
+    "doi": "10.1234/paper.000201"
+  },
+  {
+    "publication_id": "PUB000202",
+    "title": "Research Paper 202",
+    "authors": "Author_3, Author_7",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2014-06-15",
+    "doi": "10.1234/paper.000202"
+  },
+  {
+    "publication_id": "PUB000203",
+    "title": "Research Paper 203",
+    "authors": "Author_2, Author_7",
+    "journal": "Bioinformatics",
+    "publication_date": "2014-04-09",
+    "doi": "10.1234/paper.000203"
+  },
+  {
+    "publication_id": "PUB000204",
+    "title": "Research Paper 204",
+    "authors": "Author_4, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2014-10-23",
+    "doi": "10.1234/paper.000204"
+  },
+  {
+    "publication_id": "PUB000205",
+    "title": "Research Paper 205",
+    "authors": "Author_4, Author_9",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2015-10-08",
+    "doi": "10.1234/paper.000205"
+  },
+  {
+    "publication_id": "PUB000206",
+    "title": "Research Paper 206",
+    "authors": "Author_4, Author_8",
+    "journal": "Genome Research",
+    "publication_date": "2012-07-15",
+    "doi": "10.1234/paper.000206"
+  },
+  {
+    "publication_id": "PUB000207",
+    "title": "Research Paper 207",
+    "authors": "Author_1, Author_10",
+    "journal": "Nature",
+    "publication_date": "2015-04-17",
+    "doi": "10.1234/paper.000207"
+  },
+  {
+    "publication_id": "PUB000208",
+    "title": "Research Paper 208",
+    "authors": "Author_2, Author_6",
+    "journal": "Science",
+    "publication_date": "2020-10-24",
+    "doi": "10.1234/paper.000208"
+  },
+  {
+    "publication_id": "PUB000209",
+    "title": "Research Paper 209",
+    "authors": "Author_3, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2015-10-16",
+    "doi": "10.1234/paper.000209"
+  },
+  {
+    "publication_id": "PUB000210",
+    "title": "Research Paper 210",
+    "authors": "Author_4, Author_6",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2011-05-13",
+    "doi": "10.1234/paper.000210"
+  },
+  {
+    "publication_id": "PUB000211",
+    "title": "Research Paper 211",
+    "authors": "Author_5, Author_9",
+    "journal": "PLOS ONE",
+    "publication_date": "2020-12-23",
+    "doi": "10.1234/paper.000211"
+  },
+  {
+    "publication_id": "PUB000212",
+    "title": "Research Paper 212",
+    "authors": "Author_4, Author_7",
+    "journal": "BMC Genomics",
+    "publication_date": "2011-09-28",
+    "doi": "10.1234/paper.000212"
+  },
+  {
+    "publication_id": "PUB000213",
+    "title": "Research Paper 213",
+    "authors": "Author_5, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2010-10-08",
+    "doi": "10.1234/paper.000213"
+  },
+  {
+    "publication_id": "PUB000214",
+    "title": "Research Paper 214",
+    "authors": "Author_5, Author_10",
+    "journal": "Nature",
+    "publication_date": "2017-07-27",
+    "doi": "10.1234/paper.000214"
+  },
+  {
+    "publication_id": "PUB000215",
+    "title": "Research Paper 215",
+    "authors": "Author_2, Author_10",
+    "journal": "Bioinformatics",
+    "publication_date": "2022-11-11",
+    "doi": "10.1234/paper.000215"
+  },
+  {
+    "publication_id": "PUB000216",
+    "title": "Research Paper 216",
+    "authors": "Author_1, Author_9",
+    "journal": "Nature",
+    "publication_date": "2018-09-10",
+    "doi": "10.1234/paper.000216"
+  },
+  {
+    "publication_id": "PUB000217",
+    "title": "Research Paper 217",
+    "authors": "Author_1, Author_9",
+    "journal": "Bioinformatics",
+    "publication_date": "2013-09-16",
+    "doi": "10.1234/paper.000217"
+  },
+  {
+    "publication_id": "PUB000218",
+    "title": "Research Paper 218",
+    "authors": "Author_5, Author_7",
+    "journal": "Cell",
+    "publication_date": "2019-11-12",
+    "doi": "10.1234/paper.000218"
+  },
+  {
+    "publication_id": "PUB000219",
+    "title": "Research Paper 219",
+    "authors": "Author_3, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2020-08-15",
+    "doi": "10.1234/paper.000219"
+  },
+  {
+    "publication_id": "PUB000220",
+    "title": "Research Paper 220",
+    "authors": "Author_5, Author_7",
+    "journal": "Cell",
+    "publication_date": "2013-04-19",
+    "doi": "10.1234/paper.000220"
+  },
+  {
+    "publication_id": "PUB000221",
+    "title": "Research Paper 221",
+    "authors": "Author_2, Author_8",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2013-02-17",
+    "doi": "10.1234/paper.000221"
+  },
+  {
+    "publication_id": "PUB000222",
+    "title": "Research Paper 222",
+    "authors": "Author_5, Author_6",
+    "journal": "Cell",
+    "publication_date": "2016-10-12",
+    "doi": "10.1234/paper.000222"
+  },
+  {
+    "publication_id": "PUB000223",
+    "title": "Research Paper 223",
+    "authors": "Author_5, Author_6",
+    "journal": "Science",
+    "publication_date": "2022-03-19",
+    "doi": "10.1234/paper.000223"
+  },
+  {
+    "publication_id": "PUB000224",
+    "title": "Research Paper 224",
+    "authors": "Author_1, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2019-09-19",
+    "doi": "10.1234/paper.000224"
+  },
+  {
+    "publication_id": "PUB000225",
+    "title": "Research Paper 225",
+    "authors": "Author_3, Author_8",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2021-07-26",
+    "doi": "10.1234/paper.000225"
+  },
+  {
+    "publication_id": "PUB000226",
+    "title": "Research Paper 226",
+    "authors": "Author_2, Author_8",
+    "journal": "Bioinformatics",
+    "publication_date": "2023-04-03",
+    "doi": "10.1234/paper.000226"
+  },
+  {
+    "publication_id": "PUB000227",
+    "title": "Research Paper 227",
+    "authors": "Author_2, Author_7",
+    "journal": "Genome Research",
+    "publication_date": "2012-08-05",
+    "doi": "10.1234/paper.000227"
+  },
+  {
+    "publication_id": "PUB000228",
+    "title": "Research Paper 228",
+    "authors": "Author_1, Author_6",
+    "journal": "BMC Genomics",
+    "publication_date": "2023-08-25",
+    "doi": "10.1234/paper.000228"
+  },
+  {
+    "publication_id": "PUB000229",
+    "title": "Research Paper 229",
+    "authors": "Author_4, Author_6",
+    "journal": "Genome Research",
+    "publication_date": "2010-08-22",
+    "doi": "10.1234/paper.000229"
+  },
+  {
+    "publication_id": "PUB000230",
+    "title": "Research Paper 230",
+    "authors": "Author_3, Author_10",
+    "journal": "Genome Research",
+    "publication_date": "2012-02-28",
+    "doi": "10.1234/paper.000230"
+  },
+  {
+    "publication_id": "PUB000231",
+    "title": "Research Paper 231",
+    "authors": "Author_1, Author_10",
+    "journal": "Genome Research",
+    "publication_date": "2022-03-14",
+    "doi": "10.1234/paper.000231"
+  },
+  {
+    "publication_id": "PUB000232",
+    "title": "Research Paper 232",
+    "authors": "Author_1, Author_9",
+    "journal": "Bioinformatics",
+    "publication_date": "2015-05-11",
+    "doi": "10.1234/paper.000232"
+  },
+  {
+    "publication_id": "PUB000233",
+    "title": "Research Paper 233",
+    "authors": "Author_4, Author_8",
+    "journal": "Science",
+    "publication_date": "2010-07-27",
+    "doi": "10.1234/paper.000233"
+  },
+  {
+    "publication_id": "PUB000234",
+    "title": "Research Paper 234",
+    "authors": "Author_2, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2014-09-16",
+    "doi": "10.1234/paper.000234"
+  },
+  {
+    "publication_id": "PUB000235",
+    "title": "Research Paper 235",
+    "authors": "Author_5, Author_8",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2015-10-21",
+    "doi": "10.1234/paper.000235"
+  },
+  {
+    "publication_id": "PUB000236",
+    "title": "Research Paper 236",
+    "authors": "Author_2, Author_6",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2014-07-07",
+    "doi": "10.1234/paper.000236"
+  },
+  {
+    "publication_id": "PUB000237",
+    "title": "Research Paper 237",
+    "authors": "Author_5, Author_7",
+    "journal": "Science",
+    "publication_date": "2012-12-26",
+    "doi": "10.1234/paper.000237"
+  },
+  {
+    "publication_id": "PUB000238",
+    "title": "Research Paper 238",
+    "authors": "Author_2, Author_6",
+    "journal": "Cell",
+    "publication_date": "2022-08-09",
+    "doi": "10.1234/paper.000238"
+  },
+  {
+    "publication_id": "PUB000239",
+    "title": "Research Paper 239",
+    "authors": "Author_2, Author_8",
+    "journal": "Cell",
+    "publication_date": "2017-04-28",
+    "doi": "10.1234/paper.000239"
+  },
+  {
+    "publication_id": "PUB000240",
+    "title": "Research Paper 240",
+    "authors": "Author_2, Author_6",
+    "journal": "Bioinformatics",
+    "publication_date": "2012-03-15",
+    "doi": "10.1234/paper.000240"
+  },
+  {
+    "publication_id": "PUB000241",
+    "title": "Research Paper 241",
+    "authors": "Author_1, Author_7",
+    "journal": "BMC Genomics",
+    "publication_date": "2018-08-18",
+    "doi": "10.1234/paper.000241"
+  },
+  {
+    "publication_id": "PUB000242",
+    "title": "Research Paper 242",
+    "authors": "Author_4, Author_6",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2022-06-08",
+    "doi": "10.1234/paper.000242"
+  },
+  {
+    "publication_id": "PUB000243",
+    "title": "Research Paper 243",
+    "authors": "Author_5, Author_6",
+    "journal": "Cell",
+    "publication_date": "2023-07-25",
+    "doi": "10.1234/paper.000243"
+  },
+  {
+    "publication_id": "PUB000244",
+    "title": "Research Paper 244",
+    "authors": "Author_5, Author_10",
+    "journal": "Genome Research",
+    "publication_date": "2023-11-08",
+    "doi": "10.1234/paper.000244"
+  },
+  {
+    "publication_id": "PUB000245",
+    "title": "Research Paper 245",
+    "authors": "Author_2, Author_10",
+    "journal": "Genome Research",
+    "publication_date": "2017-07-16",
+    "doi": "10.1234/paper.000245"
+  },
+  {
+    "publication_id": "PUB000246",
+    "title": "Research Paper 246",
+    "authors": "Author_5, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2014-05-15",
+    "doi": "10.1234/paper.000246"
+  },
+  {
+    "publication_id": "PUB000247",
+    "title": "Research Paper 247",
+    "authors": "Author_4, Author_6",
+    "journal": "Science",
+    "publication_date": "2018-09-15",
+    "doi": "10.1234/paper.000247"
+  },
+  {
+    "publication_id": "PUB000248",
+    "title": "Research Paper 248",
+    "authors": "Author_1, Author_6",
+    "journal": "PLOS ONE",
+    "publication_date": "2019-11-13",
+    "doi": "10.1234/paper.000248"
+  },
+  {
+    "publication_id": "PUB000249",
+    "title": "Research Paper 249",
+    "authors": "Author_4, Author_8",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2015-06-05",
+    "doi": "10.1234/paper.000249"
+  },
+  {
+    "publication_id": "PUB000250",
+    "title": "Research Paper 250",
+    "authors": "Author_2, Author_7",
+    "journal": "Nature",
+    "publication_date": "2018-08-20",
+    "doi": "10.1234/paper.000250"
+  },
+  {
+    "publication_id": "PUB000251",
+    "title": "Research Paper 251",
+    "authors": "Author_5, Author_6",
+    "journal": "Bioinformatics",
+    "publication_date": "2018-09-21",
+    "doi": "10.1234/paper.000251"
+  },
+  {
+    "publication_id": "PUB000252",
+    "title": "Research Paper 252",
+    "authors": "Author_3, Author_9",
+    "journal": "Nature",
+    "publication_date": "2018-02-07",
+    "doi": "10.1234/paper.000252"
+  },
+  {
+    "publication_id": "PUB000253",
+    "title": "Research Paper 253",
+    "authors": "Author_2, Author_6",
+    "journal": "Bioinformatics",
+    "publication_date": "2010-12-20",
+    "doi": "10.1234/paper.000253"
+  },
+  {
+    "publication_id": "PUB000254",
+    "title": "Research Paper 254",
+    "authors": "Author_3, Author_8",
+    "journal": "BMC Genomics",
+    "publication_date": "2017-01-25",
+    "doi": "10.1234/paper.000254"
+  },
+  {
+    "publication_id": "PUB000255",
+    "title": "Research Paper 255",
+    "authors": "Author_5, Author_7",
+    "journal": "Cell",
+    "publication_date": "2018-08-25",
+    "doi": "10.1234/paper.000255"
+  },
+  {
+    "publication_id": "PUB000256",
+    "title": "Research Paper 256",
+    "authors": "Author_3, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2015-05-05",
+    "doi": "10.1234/paper.000256"
+  },
+  {
+    "publication_id": "PUB000257",
+    "title": "Research Paper 257",
+    "authors": "Author_3, Author_7",
+    "journal": "Science",
+    "publication_date": "2011-12-23",
+    "doi": "10.1234/paper.000257"
+  },
+  {
+    "publication_id": "PUB000258",
+    "title": "Research Paper 258",
+    "authors": "Author_5, Author_7",
+    "journal": "Bioinformatics",
+    "publication_date": "2014-04-19",
+    "doi": "10.1234/paper.000258"
+  },
+  {
+    "publication_id": "PUB000259",
+    "title": "Research Paper 259",
+    "authors": "Author_5, Author_9",
+    "journal": "Nature",
+    "publication_date": "2010-12-03",
+    "doi": "10.1234/paper.000259"
+  },
+  {
+    "publication_id": "PUB000260",
+    "title": "Research Paper 260",
+    "authors": "Author_2, Author_9",
+    "journal": "Nature",
+    "publication_date": "2015-01-28",
+    "doi": "10.1234/paper.000260"
+  },
+  {
+    "publication_id": "PUB000261",
+    "title": "Research Paper 261",
+    "authors": "Author_3, Author_9",
+    "journal": "BMC Genomics",
+    "publication_date": "2018-04-02",
+    "doi": "10.1234/paper.000261"
+  },
+  {
+    "publication_id": "PUB000262",
+    "title": "Research Paper 262",
+    "authors": "Author_1, Author_6",
+    "journal": "Nature",
+    "publication_date": "2017-09-02",
+    "doi": "10.1234/paper.000262"
+  },
+  {
+    "publication_id": "PUB000263",
+    "title": "Research Paper 263",
+    "authors": "Author_1, Author_6",
+    "journal": "PLOS ONE",
+    "publication_date": "2016-01-23",
+    "doi": "10.1234/paper.000263"
+  },
+  {
+    "publication_id": "PUB000264",
+    "title": "Research Paper 264",
+    "authors": "Author_1, Author_6",
+    "journal": "Genome Research",
+    "publication_date": "2015-01-05",
+    "doi": "10.1234/paper.000264"
+  },
+  {
+    "publication_id": "PUB000265",
+    "title": "Research Paper 265",
+    "authors": "Author_4, Author_10",
+    "journal": "Cell",
+    "publication_date": "2019-09-07",
+    "doi": "10.1234/paper.000265"
+  },
+  {
+    "publication_id": "PUB000266",
+    "title": "Research Paper 266",
+    "authors": "Author_1, Author_7",
+    "journal": "Genome Research",
+    "publication_date": "2020-05-27",
+    "doi": "10.1234/paper.000266"
+  },
+  {
+    "publication_id": "PUB000267",
+    "title": "Research Paper 267",
+    "authors": "Author_1, Author_7",
+    "journal": "BMC Genomics",
+    "publication_date": "2014-06-11",
+    "doi": "10.1234/paper.000267"
+  },
+  {
+    "publication_id": "PUB000268",
+    "title": "Research Paper 268",
+    "authors": "Author_4, Author_9",
+    "journal": "BMC Genomics",
+    "publication_date": "2010-12-05",
+    "doi": "10.1234/paper.000268"
+  },
+  {
+    "publication_id": "PUB000269",
+    "title": "Research Paper 269",
+    "authors": "Author_4, Author_9",
+    "journal": "Cell",
+    "publication_date": "2022-04-13",
+    "doi": "10.1234/paper.000269"
+  },
+  {
+    "publication_id": "PUB000270",
+    "title": "Research Paper 270",
+    "authors": "Author_1, Author_7",
+    "journal": "Science",
+    "publication_date": "2023-07-11",
+    "doi": "10.1234/paper.000270"
+  },
+  {
+    "publication_id": "PUB000271",
+    "title": "Research Paper 271",
+    "authors": "Author_5, Author_9",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2010-01-20",
+    "doi": "10.1234/paper.000271"
+  },
+  {
+    "publication_id": "PUB000272",
+    "title": "Research Paper 272",
+    "authors": "Author_1, Author_6",
+    "journal": "Cell",
+    "publication_date": "2016-10-01",
+    "doi": "10.1234/paper.000272"
+  },
+  {
+    "publication_id": "PUB000273",
+    "title": "Research Paper 273",
+    "authors": "Author_3, Author_10",
+    "journal": "PLOS ONE",
+    "publication_date": "2014-08-23",
+    "doi": "10.1234/paper.000273"
+  },
+  {
+    "publication_id": "PUB000274",
+    "title": "Research Paper 274",
+    "authors": "Author_4, Author_7",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2014-10-28",
+    "doi": "10.1234/paper.000274"
+  },
+  {
+    "publication_id": "PUB000275",
+    "title": "Research Paper 275",
+    "authors": "Author_5, Author_8",
+    "journal": "Nature",
+    "publication_date": "2020-08-18",
+    "doi": "10.1234/paper.000275"
+  },
+  {
+    "publication_id": "PUB000276",
+    "title": "Research Paper 276",
+    "authors": "Author_5, Author_6",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2023-05-11",
+    "doi": "10.1234/paper.000276"
+  },
+  {
+    "publication_id": "PUB000277",
+    "title": "Research Paper 277",
+    "authors": "Author_5, Author_6",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2017-03-06",
+    "doi": "10.1234/paper.000277"
+  },
+  {
+    "publication_id": "PUB000278",
+    "title": "Research Paper 278",
+    "authors": "Author_2, Author_9",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2020-07-09",
+    "doi": "10.1234/paper.000278"
+  },
+  {
+    "publication_id": "PUB000279",
+    "title": "Research Paper 279",
+    "authors": "Author_1, Author_6",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2010-06-17",
+    "doi": "10.1234/paper.000279"
+  },
+  {
+    "publication_id": "PUB000280",
+    "title": "Research Paper 280",
+    "authors": "Author_4, Author_8",
+    "journal": "Genome Research",
+    "publication_date": "2010-12-03",
+    "doi": "10.1234/paper.000280"
+  },
+  {
+    "publication_id": "PUB000281",
+    "title": "Research Paper 281",
+    "authors": "Author_3, Author_6",
+    "journal": "Cell",
+    "publication_date": "2018-06-19",
+    "doi": "10.1234/paper.000281"
+  },
+  {
+    "publication_id": "PUB000282",
+    "title": "Research Paper 282",
+    "authors": "Author_4, Author_8",
+    "journal": "BMC Genomics",
+    "publication_date": "2010-02-06",
+    "doi": "10.1234/paper.000282"
+  },
+  {
+    "publication_id": "PUB000283",
+    "title": "Research Paper 283",
+    "authors": "Author_3, Author_9",
+    "journal": "BMC Genomics",
+    "publication_date": "2010-08-10",
+    "doi": "10.1234/paper.000283"
+  },
+  {
+    "publication_id": "PUB000284",
+    "title": "Research Paper 284",
+    "authors": "Author_3, Author_10",
+    "journal": "Genome Research",
+    "publication_date": "2010-10-01",
+    "doi": "10.1234/paper.000284"
+  },
+  {
+    "publication_id": "PUB000285",
+    "title": "Research Paper 285",
+    "authors": "Author_2, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2017-07-12",
+    "doi": "10.1234/paper.000285"
+  },
+  {
+    "publication_id": "PUB000286",
+    "title": "Research Paper 286",
+    "authors": "Author_5, Author_7",
+    "journal": "Cell",
+    "publication_date": "2012-03-22",
+    "doi": "10.1234/paper.000286"
+  },
+  {
+    "publication_id": "PUB000287",
+    "title": "Research Paper 287",
+    "authors": "Author_5, Author_9",
+    "journal": "Bioinformatics",
+    "publication_date": "2012-07-22",
+    "doi": "10.1234/paper.000287"
+  },
+  {
+    "publication_id": "PUB000288",
+    "title": "Research Paper 288",
+    "authors": "Author_1, Author_8",
+    "journal": "Science",
+    "publication_date": "2018-05-10",
+    "doi": "10.1234/paper.000288"
+  },
+  {
+    "publication_id": "PUB000289",
+    "title": "Research Paper 289",
+    "authors": "Author_4, Author_8",
+    "journal": "BMC Genomics",
+    "publication_date": "2010-01-06",
+    "doi": "10.1234/paper.000289"
+  },
+  {
+    "publication_id": "PUB000290",
+    "title": "Research Paper 290",
+    "authors": "Author_1, Author_10",
+    "journal": "Cell",
+    "publication_date": "2016-09-19",
+    "doi": "10.1234/paper.000290"
+  },
+  {
+    "publication_id": "PUB000291",
+    "title": "Research Paper 291",
+    "authors": "Author_1, Author_7",
+    "journal": "PLOS ONE",
+    "publication_date": "2019-07-08",
+    "doi": "10.1234/paper.000291"
+  },
+  {
+    "publication_id": "PUB000292",
+    "title": "Research Paper 292",
+    "authors": "Author_2, Author_10",
+    "journal": "BMC Genomics",
+    "publication_date": "2022-01-27",
+    "doi": "10.1234/paper.000292"
+  },
+  {
+    "publication_id": "PUB000293",
+    "title": "Research Paper 293",
+    "authors": "Author_4, Author_9",
+    "journal": "PLOS ONE",
+    "publication_date": "2012-03-23",
+    "doi": "10.1234/paper.000293"
+  },
+  {
+    "publication_id": "PUB000294",
+    "title": "Research Paper 294",
+    "authors": "Author_2, Author_9",
+    "journal": "Science",
+    "publication_date": "2022-04-05",
+    "doi": "10.1234/paper.000294"
+  },
+  {
+    "publication_id": "PUB000295",
+    "title": "Research Paper 295",
+    "authors": "Author_3, Author_8",
+    "journal": "Bioinformatics",
+    "publication_date": "2011-05-01",
+    "doi": "10.1234/paper.000295"
+  },
+  {
+    "publication_id": "PUB000296",
+    "title": "Research Paper 296",
+    "authors": "Author_3, Author_8",
+    "journal": "Science",
+    "publication_date": "2019-09-21",
+    "doi": "10.1234/paper.000296"
+  },
+  {
+    "publication_id": "PUB000297",
+    "title": "Research Paper 297",
+    "authors": "Author_4, Author_10",
+    "journal": "Bioinformatics",
+    "publication_date": "2015-10-09",
+    "doi": "10.1234/paper.000297"
+  },
+  {
+    "publication_id": "PUB000298",
+    "title": "Research Paper 298",
+    "authors": "Author_1, Author_9",
+    "journal": "Genome Research",
+    "publication_date": "2019-12-21",
+    "doi": "10.1234/paper.000298"
+  },
+  {
+    "publication_id": "PUB000299",
+    "title": "Research Paper 299",
+    "authors": "Author_3, Author_10",
+    "journal": "Science",
+    "publication_date": "2012-06-11",
+    "doi": "10.1234/paper.000299"
+  },
+  {
+    "publication_id": "PUB000300",
+    "title": "Research Paper 300",
+    "authors": "Author_4, Author_7",
+    "journal": "BMC Genomics",
+    "publication_date": "2020-06-28",
+    "doi": "10.1234/paper.000300"
+  },
+  {
+    "publication_id": "PUB000301",
+    "title": "Research Paper 301",
+    "authors": "Author_4, Author_8",
+    "journal": "Bioinformatics",
+    "publication_date": "2010-02-02",
+    "doi": "10.1234/paper.000301"
+  },
+  {
+    "publication_id": "PUB000302",
+    "title": "Research Paper 302",
+    "authors": "Author_1, Author_10",
+    "journal": "Nature",
+    "publication_date": "2016-01-10",
+    "doi": "10.1234/paper.000302"
+  },
+  {
+    "publication_id": "PUB000303",
+    "title": "Research Paper 303",
+    "authors": "Author_5, Author_9",
+    "journal": "PLOS ONE",
+    "publication_date": "2022-05-26",
+    "doi": "10.1234/paper.000303"
+  },
+  {
+    "publication_id": "PUB000304",
+    "title": "Research Paper 304",
+    "authors": "Author_2, Author_8",
+    "journal": "Bioinformatics",
+    "publication_date": "2011-09-26",
+    "doi": "10.1234/paper.000304"
+  },
+  {
+    "publication_id": "PUB000305",
+    "title": "Research Paper 305",
+    "authors": "Author_5, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2010-07-07",
+    "doi": "10.1234/paper.000305"
+  },
+  {
+    "publication_id": "PUB000306",
+    "title": "Research Paper 306",
+    "authors": "Author_4, Author_9",
+    "journal": "Nature",
+    "publication_date": "2013-03-17",
+    "doi": "10.1234/paper.000306"
+  },
+  {
+    "publication_id": "PUB000307",
+    "title": "Research Paper 307",
+    "authors": "Author_3, Author_6",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2013-09-10",
+    "doi": "10.1234/paper.000307"
+  },
+  {
+    "publication_id": "PUB000308",
+    "title": "Research Paper 308",
+    "authors": "Author_3, Author_10",
+    "journal": "PLOS ONE",
+    "publication_date": "2013-12-12",
+    "doi": "10.1234/paper.000308"
+  },
+  {
+    "publication_id": "PUB000309",
+    "title": "Research Paper 309",
+    "authors": "Author_1, Author_10",
+    "journal": "Nature",
+    "publication_date": "2010-08-03",
+    "doi": "10.1234/paper.000309"
+  },
+  {
+    "publication_id": "PUB000310",
+    "title": "Research Paper 310",
+    "authors": "Author_3, Author_9",
+    "journal": "Science",
+    "publication_date": "2020-08-27",
+    "doi": "10.1234/paper.000310"
+  },
+  {
+    "publication_id": "PUB000311",
+    "title": "Research Paper 311",
+    "authors": "Author_3, Author_10",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2022-05-01",
+    "doi": "10.1234/paper.000311"
+  },
+  {
+    "publication_id": "PUB000312",
+    "title": "Research Paper 312",
+    "authors": "Author_5, Author_10",
+    "journal": "Genome Research",
+    "publication_date": "2011-07-10",
+    "doi": "10.1234/paper.000312"
+  },
+  {
+    "publication_id": "PUB000313",
+    "title": "Research Paper 313",
+    "authors": "Author_2, Author_6",
+    "journal": "BMC Genomics",
+    "publication_date": "2015-04-10",
+    "doi": "10.1234/paper.000313"
+  },
+  {
+    "publication_id": "PUB000314",
+    "title": "Research Paper 314",
+    "authors": "Author_3, Author_9",
+    "journal": "Science",
+    "publication_date": "2018-12-28",
+    "doi": "10.1234/paper.000314"
+  },
+  {
+    "publication_id": "PUB000315",
+    "title": "Research Paper 315",
+    "authors": "Author_4, Author_9",
+    "journal": "Genome Research",
+    "publication_date": "2011-08-28",
+    "doi": "10.1234/paper.000315"
+  },
+  {
+    "publication_id": "PUB000316",
+    "title": "Research Paper 316",
+    "authors": "Author_3, Author_10",
+    "journal": "Nature",
+    "publication_date": "2012-03-17",
+    "doi": "10.1234/paper.000316"
+  },
+  {
+    "publication_id": "PUB000317",
+    "title": "Research Paper 317",
+    "authors": "Author_4, Author_7",
+    "journal": "Genome Research",
+    "publication_date": "2022-11-05",
+    "doi": "10.1234/paper.000317"
+  },
+  {
+    "publication_id": "PUB000318",
+    "title": "Research Paper 318",
+    "authors": "Author_1, Author_6",
+    "journal": "Genome Research",
+    "publication_date": "2022-10-23",
+    "doi": "10.1234/paper.000318"
+  },
+  {
+    "publication_id": "PUB000319",
+    "title": "Research Paper 319",
+    "authors": "Author_4, Author_9",
+    "journal": "PLOS ONE",
+    "publication_date": "2017-03-03",
+    "doi": "10.1234/paper.000319"
+  },
+  {
+    "publication_id": "PUB000320",
+    "title": "Research Paper 320",
+    "authors": "Author_1, Author_7",
+    "journal": "Nature",
+    "publication_date": "2013-10-28",
+    "doi": "10.1234/paper.000320"
+  },
+  {
+    "publication_id": "PUB000321",
+    "title": "Research Paper 321",
+    "authors": "Author_1, Author_8",
+    "journal": "Genome Research",
+    "publication_date": "2013-09-04",
+    "doi": "10.1234/paper.000321"
+  },
+  {
+    "publication_id": "PUB000322",
+    "title": "Research Paper 322",
+    "authors": "Author_5, Author_7",
+    "journal": "BMC Genomics",
+    "publication_date": "2021-12-23",
+    "doi": "10.1234/paper.000322"
+  },
+  {
+    "publication_id": "PUB000323",
+    "title": "Research Paper 323",
+    "authors": "Author_4, Author_7",
+    "journal": "Science",
+    "publication_date": "2012-11-02",
+    "doi": "10.1234/paper.000323"
+  },
+  {
+    "publication_id": "PUB000324",
+    "title": "Research Paper 324",
+    "authors": "Author_5, Author_6",
+    "journal": "Genome Research",
+    "publication_date": "2017-02-28",
+    "doi": "10.1234/paper.000324"
+  },
+  {
+    "publication_id": "PUB000325",
+    "title": "Research Paper 325",
+    "authors": "Author_1, Author_6",
+    "journal": "Genome Research",
+    "publication_date": "2014-06-15",
+    "doi": "10.1234/paper.000325"
+  },
+  {
+    "publication_id": "PUB000326",
+    "title": "Research Paper 326",
+    "authors": "Author_4, Author_7",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2017-10-13",
+    "doi": "10.1234/paper.000326"
+  },
+  {
+    "publication_id": "PUB000327",
+    "title": "Research Paper 327",
+    "authors": "Author_1, Author_7",
+    "journal": "Science",
+    "publication_date": "2020-04-10",
+    "doi": "10.1234/paper.000327"
+  },
+  {
+    "publication_id": "PUB000328",
+    "title": "Research Paper 328",
+    "authors": "Author_3, Author_8",
+    "journal": "Cell",
+    "publication_date": "2022-09-18",
+    "doi": "10.1234/paper.000328"
+  },
+  {
+    "publication_id": "PUB000329",
+    "title": "Research Paper 329",
+    "authors": "Author_1, Author_8",
+    "journal": "Science",
+    "publication_date": "2022-04-24",
+    "doi": "10.1234/paper.000329"
+  },
+  {
+    "publication_id": "PUB000330",
+    "title": "Research Paper 330",
+    "authors": "Author_1, Author_9",
+    "journal": "Genome Research",
+    "publication_date": "2010-03-13",
+    "doi": "10.1234/paper.000330"
+  },
+  {
+    "publication_id": "PUB000331",
+    "title": "Research Paper 331",
+    "authors": "Author_3, Author_10",
+    "journal": "PLOS ONE",
+    "publication_date": "2015-09-11",
+    "doi": "10.1234/paper.000331"
+  },
+  {
+    "publication_id": "PUB000332",
+    "title": "Research Paper 332",
+    "authors": "Author_3, Author_9",
+    "journal": "Bioinformatics",
+    "publication_date": "2021-08-10",
+    "doi": "10.1234/paper.000332"
+  },
+  {
+    "publication_id": "PUB000333",
+    "title": "Research Paper 333",
+    "authors": "Author_5, Author_9",
+    "journal": "Cell",
+    "publication_date": "2023-02-06",
+    "doi": "10.1234/paper.000333"
+  },
+  {
+    "publication_id": "PUB000334",
+    "title": "Research Paper 334",
+    "authors": "Author_5, Author_6",
+    "journal": "Bioinformatics",
+    "publication_date": "2023-12-11",
+    "doi": "10.1234/paper.000334"
+  },
+  {
+    "publication_id": "PUB000335",
+    "title": "Research Paper 335",
+    "authors": "Author_4, Author_8",
+    "journal": "Science",
+    "publication_date": "2018-11-25",
+    "doi": "10.1234/paper.000335"
+  },
+  {
+    "publication_id": "PUB000336",
+    "title": "Research Paper 336",
+    "authors": "Author_3, Author_8",
+    "journal": "Nature",
+    "publication_date": "2015-05-25",
+    "doi": "10.1234/paper.000336"
+  },
+  {
+    "publication_id": "PUB000337",
+    "title": "Research Paper 337",
+    "authors": "Author_1, Author_9",
+    "journal": "BMC Genomics",
+    "publication_date": "2014-09-22",
+    "doi": "10.1234/paper.000337"
+  },
+  {
+    "publication_id": "PUB000338",
+    "title": "Research Paper 338",
+    "authors": "Author_5, Author_10",
+    "journal": "Genome Research",
+    "publication_date": "2013-05-10",
+    "doi": "10.1234/paper.000338"
+  },
+  {
+    "publication_id": "PUB000339",
+    "title": "Research Paper 339",
+    "authors": "Author_2, Author_9",
+    "journal": "Nature",
+    "publication_date": "2023-08-20",
+    "doi": "10.1234/paper.000339"
+  },
+  {
+    "publication_id": "PUB000340",
+    "title": "Research Paper 340",
+    "authors": "Author_3, Author_6",
+    "journal": "PLOS ONE",
+    "publication_date": "2022-01-11",
+    "doi": "10.1234/paper.000340"
+  },
+  {
+    "publication_id": "PUB000341",
+    "title": "Research Paper 341",
+    "authors": "Author_2, Author_8",
+    "journal": "Nature",
+    "publication_date": "2011-04-01",
+    "doi": "10.1234/paper.000341"
+  },
+  {
+    "publication_id": "PUB000342",
+    "title": "Research Paper 342",
+    "authors": "Author_2, Author_10",
+    "journal": "PLOS ONE",
+    "publication_date": "2014-07-26",
+    "doi": "10.1234/paper.000342"
+  },
+  {
+    "publication_id": "PUB000343",
+    "title": "Research Paper 343",
+    "authors": "Author_1, Author_10",
+    "journal": "Science",
+    "publication_date": "2020-10-27",
+    "doi": "10.1234/paper.000343"
+  },
+  {
+    "publication_id": "PUB000344",
+    "title": "Research Paper 344",
+    "authors": "Author_1, Author_7",
+    "journal": "Science",
+    "publication_date": "2020-10-07",
+    "doi": "10.1234/paper.000344"
+  },
+  {
+    "publication_id": "PUB000345",
+    "title": "Research Paper 345",
+    "authors": "Author_4, Author_8",
+    "journal": "Bioinformatics",
+    "publication_date": "2019-01-21",
+    "doi": "10.1234/paper.000345"
+  },
+  {
+    "publication_id": "PUB000346",
+    "title": "Research Paper 346",
+    "authors": "Author_5, Author_9",
+    "journal": "Science",
+    "publication_date": "2023-11-23",
+    "doi": "10.1234/paper.000346"
+  },
+  {
+    "publication_id": "PUB000347",
+    "title": "Research Paper 347",
+    "authors": "Author_1, Author_7",
+    "journal": "PLOS ONE",
+    "publication_date": "2019-06-19",
+    "doi": "10.1234/paper.000347"
+  },
+  {
+    "publication_id": "PUB000348",
+    "title": "Research Paper 348",
+    "authors": "Author_4, Author_9",
+    "journal": "Nature",
+    "publication_date": "2011-04-25",
+    "doi": "10.1234/paper.000348"
+  },
+  {
+    "publication_id": "PUB000349",
+    "title": "Research Paper 349",
+    "authors": "Author_1, Author_10",
+    "journal": "BMC Genomics",
+    "publication_date": "2012-06-26",
+    "doi": "10.1234/paper.000349"
+  },
+  {
+    "publication_id": "PUB000350",
+    "title": "Research Paper 350",
+    "authors": "Author_5, Author_6",
+    "journal": "Nature",
+    "publication_date": "2020-02-25",
+    "doi": "10.1234/paper.000350"
+  },
+  {
+    "publication_id": "PUB000351",
+    "title": "Research Paper 351",
+    "authors": "Author_1, Author_9",
+    "journal": "Cell",
+    "publication_date": "2021-11-01",
+    "doi": "10.1234/paper.000351"
+  },
+  {
+    "publication_id": "PUB000352",
+    "title": "Research Paper 352",
+    "authors": "Author_2, Author_9",
+    "journal": "BMC Genomics",
+    "publication_date": "2019-09-08",
+    "doi": "10.1234/paper.000352"
+  },
+  {
+    "publication_id": "PUB000353",
+    "title": "Research Paper 353",
+    "authors": "Author_2, Author_8",
+    "journal": "BMC Genomics",
+    "publication_date": "2019-04-28",
+    "doi": "10.1234/paper.000353"
+  },
+  {
+    "publication_id": "PUB000354",
+    "title": "Research Paper 354",
+    "authors": "Author_4, Author_7",
+    "journal": "Cell",
+    "publication_date": "2021-07-02",
+    "doi": "10.1234/paper.000354"
+  },
+  {
+    "publication_id": "PUB000355",
+    "title": "Research Paper 355",
+    "authors": "Author_5, Author_9",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2019-08-17",
+    "doi": "10.1234/paper.000355"
+  },
+  {
+    "publication_id": "PUB000356",
+    "title": "Research Paper 356",
+    "authors": "Author_1, Author_10",
+    "journal": "PLOS ONE",
+    "publication_date": "2015-03-23",
+    "doi": "10.1234/paper.000356"
+  },
+  {
+    "publication_id": "PUB000357",
+    "title": "Research Paper 357",
+    "authors": "Author_3, Author_8",
+    "journal": "Bioinformatics",
+    "publication_date": "2014-12-25",
+    "doi": "10.1234/paper.000357"
+  },
+  {
+    "publication_id": "PUB000358",
+    "title": "Research Paper 358",
+    "authors": "Author_2, Author_6",
+    "journal": "Nature",
+    "publication_date": "2020-03-12",
+    "doi": "10.1234/paper.000358"
+  },
+  {
+    "publication_id": "PUB000359",
+    "title": "Research Paper 359",
+    "authors": "Author_5, Author_7",
+    "journal": "BMC Genomics",
+    "publication_date": "2014-09-27",
+    "doi": "10.1234/paper.000359"
+  },
+  {
+    "publication_id": "PUB000360",
+    "title": "Research Paper 360",
+    "authors": "Author_1, Author_6",
+    "journal": "BMC Genomics",
+    "publication_date": "2021-10-22",
+    "doi": "10.1234/paper.000360"
+  },
+  {
+    "publication_id": "PUB000361",
+    "title": "Research Paper 361",
+    "authors": "Author_3, Author_6",
+    "journal": "Genome Research",
+    "publication_date": "2017-01-19",
+    "doi": "10.1234/paper.000361"
+  },
+  {
+    "publication_id": "PUB000362",
+    "title": "Research Paper 362",
+    "authors": "Author_5, Author_10",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2011-08-22",
+    "doi": "10.1234/paper.000362"
+  },
+  {
+    "publication_id": "PUB000363",
+    "title": "Research Paper 363",
+    "authors": "Author_1, Author_8",
+    "journal": "Cell",
+    "publication_date": "2011-11-10",
+    "doi": "10.1234/paper.000363"
+  },
+  {
+    "publication_id": "PUB000364",
+    "title": "Research Paper 364",
+    "authors": "Author_5, Author_6",
+    "journal": "Bioinformatics",
+    "publication_date": "2017-07-26",
+    "doi": "10.1234/paper.000364"
+  },
+  {
+    "publication_id": "PUB000365",
+    "title": "Research Paper 365",
+    "authors": "Author_5, Author_7",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2015-11-10",
+    "doi": "10.1234/paper.000365"
+  },
+  {
+    "publication_id": "PUB000366",
+    "title": "Research Paper 366",
+    "authors": "Author_3, Author_7",
+    "journal": "Science",
+    "publication_date": "2015-01-03",
+    "doi": "10.1234/paper.000366"
+  },
+  {
+    "publication_id": "PUB000367",
+    "title": "Research Paper 367",
+    "authors": "Author_5, Author_6",
+    "journal": "Genome Research",
+    "publication_date": "2021-09-06",
+    "doi": "10.1234/paper.000367"
+  },
+  {
+    "publication_id": "PUB000368",
+    "title": "Research Paper 368",
+    "authors": "Author_5, Author_10",
+    "journal": "Cell",
+    "publication_date": "2019-03-26",
+    "doi": "10.1234/paper.000368"
+  },
+  {
+    "publication_id": "PUB000369",
+    "title": "Research Paper 369",
+    "authors": "Author_5, Author_9",
+    "journal": "PLOS ONE",
+    "publication_date": "2023-12-10",
+    "doi": "10.1234/paper.000369"
+  },
+  {
+    "publication_id": "PUB000370",
+    "title": "Research Paper 370",
+    "authors": "Author_1, Author_6",
+    "journal": "Genome Research",
+    "publication_date": "2021-02-16",
+    "doi": "10.1234/paper.000370"
+  },
+  {
+    "publication_id": "PUB000371",
+    "title": "Research Paper 371",
+    "authors": "Author_2, Author_9",
+    "journal": "Bioinformatics",
+    "publication_date": "2023-11-26",
+    "doi": "10.1234/paper.000371"
+  },
+  {
+    "publication_id": "PUB000372",
+    "title": "Research Paper 372",
+    "authors": "Author_5, Author_6",
+    "journal": "PLOS ONE",
+    "publication_date": "2012-09-02",
+    "doi": "10.1234/paper.000372"
+  },
+  {
+    "publication_id": "PUB000373",
+    "title": "Research Paper 373",
+    "authors": "Author_4, Author_7",
+    "journal": "BMC Genomics",
+    "publication_date": "2015-02-04",
+    "doi": "10.1234/paper.000373"
+  },
+  {
+    "publication_id": "PUB000374",
+    "title": "Research Paper 374",
+    "authors": "Author_1, Author_9",
+    "journal": "Genome Research",
+    "publication_date": "2013-10-09",
+    "doi": "10.1234/paper.000374"
+  },
+  {
+    "publication_id": "PUB000375",
+    "title": "Research Paper 375",
+    "authors": "Author_2, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2012-02-10",
+    "doi": "10.1234/paper.000375"
+  },
+  {
+    "publication_id": "PUB000376",
+    "title": "Research Paper 376",
+    "authors": "Author_2, Author_8",
+    "journal": "Nature",
+    "publication_date": "2011-09-03",
+    "doi": "10.1234/paper.000376"
+  },
+  {
+    "publication_id": "PUB000377",
+    "title": "Research Paper 377",
+    "authors": "Author_3, Author_10",
+    "journal": "BMC Genomics",
+    "publication_date": "2019-08-07",
+    "doi": "10.1234/paper.000377"
+  },
+  {
+    "publication_id": "PUB000378",
+    "title": "Research Paper 378",
+    "authors": "Author_4, Author_7",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2017-07-27",
+    "doi": "10.1234/paper.000378"
+  },
+  {
+    "publication_id": "PUB000379",
+    "title": "Research Paper 379",
+    "authors": "Author_1, Author_8",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2020-02-23",
+    "doi": "10.1234/paper.000379"
+  },
+  {
+    "publication_id": "PUB000380",
+    "title": "Research Paper 380",
+    "authors": "Author_5, Author_10",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2016-04-19",
+    "doi": "10.1234/paper.000380"
+  },
+  {
+    "publication_id": "PUB000381",
+    "title": "Research Paper 381",
+    "authors": "Author_4, Author_7",
+    "journal": "BMC Genomics",
+    "publication_date": "2014-03-12",
+    "doi": "10.1234/paper.000381"
+  },
+  {
+    "publication_id": "PUB000382",
+    "title": "Research Paper 382",
+    "authors": "Author_4, Author_8",
+    "journal": "Nature",
+    "publication_date": "2020-05-28",
+    "doi": "10.1234/paper.000382"
+  },
+  {
+    "publication_id": "PUB000383",
+    "title": "Research Paper 383",
+    "authors": "Author_3, Author_10",
+    "journal": "Science",
+    "publication_date": "2020-05-10",
+    "doi": "10.1234/paper.000383"
+  },
+  {
+    "publication_id": "PUB000384",
+    "title": "Research Paper 384",
+    "authors": "Author_2, Author_10",
+    "journal": "Bioinformatics",
+    "publication_date": "2014-03-25",
+    "doi": "10.1234/paper.000384"
+  },
+  {
+    "publication_id": "PUB000385",
+    "title": "Research Paper 385",
+    "authors": "Author_5, Author_10",
+    "journal": "Science",
+    "publication_date": "2015-02-23",
+    "doi": "10.1234/paper.000385"
+  },
+  {
+    "publication_id": "PUB000386",
+    "title": "Research Paper 386",
+    "authors": "Author_5, Author_8",
+    "journal": "Nature",
+    "publication_date": "2015-11-16",
+    "doi": "10.1234/paper.000386"
+  },
+  {
+    "publication_id": "PUB000387",
+    "title": "Research Paper 387",
+    "authors": "Author_5, Author_8",
+    "journal": "Science",
+    "publication_date": "2017-09-13",
+    "doi": "10.1234/paper.000387"
+  },
+  {
+    "publication_id": "PUB000388",
+    "title": "Research Paper 388",
+    "authors": "Author_5, Author_6",
+    "journal": "Genome Research",
+    "publication_date": "2015-04-20",
+    "doi": "10.1234/paper.000388"
+  },
+  {
+    "publication_id": "PUB000389",
+    "title": "Research Paper 389",
+    "authors": "Author_2, Author_10",
+    "journal": "PLOS ONE",
+    "publication_date": "2020-10-03",
+    "doi": "10.1234/paper.000389"
+  },
+  {
+    "publication_id": "PUB000390",
+    "title": "Research Paper 390",
+    "authors": "Author_2, Author_7",
+    "journal": "Science",
+    "publication_date": "2013-11-24",
+    "doi": "10.1234/paper.000390"
+  },
+  {
+    "publication_id": "PUB000391",
+    "title": "Research Paper 391",
+    "authors": "Author_5, Author_6",
+    "journal": "Genome Research",
+    "publication_date": "2011-08-20",
+    "doi": "10.1234/paper.000391"
+  },
+  {
+    "publication_id": "PUB000392",
+    "title": "Research Paper 392",
+    "authors": "Author_5, Author_7",
+    "journal": "Science",
+    "publication_date": "2014-06-14",
+    "doi": "10.1234/paper.000392"
+  },
+  {
+    "publication_id": "PUB000393",
+    "title": "Research Paper 393",
+    "authors": "Author_1, Author_6",
+    "journal": "BMC Genomics",
+    "publication_date": "2012-03-19",
+    "doi": "10.1234/paper.000393"
+  },
+  {
+    "publication_id": "PUB000394",
+    "title": "Research Paper 394",
+    "authors": "Author_5, Author_8",
+    "journal": "Nature",
+    "publication_date": "2012-11-24",
+    "doi": "10.1234/paper.000394"
+  },
+  {
+    "publication_id": "PUB000395",
+    "title": "Research Paper 395",
+    "authors": "Author_2, Author_9",
+    "journal": "Genome Research",
+    "publication_date": "2013-12-14",
+    "doi": "10.1234/paper.000395"
+  },
+  {
+    "publication_id": "PUB000396",
+    "title": "Research Paper 396",
+    "authors": "Author_5, Author_7",
+    "journal": "Science",
+    "publication_date": "2022-05-10",
+    "doi": "10.1234/paper.000396"
+  },
+  {
+    "publication_id": "PUB000397",
+    "title": "Research Paper 397",
+    "authors": "Author_1, Author_7",
+    "journal": "Science",
+    "publication_date": "2022-01-13",
+    "doi": "10.1234/paper.000397"
+  },
+  {
+    "publication_id": "PUB000398",
+    "title": "Research Paper 398",
+    "authors": "Author_5, Author_6",
+    "journal": "Genome Research",
+    "publication_date": "2017-10-09",
+    "doi": "10.1234/paper.000398"
+  },
+  {
+    "publication_id": "PUB000399",
+    "title": "Research Paper 399",
+    "authors": "Author_3, Author_8",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2021-08-28",
+    "doi": "10.1234/paper.000399"
+  },
+  {
+    "publication_id": "PUB000400",
+    "title": "Research Paper 400",
+    "authors": "Author_1, Author_8",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2010-12-28",
+    "doi": "10.1234/paper.000400"
+  },
+  {
+    "publication_id": "PUB000401",
+    "title": "Research Paper 401",
+    "authors": "Author_5, Author_9",
+    "journal": "BMC Genomics",
+    "publication_date": "2012-01-07",
+    "doi": "10.1234/paper.000401"
+  },
+  {
+    "publication_id": "PUB000402",
+    "title": "Research Paper 402",
+    "authors": "Author_2, Author_8",
+    "journal": "Cell",
+    "publication_date": "2020-01-24",
+    "doi": "10.1234/paper.000402"
+  },
+  {
+    "publication_id": "PUB000403",
+    "title": "Research Paper 403",
+    "authors": "Author_5, Author_9",
+    "journal": "PLOS ONE",
+    "publication_date": "2022-12-03",
+    "doi": "10.1234/paper.000403"
+  },
+  {
+    "publication_id": "PUB000404",
+    "title": "Research Paper 404",
+    "authors": "Author_2, Author_10",
+    "journal": "BMC Genomics",
+    "publication_date": "2013-02-19",
+    "doi": "10.1234/paper.000404"
+  },
+  {
+    "publication_id": "PUB000405",
+    "title": "Research Paper 405",
+    "authors": "Author_1, Author_7",
+    "journal": "Nature",
+    "publication_date": "2016-05-22",
+    "doi": "10.1234/paper.000405"
+  },
+  {
+    "publication_id": "PUB000406",
+    "title": "Research Paper 406",
+    "authors": "Author_2, Author_6",
+    "journal": "PLOS ONE",
+    "publication_date": "2022-06-18",
+    "doi": "10.1234/paper.000406"
+  },
+  {
+    "publication_id": "PUB000407",
+    "title": "Research Paper 407",
+    "authors": "Author_2, Author_10",
+    "journal": "Bioinformatics",
+    "publication_date": "2017-08-15",
+    "doi": "10.1234/paper.000407"
+  },
+  {
+    "publication_id": "PUB000408",
+    "title": "Research Paper 408",
+    "authors": "Author_4, Author_9",
+    "journal": "Genome Research",
+    "publication_date": "2015-09-17",
+    "doi": "10.1234/paper.000408"
+  },
+  {
+    "publication_id": "PUB000409",
+    "title": "Research Paper 409",
+    "authors": "Author_3, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2020-08-27",
+    "doi": "10.1234/paper.000409"
+  },
+  {
+    "publication_id": "PUB000410",
+    "title": "Research Paper 410",
+    "authors": "Author_3, Author_7",
+    "journal": "PLOS ONE",
+    "publication_date": "2010-04-13",
+    "doi": "10.1234/paper.000410"
+  },
+  {
+    "publication_id": "PUB000411",
+    "title": "Research Paper 411",
+    "authors": "Author_1, Author_6",
+    "journal": "Nature",
+    "publication_date": "2019-09-15",
+    "doi": "10.1234/paper.000411"
+  },
+  {
+    "publication_id": "PUB000412",
+    "title": "Research Paper 412",
+    "authors": "Author_2, Author_9",
+    "journal": "Cell",
+    "publication_date": "2017-11-11",
+    "doi": "10.1234/paper.000412"
+  },
+  {
+    "publication_id": "PUB000413",
+    "title": "Research Paper 413",
+    "authors": "Author_3, Author_10",
+    "journal": "Genome Research",
+    "publication_date": "2018-10-06",
+    "doi": "10.1234/paper.000413"
+  },
+  {
+    "publication_id": "PUB000414",
+    "title": "Research Paper 414",
+    "authors": "Author_4, Author_7",
+    "journal": "Nature",
+    "publication_date": "2011-04-28",
+    "doi": "10.1234/paper.000414"
+  },
+  {
+    "publication_id": "PUB000415",
+    "title": "Research Paper 415",
+    "authors": "Author_1, Author_10",
+    "journal": "BMC Genomics",
+    "publication_date": "2023-02-14",
+    "doi": "10.1234/paper.000415"
+  },
+  {
+    "publication_id": "PUB000416",
+    "title": "Research Paper 416",
+    "authors": "Author_5, Author_8",
+    "journal": "Science",
+    "publication_date": "2012-07-08",
+    "doi": "10.1234/paper.000416"
+  },
+  {
+    "publication_id": "PUB000417",
+    "title": "Research Paper 417",
+    "authors": "Author_4, Author_7",
+    "journal": "BMC Genomics",
+    "publication_date": "2013-11-13",
+    "doi": "10.1234/paper.000417"
+  },
+  {
+    "publication_id": "PUB000418",
+    "title": "Research Paper 418",
+    "authors": "Author_4, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2015-10-07",
+    "doi": "10.1234/paper.000418"
+  },
+  {
+    "publication_id": "PUB000419",
+    "title": "Research Paper 419",
+    "authors": "Author_1, Author_6",
+    "journal": "Genome Research",
+    "publication_date": "2019-05-22",
+    "doi": "10.1234/paper.000419"
+  },
+  {
+    "publication_id": "PUB000420",
+    "title": "Research Paper 420",
+    "authors": "Author_2, Author_7",
+    "journal": "Cell",
+    "publication_date": "2022-03-25",
+    "doi": "10.1234/paper.000420"
+  },
+  {
+    "publication_id": "PUB000421",
+    "title": "Research Paper 421",
+    "authors": "Author_5, Author_8",
+    "journal": "Science",
+    "publication_date": "2018-08-06",
+    "doi": "10.1234/paper.000421"
+  },
+  {
+    "publication_id": "PUB000422",
+    "title": "Research Paper 422",
+    "authors": "Author_4, Author_8",
+    "journal": "BMC Genomics",
+    "publication_date": "2012-06-17",
+    "doi": "10.1234/paper.000422"
+  },
+  {
+    "publication_id": "PUB000423",
+    "title": "Research Paper 423",
+    "authors": "Author_5, Author_10",
+    "journal": "BMC Genomics",
+    "publication_date": "2019-04-16",
+    "doi": "10.1234/paper.000423"
+  },
+  {
+    "publication_id": "PUB000424",
+    "title": "Research Paper 424",
+    "authors": "Author_5, Author_8",
+    "journal": "Genome Research",
+    "publication_date": "2012-04-12",
+    "doi": "10.1234/paper.000424"
+  },
+  {
+    "publication_id": "PUB000425",
+    "title": "Research Paper 425",
+    "authors": "Author_4, Author_6",
+    "journal": "Cell",
+    "publication_date": "2020-04-21",
+    "doi": "10.1234/paper.000425"
+  },
+  {
+    "publication_id": "PUB000426",
+    "title": "Research Paper 426",
+    "authors": "Author_2, Author_9",
+    "journal": "Cell",
+    "publication_date": "2014-07-24",
+    "doi": "10.1234/paper.000426"
+  },
+  {
+    "publication_id": "PUB000427",
+    "title": "Research Paper 427",
+    "authors": "Author_1, Author_7",
+    "journal": "Cell",
+    "publication_date": "2015-12-05",
+    "doi": "10.1234/paper.000427"
+  },
+  {
+    "publication_id": "PUB000428",
+    "title": "Research Paper 428",
+    "authors": "Author_2, Author_6",
+    "journal": "Genome Research",
+    "publication_date": "2016-07-17",
+    "doi": "10.1234/paper.000428"
+  },
+  {
+    "publication_id": "PUB000429",
+    "title": "Research Paper 429",
+    "authors": "Author_4, Author_8",
+    "journal": "Nature",
+    "publication_date": "2013-09-11",
+    "doi": "10.1234/paper.000429"
+  },
+  {
+    "publication_id": "PUB000430",
+    "title": "Research Paper 430",
+    "authors": "Author_5, Author_6",
+    "journal": "Cell",
+    "publication_date": "2011-03-26",
+    "doi": "10.1234/paper.000430"
+  },
+  {
+    "publication_id": "PUB000431",
+    "title": "Research Paper 431",
+    "authors": "Author_1, Author_7",
+    "journal": "Bioinformatics",
+    "publication_date": "2014-04-05",
+    "doi": "10.1234/paper.000431"
+  },
+  {
+    "publication_id": "PUB000432",
+    "title": "Research Paper 432",
+    "authors": "Author_3, Author_8",
+    "journal": "Genome Research",
+    "publication_date": "2014-02-21",
+    "doi": "10.1234/paper.000432"
+  },
+  {
+    "publication_id": "PUB000433",
+    "title": "Research Paper 433",
+    "authors": "Author_3, Author_7",
+    "journal": "Nature",
+    "publication_date": "2022-07-13",
+    "doi": "10.1234/paper.000433"
+  },
+  {
+    "publication_id": "PUB000434",
+    "title": "Research Paper 434",
+    "authors": "Author_1, Author_9",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2012-09-16",
+    "doi": "10.1234/paper.000434"
+  },
+  {
+    "publication_id": "PUB000435",
+    "title": "Research Paper 435",
+    "authors": "Author_3, Author_10",
+    "journal": "Bioinformatics",
+    "publication_date": "2011-04-20",
+    "doi": "10.1234/paper.000435"
+  },
+  {
+    "publication_id": "PUB000436",
+    "title": "Research Paper 436",
+    "authors": "Author_5, Author_8",
+    "journal": "Bioinformatics",
+    "publication_date": "2018-07-19",
+    "doi": "10.1234/paper.000436"
+  },
+  {
+    "publication_id": "PUB000437",
+    "title": "Research Paper 437",
+    "authors": "Author_5, Author_9",
+    "journal": "Nature",
+    "publication_date": "2015-12-28",
+    "doi": "10.1234/paper.000437"
+  },
+  {
+    "publication_id": "PUB000438",
+    "title": "Research Paper 438",
+    "authors": "Author_5, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2010-03-27",
+    "doi": "10.1234/paper.000438"
+  },
+  {
+    "publication_id": "PUB000439",
+    "title": "Research Paper 439",
+    "authors": "Author_5, Author_8",
+    "journal": "Science",
+    "publication_date": "2016-08-23",
+    "doi": "10.1234/paper.000439"
+  },
+  {
+    "publication_id": "PUB000440",
+    "title": "Research Paper 440",
+    "authors": "Author_2, Author_8",
+    "journal": "Nature",
+    "publication_date": "2017-09-20",
+    "doi": "10.1234/paper.000440"
+  },
+  {
+    "publication_id": "PUB000441",
+    "title": "Research Paper 441",
+    "authors": "Author_1, Author_10",
+    "journal": "Bioinformatics",
+    "publication_date": "2018-02-03",
+    "doi": "10.1234/paper.000441"
+  },
+  {
+    "publication_id": "PUB000442",
+    "title": "Research Paper 442",
+    "authors": "Author_1, Author_6",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2022-09-11",
+    "doi": "10.1234/paper.000442"
+  },
+  {
+    "publication_id": "PUB000443",
+    "title": "Research Paper 443",
+    "authors": "Author_5, Author_7",
+    "journal": "Genome Research",
+    "publication_date": "2016-04-02",
+    "doi": "10.1234/paper.000443"
+  },
+  {
+    "publication_id": "PUB000444",
+    "title": "Research Paper 444",
+    "authors": "Author_2, Author_10",
+    "journal": "Nature",
+    "publication_date": "2019-08-01",
+    "doi": "10.1234/paper.000444"
+  },
+  {
+    "publication_id": "PUB000445",
+    "title": "Research Paper 445",
+    "authors": "Author_1, Author_8",
+    "journal": "Cell",
+    "publication_date": "2013-04-10",
+    "doi": "10.1234/paper.000445"
+  },
+  {
+    "publication_id": "PUB000446",
+    "title": "Research Paper 446",
+    "authors": "Author_5, Author_9",
+    "journal": "Bioinformatics",
+    "publication_date": "2014-09-01",
+    "doi": "10.1234/paper.000446"
+  },
+  {
+    "publication_id": "PUB000447",
+    "title": "Research Paper 447",
+    "authors": "Author_3, Author_6",
+    "journal": "Bioinformatics",
+    "publication_date": "2017-12-01",
+    "doi": "10.1234/paper.000447"
+  },
+  {
+    "publication_id": "PUB000448",
+    "title": "Research Paper 448",
+    "authors": "Author_2, Author_9",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2023-04-14",
+    "doi": "10.1234/paper.000448"
+  },
+  {
+    "publication_id": "PUB000449",
+    "title": "Research Paper 449",
+    "authors": "Author_4, Author_10",
+    "journal": "Nature",
+    "publication_date": "2019-08-28",
+    "doi": "10.1234/paper.000449"
+  },
+  {
+    "publication_id": "PUB000450",
+    "title": "Research Paper 450",
+    "authors": "Author_2, Author_10",
+    "journal": "Cell",
+    "publication_date": "2015-10-01",
+    "doi": "10.1234/paper.000450"
+  },
+  {
+    "publication_id": "PUB000451",
+    "title": "Research Paper 451",
+    "authors": "Author_3, Author_7",
+    "journal": "BMC Genomics",
+    "publication_date": "2014-06-23",
+    "doi": "10.1234/paper.000451"
+  },
+  {
+    "publication_id": "PUB000452",
+    "title": "Research Paper 452",
+    "authors": "Author_1, Author_10",
+    "journal": "Cell",
+    "publication_date": "2022-11-04",
+    "doi": "10.1234/paper.000452"
+  },
+  {
+    "publication_id": "PUB000453",
+    "title": "Research Paper 453",
+    "authors": "Author_3, Author_8",
+    "journal": "Genome Research",
+    "publication_date": "2010-06-10",
+    "doi": "10.1234/paper.000453"
+  },
+  {
+    "publication_id": "PUB000454",
+    "title": "Research Paper 454",
+    "authors": "Author_2, Author_6",
+    "journal": "Science",
+    "publication_date": "2016-08-03",
+    "doi": "10.1234/paper.000454"
+  },
+  {
+    "publication_id": "PUB000455",
+    "title": "Research Paper 455",
+    "authors": "Author_4, Author_7",
+    "journal": "Science",
+    "publication_date": "2022-11-01",
+    "doi": "10.1234/paper.000455"
+  },
+  {
+    "publication_id": "PUB000456",
+    "title": "Research Paper 456",
+    "authors": "Author_4, Author_8",
+    "journal": "BMC Genomics",
+    "publication_date": "2011-03-18",
+    "doi": "10.1234/paper.000456"
+  },
+  {
+    "publication_id": "PUB000457",
+    "title": "Research Paper 457",
+    "authors": "Author_3, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2018-02-08",
+    "doi": "10.1234/paper.000457"
+  },
+  {
+    "publication_id": "PUB000458",
+    "title": "Research Paper 458",
+    "authors": "Author_4, Author_9",
+    "journal": "Cell",
+    "publication_date": "2012-01-14",
+    "doi": "10.1234/paper.000458"
+  },
+  {
+    "publication_id": "PUB000459",
+    "title": "Research Paper 459",
+    "authors": "Author_2, Author_6",
+    "journal": "BMC Genomics",
+    "publication_date": "2023-06-27",
+    "doi": "10.1234/paper.000459"
+  },
+  {
+    "publication_id": "PUB000460",
+    "title": "Research Paper 460",
+    "authors": "Author_4, Author_10",
+    "journal": "Bioinformatics",
+    "publication_date": "2017-06-20",
+    "doi": "10.1234/paper.000460"
+  },
+  {
+    "publication_id": "PUB000461",
+    "title": "Research Paper 461",
+    "authors": "Author_2, Author_6",
+    "journal": "Genome Research",
+    "publication_date": "2010-01-19",
+    "doi": "10.1234/paper.000461"
+  },
+  {
+    "publication_id": "PUB000462",
+    "title": "Research Paper 462",
+    "authors": "Author_2, Author_10",
+    "journal": "Science",
+    "publication_date": "2023-05-12",
+    "doi": "10.1234/paper.000462"
+  },
+  {
+    "publication_id": "PUB000463",
+    "title": "Research Paper 463",
+    "authors": "Author_1, Author_6",
+    "journal": "Nature",
+    "publication_date": "2021-07-03",
+    "doi": "10.1234/paper.000463"
+  },
+  {
+    "publication_id": "PUB000464",
+    "title": "Research Paper 464",
+    "authors": "Author_5, Author_10",
+    "journal": "Genome Research",
+    "publication_date": "2011-03-21",
+    "doi": "10.1234/paper.000464"
+  },
+  {
+    "publication_id": "PUB000465",
+    "title": "Research Paper 465",
+    "authors": "Author_1, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2015-04-19",
+    "doi": "10.1234/paper.000465"
+  },
+  {
+    "publication_id": "PUB000466",
+    "title": "Research Paper 466",
+    "authors": "Author_1, Author_7",
+    "journal": "PLOS ONE",
+    "publication_date": "2016-08-21",
+    "doi": "10.1234/paper.000466"
+  },
+  {
+    "publication_id": "PUB000467",
+    "title": "Research Paper 467",
+    "authors": "Author_3, Author_10",
+    "journal": "PLOS ONE",
+    "publication_date": "2010-02-14",
+    "doi": "10.1234/paper.000467"
+  },
+  {
+    "publication_id": "PUB000468",
+    "title": "Research Paper 468",
+    "authors": "Author_2, Author_10",
+    "journal": "Genome Research",
+    "publication_date": "2016-02-05",
+    "doi": "10.1234/paper.000468"
+  },
+  {
+    "publication_id": "PUB000469",
+    "title": "Research Paper 469",
+    "authors": "Author_4, Author_9",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2020-11-10",
+    "doi": "10.1234/paper.000469"
+  },
+  {
+    "publication_id": "PUB000470",
+    "title": "Research Paper 470",
+    "authors": "Author_1, Author_9",
+    "journal": "Bioinformatics",
+    "publication_date": "2012-09-27",
+    "doi": "10.1234/paper.000470"
+  },
+  {
+    "publication_id": "PUB000471",
+    "title": "Research Paper 471",
+    "authors": "Author_4, Author_6",
+    "journal": "Nature",
+    "publication_date": "2016-11-13",
+    "doi": "10.1234/paper.000471"
+  },
+  {
+    "publication_id": "PUB000472",
+    "title": "Research Paper 472",
+    "authors": "Author_4, Author_10",
+    "journal": "Nature",
+    "publication_date": "2016-10-23",
+    "doi": "10.1234/paper.000472"
+  },
+  {
+    "publication_id": "PUB000473",
+    "title": "Research Paper 473",
+    "authors": "Author_4, Author_6",
+    "journal": "Nucleic Acids Research",
+    "publication_date": "2010-10-05",
+    "doi": "10.1234/paper.000473"
+  },
+  {
+    "publication_id": "PUB000474",
+    "title": "Research Paper 474",
+    "authors": "Author_2, Author_7",
+    "journal": "BMC Genomics",
+    "publication_date": "2014-11-09",
+    "doi": "10.1234/paper.000474"
+  },
+  {
+    "publication_id": "PUB000475",
+    "title": "Research Paper 475",
+    "authors": "Author_4, Author_8",
+    "journal": "Science",
+    "publication_date": "2010-02-02",
+    "doi": "10.1234/paper.000475"
+  },
+  {
+    "publication_id": "PUB000476",
+    "title": "Research Paper 476",
+    "authors": "Author_4, Author_9",
+    "journal": "Science",
+    "publication_date": "2015-02-04",
+    "doi": "10.1234/paper.000476"
+  },
+  {
+    "publication_id": "PUB000477",
+    "title": "Research Paper 477",
+    "authors": "Author_3, Author_7",
+    "journal": "Cell",
+    "publication_date": "2013-02-04",
+    "doi": "10.1234/paper.000477"
+  },
+  {
+    "publication_id": "PUB000478",
+    "title": "Research Paper 478",
+    "authors": "Author_2, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2013-11-23",
+    "doi": "10.1234/paper.000478"
+  },
+  {
+    "publication_id": "PUB000479",
+    "title": "Research Paper 479",
+    "authors": "Author_1, Author_9",
+    "journal": "Bioinformatics",
+    "publication_date": "2011-05-27",
+    "doi": "10.1234/paper.000479"
+  },
+  {
+    "publication_id": "PUB000480",
+    "title": "Research Paper 480",
+    "authors": "Author_2, Author_10",
+    "journal": "PLOS ONE",
+    "publication_date": "2021-05-25",
+    "doi": "10.1234/paper.000480"
+  },
+  {
+    "publication_id": "PUB000481",
+    "title": "Research Paper 481",
+    "authors": "Author_2, Author_8",
+    "journal": "Nature",
+    "publication_date": "2012-05-16",
+    "doi": "10.1234/paper.000481"
+  },
+  {
+    "publication_id": "PUB000482",
+    "title": "Research Paper 482",
+    "authors": "Author_1, Author_7",
+    "journal": "PLOS ONE",
+    "publication_date": "2015-06-12",
+    "doi": "10.1234/paper.000482"
+  },
+  {
+    "publication_id": "PUB000483",
+    "title": "Research Paper 483",
+    "authors": "Author_2, Author_8",
+    "journal": "Genome Research",
+    "publication_date": "2023-10-22",
+    "doi": "10.1234/paper.000483"
+  },
+  {
+    "publication_id": "PUB000484",
+    "title": "Research Paper 484",
+    "authors": "Author_5, Author_8",
+    "journal": "Nature",
+    "publication_date": "2018-05-17",
+    "doi": "10.1234/paper.000484"
+  },
+  {
+    "publication_id": "PUB000485",
+    "title": "Research Paper 485",
+    "authors": "Author_2, Author_9",
+    "journal": "Bioinformatics",
+    "publication_date": "2018-08-13",
+    "doi": "10.1234/paper.000485"
+  },
+  {
+    "publication_id": "PUB000486",
+    "title": "Research Paper 486",
+    "authors": "Author_5, Author_10",
+    "journal": "Nature",
+    "publication_date": "2021-11-12",
+    "doi": "10.1234/paper.000486"
+  },
+  {
+    "publication_id": "PUB000487",
+    "title": "Research Paper 487",
+    "authors": "Author_4, Author_9",
+    "journal": "PLOS ONE",
+    "publication_date": "2015-09-19",
+    "doi": "10.1234/paper.000487"
+  },
+  {
+    "publication_id": "PUB000488",
+    "title": "Research Paper 488",
+    "authors": "Author_4, Author_8",
+    "journal": "BMC Genomics",
+    "publication_date": "2018-04-13",
+    "doi": "10.1234/paper.000488"
+  },
+  {
+    "publication_id": "PUB000489",
+    "title": "Research Paper 489",
+    "authors": "Author_2, Author_6",
+    "journal": "BMC Genomics",
+    "publication_date": "2016-09-12",
+    "doi": "10.1234/paper.000489"
+  },
+  {
+    "publication_id": "PUB000490",
+    "title": "Research Paper 490",
+    "authors": "Author_3, Author_6",
+    "journal": "PLOS ONE",
+    "publication_date": "2016-06-22",
+    "doi": "10.1234/paper.000490"
+  },
+  {
+    "publication_id": "PUB000491",
+    "title": "Research Paper 491",
+    "authors": "Author_4, Author_8",
+    "journal": "BMC Genomics",
+    "publication_date": "2022-11-14",
+    "doi": "10.1234/paper.000491"
+  },
+  {
+    "publication_id": "PUB000492",
+    "title": "Research Paper 492",
+    "authors": "Author_5, Author_7",
+    "journal": "Genome Research",
+    "publication_date": "2014-08-23",
+    "doi": "10.1234/paper.000492"
+  },
+  {
+    "publication_id": "PUB000493",
+    "title": "Research Paper 493",
+    "authors": "Author_2, Author_6",
+    "journal": "Science",
+    "publication_date": "2023-01-12",
+    "doi": "10.1234/paper.000493"
+  },
+  {
+    "publication_id": "PUB000494",
+    "title": "Research Paper 494",
+    "authors": "Author_2, Author_6",
+    "journal": "Cell",
+    "publication_date": "2015-12-22",
+    "doi": "10.1234/paper.000494"
+  },
+  {
+    "publication_id": "PUB000495",
+    "title": "Research Paper 495",
+    "authors": "Author_1, Author_8",
+    "journal": "Nature",
+    "publication_date": "2018-10-14",
+    "doi": "10.1234/paper.000495"
+  },
+  {
+    "publication_id": "PUB000496",
+    "title": "Research Paper 496",
+    "authors": "Author_1, Author_10",
+    "journal": "PLOS ONE",
+    "publication_date": "2011-03-14",
+    "doi": "10.1234/paper.000496"
+  },
+  {
+    "publication_id": "PUB000497",
+    "title": "Research Paper 497",
+    "authors": "Author_1, Author_10",
+    "journal": "Nature",
+    "publication_date": "2023-11-20",
+    "doi": "10.1234/paper.000497"
+  },
+  {
+    "publication_id": "PUB000498",
+    "title": "Research Paper 498",
+    "authors": "Author_1, Author_6",
+    "journal": "Cell",
+    "publication_date": "2011-09-24",
+    "doi": "10.1234/paper.000498"
+  },
+  {
+    "publication_id": "PUB000499",
+    "title": "Research Paper 499",
+    "authors": "Author_4, Author_8",
+    "journal": "PLOS ONE",
+    "publication_date": "2020-08-15",
+    "doi": "10.1234/paper.000499"
+  }
+]

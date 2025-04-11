@@ -1,0 +1,34 @@
+name: GenoBase_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - mysql-connector-python
+  - sqlalchemy
+  - fastapi
+  - uvicorn
+  - python-jose[cryptography]
+  - passlib[bcrypt]
+  - python-multipart
+  - pandas
+  - numpy
+  - biopython
+  - requests
+  - pytest
+  - black
+  - flake8
+  - mypy
+  - pip:
+    - python-dotenv
+    - pydantic[email]
+    - alembic
+    - fastapi-jwt-auth
+    - fastapi-pagination
+    - fastapi-cache2
+    - aiomysql
+    - aiofiles
+    - python-magic
+    - openpyxl
+    - xlrd 
