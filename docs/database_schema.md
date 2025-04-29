@@ -1,24 +1,79 @@
 # GenoBase 数据库表结构
 
-## 1. 用户表 (Users)
+## 1. 用户表结构
+
+### 1.1 基础用户表 (Users)
 ```sql
 CREATE TABLE Users (
     user_id INT PRIMARY KEY AUTO_INCREMENT,
     username VARCHAR(50) UNIQUE NOT NULL,
     password_hash VARCHAR(255) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
-    role ENUM('creator', 'manager', 'reader') NOT NULL,
+    user_type ENUM('creator', 'manager', 'reader') NOT NULL,
     api_key VARCHAR(64) UNIQUE,
     is_active BOOLEAN DEFAULT TRUE,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
+```
 
--- 索引
+### 1.2 创建者表 (Creators)
+```sql
+CREATE TABLE Creators (
+    user_id INT PRIMARY KEY,
+    institution VARCHAR(100),
+    research_field VARCHAR(100),
+    max_storage_size BIGINT DEFAULT 1073741824,
+    FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE
+);
+```
+
+### 1.3 管理员表 (Managers)
+```sql
+CREATE TABLE Managers (
+    user_id INT PRIMARY KEY,
+    department VARCHAR(100),
+    access_level ENUM('full', 'limited') NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE
+);
+```
+
+### 1.4 读者表 (Readers)
+```sql
+CREATE TABLE Readers (
+    user_id INT PRIMARY KEY,
+    organization VARCHAR(100),
+    subscription_type ENUM('free', 'premium') NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE
+);
+```
+
+### 1.5 用户表索引
+```sql
+-- 基础用户表索引
 CREATE INDEX idx_users_username ON Users(username);
 CREATE INDEX idx_users_email ON Users(email);
 CREATE INDEX idx_users_api_key ON Users(api_key);
+CREATE INDEX idx_users_type ON Users(user_type);
+
+-- 创建者表索引
+CREATE INDEX idx_creators_institution ON Creators(institution);
+CREATE INDEX idx_creators_research_field ON Creators(research_field);
+
+-- 管理员表索引
+CREATE INDEX idx_managers_department ON Managers(department);
+CREATE INDEX idx_managers_access_level ON Managers(access_level);
+
+-- 读者表索引
+CREATE INDEX idx_readers_organization ON Readers(organization);
+CREATE INDEX idx_readers_subscription ON Readers(subscription_type);
 ```
+
+### 1.6 用户表关系说明
+- 基础用户表(Users)作为父表
+- 创建者、管理员、读者表作为子表
+- 通过user_id实现继承关系
+- 使用ON DELETE CASCADE确保数据一致性
 
 ## 2. 物种表 (Species)
 ```sql
@@ -132,7 +187,23 @@ CREATE INDEX idx_experiments_publication ON Experimental_Data(publication_id);
 
 ## 8. 数据库关系说明
 
-### 8.1 一对多关系
+### 8.1 用户继承关系
+1. 基础用户-创建者
+   - 一个基础用户可以是创建者
+   - 通过 user_id 外键关联
+   - 级联删除确保数据一致性
+
+2. 基础用户-管理员
+   - 一个基础用户可以是管理员
+   - 通过 user_id 外键关联
+   - 级联删除确保数据一致性
+
+3. 基础用户-读者
+   - 一个基础用户可以是读者
+   - 通过 user_id 外键关联
+   - 级联删除确保数据一致性
+
+### 8.2 一对多关系
 1. 物种-基因
    - 一个物种可以有多个基因
    - 通过 species_id 外键关联
@@ -145,7 +216,7 @@ CREATE INDEX idx_experiments_publication ON Experimental_Data(publication_id);
    - 一个基因可以有多个实验数据
    - 通过 gene_id 外键关联
 
-### 8.2 多对多关系
+### 8.3 多对多关系
 1. 基因-文献
    - 一个基因可以关联多个文献
    - 一个文献可以关联多个基因
@@ -153,15 +224,21 @@ CREATE INDEX idx_experiments_publication ON Experimental_Data(publication_id);
 
 ## 9. 索引设计说明
 
-### 9.1 主键索引
+### 9.1 用户表索引
+- 基础用户表：用户名、邮箱、API密钥、用户类型
+- 创建者表：机构、研究领域
+- 管理员表：部门、访问级别
+- 读者表：组织、订阅类型
+
+### 9.2 主键索引
 - 所有表都使用自增的 INT 类型作为主键
 - 主键自动创建聚集索引
 
-### 9.2 外键索引
+### 9.3 外键索引
 - 所有外键字段都创建了索引
 - 用于优化关联查询性能
 
-### 9.3 查询优化索引
+### 9.4 查询优化索引
 - 用户表：用户名、邮箱、API密钥
 - 基因表：基因名称、符号、染色体
 - 蛋白质表：蛋白质名称、UniProt ID
@@ -169,20 +246,31 @@ CREATE INDEX idx_experiments_publication ON Experimental_Data(publication_id);
 
 ## 10. 数据完整性约束
 
-### 10.1 非空约束
-- 用户名、密码、邮箱
-- 基因名称、序列
-- 蛋白质名称、氨基酸序列
-- 文献标题、作者
+### 10.1 用户表约束
+- 非空约束：
+  - 用户名、密码、邮箱、用户类型
+  - 管理员访问级别
+  - 读者订阅类型
+- 唯一约束：
+  - 用户名
+  - 邮箱
+  - API密钥
+- 外键约束：
+  - 创建者、管理员、读者表的user_id
+- 枚举约束：
+  - 用户类型（creator, manager, reader）
+  - 管理员访问级别（full, limited）
+  - 读者订阅类型（free, premium）
 
-### 10.2 唯一约束
-- 用户名
-- 邮箱
-- API密钥
-- DOI
-
-### 10.3 外键约束
-- 基因表的物种ID
-- 蛋白质表的基因ID
-- 实验数据表的基因ID和文献ID
-- 基因-文献关联表的基因ID和文献ID 
+### 10.2 其他表约束
+- 非空约束：
+  - 基因名称、序列
+  - 蛋白质名称、氨基酸序列
+  - 文献标题、作者
+- 唯一约束：
+  - DOI
+- 外键约束：
+  - 基因表的物种ID
+  - 蛋白质表的基因ID
+  - 实验数据表的基因ID和文献ID
+  - 基因-文献关联表的基因ID和文献ID 
