@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-md-8">
+        <h2>蛋白质列表</h2>
+    </div>
+    <div class="col-md-4 text-right">
+        {% if current_user.is_authenticated and (current_user.is_manager() or current_user.is_creator()) %}
+        <a href="{{ url_for('admin.add_protein') }}" class="btn btn-primary">
+            <i class="fa fa-plus"></i> 添加蛋白质
+        </a>
+        {% endif %}
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>蛋白质名称</th>
+                        <th>UniProt ID</th>
+                        <th>关联基因</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for protein in proteins.items %}
+                    <tr>
+                        <td>{{ protein.protein_id }}</td>
+                        <td>{{ protein.protein_name }}</td>
+                        <td>{{ protein.uniprot_id or '未设置' }}</td>
+                        <td>
+                            {% if protein.gene %}
+                                <a href="{{ url_for('main.gene_detail', id=protein.gene.gene_id) }}">{{ protein.gene.gene_name }}</a>
+                            {% else %}未设置{% endif %}
+                        </td>
+                        <td>
+                            <a href="{{ url_for('main.protein_detail', id=protein.protein_id) }}" class="btn btn-sm btn-info">查看</a>
+                            {% if current_user.is_authenticated and (current_user.is_manager() or current_user.is_creator()) %}
+                            <a href="{{ url_for('admin.edit_protein', id=protein.protein_id) }}" class="btn btn-sm btn-warning">编辑</a>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="5" class="text-center">暂无蛋白质数据</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% if proteins.pages > 1 %}
+        <nav aria-label="分页导航">
+            <ul class="pagination justify-content-center">
+                {% if proteins.has_prev %}
+                <li class="page-item">
+                    <a class="page-link" href="{{ url_for('main.protein_list', page=proteins.prev_num) }}">上一页</a>
+                </li>
+                {% else %}
+                <li class="page-item disabled">
+                    <span class="page-link">上一页</span>
+                </li>
+                {% endif %}
+                {% for page_num in proteins.iter_pages(left_edge=1, right_edge=1, left_current=2, right_current=2) %}
+                    {% if page_num %}
+                        {% if page_num == proteins.page %}
+                        <li class="page-item active">
+                            <span class="page-link">{{ page_num }}</span>
+                        </li>
+                        {% else %}
+                        <li class="page-item">
+                            <a class="page-link" href="{{ url_for('main.protein_list', page=page_num) }}">{{ page_num }}</a>
+                        </li>
+                        {% endif %}
+                    {% else %}
+                    <li class="page-item disabled">
+                        <span class="page-link">...</span>
+                    </li>
+                    {% endif %}
+                {% endfor %}
+                {% if proteins.has_next %}
+                <li class="page-item">
+                    <a class="page-link" href="{{ url_for('main.protein_list', page=proteins.next_num) }}">下一页</a>
+                </li>
+                {% else %}
+                <li class="page-item disabled">
+                    <span class="page-link">下一页</span>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
+        {% endif %}
+    </div>
+</div>
+{% endblock %} 

@@ -1,0 +1,194 @@
+[
+  {
+    "user_id": 3,
+    "institution": "MIT",
+    "research_field": "Systems Biology",
+    "max_storage_size": 2147483648
+  },
+  {
+    "user_id": 5,
+    "institution": "Stanford University",
+    "research_field": "Computational Biology",
+    "max_storage_size": 4294967296
+  },
+  {
+    "user_id": 10,
+    "institution": "Cambridge University",
+    "research_field": "Genomics",
+    "max_storage_size": 2147483648
+  },
+  {
+    "user_id": 11,
+    "institution": "MIT",
+    "research_field": "Systems Biology",
+    "max_storage_size": 2147483648
+  },
+  {
+    "user_id": 14,
+    "institution": "Cambridge University",
+    "research_field": "Systems Biology",
+    "max_storage_size": 4294967296
+  },
+  {
+    "user_id": 15,
+    "institution": "MIT",
+    "research_field": "Computational Biology",
+    "max_storage_size": 2147483648
+  },
+  {
+    "user_id": 17,
+    "institution": "Cambridge University",
+    "research_field": "Bioinformatics",
+    "max_storage_size": 4294967296
+  },
+  {
+    "user_id": 18,
+    "institution": "Harvard University",
+    "research_field": "Molecular Biology",
+    "max_storage_size": 1073741824
+  },
+  {
+    "user_id": 20,
+    "institution": "Harvard University",
+    "research_field": "Bioinformatics",
+    "max_storage_size": 4294967296
+  },
+  {
+    "user_id": 22,
+    "institution": "Stanford University",
+    "research_field": "Bioinformatics",
+    "max_storage_size": 2147483648
+  },
+  {
+    "user_id": 23,
+    "institution": "Harvard University",
+    "research_field": "Systems Biology",
+    "max_storage_size": 1073741824
+  },
+  {
+    "user_id": 31,
+    "institution": "Harvard University",
+    "research_field": "Computational Biology",
+    "max_storage_size": 2147483648
+  },
+  {
+    "user_id": 34,
+    "institution": "Oxford University",
+    "research_field": "Molecular Biology",
+    "max_storage_size": 4294967296
+  },
+  {
+    "user_id": 36,
+    "institution": "Harvard University",
+    "research_field": "Bioinformatics",
+    "max_storage_size": 1073741824
+  },
+  {
+    "user_id": 37,
+    "institution": "Oxford University",
+    "research_field": "Computational Biology",
+    "max_storage_size": 2147483648
+  },
+  {
+    "user_id": 38,
+    "institution": "Cambridge University",
+    "research_field": "Molecular Biology",
+    "max_storage_size": 2147483648
+  },
+  {
+    "user_id": 39,
+    "institution": "Oxford University",
+    "research_field": "Molecular Biology",
+    "max_storage_size": 2147483648
+  },
+  {
+    "user_id": 44,
+    "institution": "Cambridge University",
+    "research_field": "Computational Biology",
+    "max_storage_size": 1073741824
+  },
+  {
+    "user_id": 47,
+    "institution": "Oxford University",
+    "research_field": "Computational Biology",
+    "max_storage_size": 4294967296
+  },
+  {
+    "user_id": 51,
+    "institution": "Cambridge University",
+    "research_field": "Systems Biology",
+    "max_storage_size": 1073741824
+  },
+  {
+    "user_id": 57,
+    "institution": "Oxford University",
+    "research_field": "Genomics",
+    "max_storage_size": 4294967296
+  },
+  {
+    "user_id": 68,
+    "institution": "Oxford University",
+    "research_field": "Systems Biology",
+    "max_storage_size": 4294967296
+  },
+  {
+    "user_id": 69,
+    "institution": "Cambridge University",
+    "research_field": "Molecular Biology",
+    "max_storage_size": 2147483648
+  },
+  {
+    "user_id": 74,
+    "institution": "Oxford University",
+    "research_field": "Bioinformatics",
+    "max_storage_size": 4294967296
+  },
+  {
+    "user_id": 76,
+    "institution": "Stanford University",
+    "research_field": "Genomics",
+    "max_storage_size": 4294967296
+  },
+  {
+    "user_id": 83,
+    "institution": "MIT",
+    "research_field": "Genomics",
+    "max_storage_size": 4294967296
+  },
+  {
+    "user_id": 85,
+    "institution": "Oxford University",
+    "research_field": "Molecular Biology",
+    "max_storage_size": 4294967296
+  },
+  {
+    "user_id": 86,
+    "institution": "Cambridge University",
+    "research_field": "Bioinformatics",
+    "max_storage_size": 4294967296
+  },
+  {
+    "user_id": 87,
+    "institution": "MIT",
+    "research_field": "Bioinformatics",
+    "max_storage_size": 2147483648
+  },
+  {
+    "user_id": 88,
+    "institution": "Oxford University",
+    "research_field": "Computational Biology",
+    "max_storage_size": 1073741824
+  },
+  {
+    "user_id": 92,
+    "institution": "Harvard University",
+    "research_field": "Molecular Biology",
+    "max_storage_size": 2147483648
+  },
+  {
+    "user_id": 95,
+    "institution": "MIT",
+    "research_field": "Molecular Biology",
+    "max_storage_size": 2147483648
+  }
+]

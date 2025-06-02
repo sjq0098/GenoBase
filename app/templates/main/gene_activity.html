@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container mt-4">
+    <h2 class="mb-4">基因研究活跃度</h2>
+    <div class="card mb-4">
+        <div class="card-body">
+            <div id="gene-activity-chart" style="width:100%;height:400px;"></div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover table-striped">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>基因ID</th>
+                            <th>基因名称</th>
+                            <th>物种</th>
+                            <th>文献数</th>
+                            <th>实验数</th>
+                            <th>活跃度分数</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in activity_data %}
+                        <tr>
+                            <td>{{ row.gene_id }}</td>
+                            <td>{{ row.gene_name }}</td>
+                            <td>{{ row.species_name }}</td>
+                            <td>{{ row.publication_count }}</td>
+                            <td>{{ row.experiment_count }}</td>
+                            <td>{{ row.activity_score }}</td>
+                        </tr>
+                        {% else %}
+                        <tr><td colspan="6" class="text-center">暂无数据</td></tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script id="gene-activity-data" type="application/json">
+    {
+        "geneNames": {{ activity_data|map(attribute='gene_name')|list|tojson|safe }},
+        "activityScores": {{ activity_data|map(attribute='activity_score')|list|tojson|safe }}
+    }
+</script>
+<script src="https://cdn.staticfile.org/echarts/5.4.3/echarts.min.js"></script>
+<script type="text/javascript">
+    var data = JSON.parse(document.getElementById('gene-activity-data').textContent);
+    var chartDom = document.getElementById('gene-activity-chart');
+    var myChart = echarts.init(chartDom);
+    var option = {
+        tooltip: {trigger: 'axis'},
+        title: {text: '基因研究活跃度Top20', left: 'center'},
+        xAxis: {
+            type: 'category',
+            data: data.geneNames,
+            axisLabel: {rotate: 45, fontSize: 12}
+        },
+        yAxis: {type: 'value', name: '活跃度分数'},
+        series: [{
+            data: data.activityScores,
+            type: 'bar',
+            itemStyle: {color: '#33507A'}
+        }]
+    };
+    myChart.setOption(option);
+</script>
+{% endblock %}

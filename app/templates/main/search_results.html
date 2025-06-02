@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">搜索条件</h5>
+            </div>
+            <div class="card-body">
+                <form method="post" action="{{ url_for('main.search') }}">
+                    {{ form.hidden_tag() }}
+                    <div class="form-group">
+                        {{ form.query.label(class="form-control-label") }}
+                        {{ form.query(class="form-control", value=query) }}
+                    </div>
+                    <div class="form-group">
+                        {{ form.category.label(class="form-control-label") }}
+                        {{ form.category(class="form-control") }}
+                    </div>
+                    <div class="form-group">
+                        {{ form.submit(class="btn btn-primary btn-block") }}
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header bg-light">
+                <h5 class="mb-0">搜索结果 ({{ total }})</h5>
+            </div>
+            <div class="card-body">
+                {% if results %}
+                    <div class="list-group">
+                        {% for result in results %}
+                            {% if result.type == 'species' %}
+                                <a href="{{ url_for('main.species_detail', id=result.data.species_id) }}" class="list-group-item list-group-item-action">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">{{ result.data.scientific_name }}</h5>
+                                        <span class="badge badge-primary">物种</span>
+                                    </div>
+                                    {% if result.data.common_name %}
+                                        <p class="mb-1">常用名: {{ result.data.common_name }}</p>
+                                    {% endif %}
+                                    <small>基因数量: {{ result.data.genes.count() }}</small>
+                                </a>
+                            {% elif result.type == 'gene' %}
+                                <a href="{{ url_for('main.gene_detail', id=result.data.gene_id) }}" class="list-group-item list-group-item-action">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">{{ result.data.gene_name }}</h5>
+                                        <span class="badge badge-success">基因</span>
+                                    </div>
+                                    {% if result.data.gene_symbol %}
+                                        <p class="mb-1">符号: {{ result.data.gene_symbol }}</p>
+                                    {% endif %}
+                                    <small>
+                                        {% if result.data.species %}
+                                            物种: {{ result.data.species.scientific_name }}
+                                        {% endif %}
+                                        {% if result.data.chromosome %}
+                                            | 染色体: {{ result.data.chromosome }}
+                                        {% endif %}
+                                    </small>
+                                </a>
+                            {% elif result.type == 'protein' %}
+                                <a href="{{ url_for('main.protein_detail', id=result.data.protein_id) }}" class="list-group-item list-group-item-action">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">{{ result.data.protein_name }}</h5>
+                                        <span class="badge badge-info">蛋白质</span>
+                                    </div>
+                                    {% if result.data.uniprot_id %}
+                                        <p class="mb-1">UniProt ID: {{ result.data.uniprot_id }}</p>
+                                    {% endif %}
+                                    <small>
+                                        {% if result.data.gene %}
+                                            基因: {{ result.data.gene.gene_name }}
+                                        {% endif %}
+                                    </small>
+                                </a>
+                            {% elif result.type == 'publication' %}
+                                <a href="{{ url_for('main.publication_detail', id=result.data.publication_id) }}" class="list-group-item list-group-item-action">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">{{ result.data.title }}</h5>
+                                        <span class="badge badge-secondary">文献</span>
+                                    </div>
+                                    <p class="mb-1">作者: {{ result.data.authors }}</p>
+                                    <small>
+                                        {% if result.data.journal %}
+                                            期刊: {{ result.data.journal }}
+                                        {% endif %}
+                                        {% if result.data.publication_year %}
+                                            | 年份: {{ result.data.publication_year }}
+                                        {% endif %}
+                                    </small>
+                                </a>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                    
+                    <!-- 分页 -->
+                    {% if total_pages > 1 %}
+                        <nav aria-label="搜索结果分页" class="mt-4">
+                            <ul class="pagination justify-content-center">
+                                {% if page > 1 %}
+                                    <li class="page-item">
+                                        <a class="page-link" href="{{ url_for('main.search', query=query, category=category, page=page-1) }}">上一页</a>
+                                    </li>
+                                {% else %}
+                                    <li class="page-item disabled">
+                                        <span class="page-link">上一页</span>
+                                    </li>
+                                {% endif %}
+                                
+                                {% for p in range(1, total_pages + 1) %}
+                                    {% if p == page %}
+                                        <li class="page-item active">
+                                            <span class="page-link">{{ p }}</span>
+                                        </li>
+                                    {% else %}
+                                        <li class="page-item">
+                                            <a class="page-link" href="{{ url_for('main.search', query=query, category=category, page=p) }}">{{ p }}</a>
+                                        </li>
+                                    {% endif %}
+                                {% endfor %}
+                                
+                                {% if page < total_pages %}
+                                    <li class="page-item">
+                                        <a class="page-link" href="{{ url_for('main.search', query=query, category=category, page=page+1) }}">下一页</a>
+                                    </li>
+                                {% else %}
+                                    <li class="page-item disabled">
+                                        <span class="page-link">下一页</span>
+                                    </li>
+                                {% endif %}
+                            </ul>
+                        </nav>
+                    {% endif %}
+                    
+                {% else %}
+                    <div class="alert alert-info">
+                        没有找到与 "{{ query }}" 相关的结果。请尝试其他关键词或选择不同的类别。
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block content %}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ url_for('main.index') }}">首页</a></li>
+        <li class="breadcrumb-item"><a href="{{ url_for('main.experiment_list') }}">实验数据</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ experiment.experiment_type }}</li>
+    </ol>
+</nav>
+
+<div class="row mb-4">
+    <div class="col-md-8">
+        <h2>{{ experiment.experiment_type }}</h2>
+    </div>
+    <div class="col-md-4 text-right">
+        {% if current_user.is_authenticated and (current_user.is_manager() or current_user.is_creator()) %}
+        <a href="{{ url_for('admin.edit_experiment', id=experiment.experiment_id) }}" class="btn btn-warning">
+            <i class="fa fa-edit"></i> 编辑实验数据
+        </a>
+        <form action="{{ url_for('admin.delete_experiment', id=experiment.experiment_id) }}" method="post" style="display:inline;">
+            <button type="submit" class="btn btn-danger" onclick="return confirm('确定要删除该实验数据吗？')">
+                <i class="fa fa-trash"></i> 删除
+            </button>
+        </form>
+        {% endif %}
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header ncbi-header">
+        <h4 class="mb-0">实验数据信息</h4>
+    </div>
+    <div class="card-body ncbi-content">
+        <table class="table table-bordered">
+            <tr><th>ID</th><td>{{ experiment.experiment_id }}</td></tr>
+            <tr><th>实验类型</th><td>{{ experiment.experiment_type }}</td></tr>
+            <tr><th>实验条件</th><td>{{ experiment.conditions or '未设置' }}</td></tr>
+            <tr><th>实验结果</th><td>{{ experiment.results or '未设置' }}</td></tr>
+            <tr><th>关联基因</th><td>{% if experiment.gene %}<a href="{{ url_for('main.gene_detail', id=experiment.gene.gene_id) }}">{{ experiment.gene.gene_name }}</a>{% else %}未设置{% endif %}</td></tr>
+            <tr><th>关联文献</th><td>{% if experiment.publication %}<a href="{{ url_for('main.publication_detail', id=experiment.publication.publication_id) }}">{{ experiment.publication.title }}</a>{% else %}未设置{% endif %}</td></tr>
+            <tr><th>添加时间</th><td>{{ experiment.created_at.strftime('%Y-%m-%d %H:%M:%S') }}</td></tr>
+            <tr><th>更新时间</th><td>{{ experiment.updated_at.strftime('%Y-%m-%d %H:%M:%S') }}</td></tr>
+        </table>
+    </div>
+</div>
+{% endblock %} 

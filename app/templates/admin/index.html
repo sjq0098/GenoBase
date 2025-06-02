@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2 class="mb-4">管理面板</h2>
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+            <img src="/static/images/submit_icon.png" class="ncbi-icon" alt="submit">
+            <h5>用户管理</h5>
+            <p class="text-muted">管理平台用户的权限与状态</p>
+            <a href="{{ url_for('admin.user_list') }}" class="btn btn-outline-primary btn-block">进入</a>
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="/static/images/analyze_icon.png" class="ncbi-icon" alt="analyze">
+            <h5>物种/基因/蛋白质</h5>
+            <p class="text-muted">管理物种、基因和蛋白质数据</p>
+            <a href="{{ url_for('main.species_list') }}" class="btn btn-outline-success btn-block">物种管理</a>
+            <a href="{{ url_for('main.gene_list') }}" class="btn btn-outline-info btn-block">基因管理</a>
+            <a href="{{ url_for('main.protein_list') }}" class="btn btn-outline-warning btn-block">蛋白质管理</a>
+            <a href="{{ url_for('admin.gene_protein_count') }}" class="btn  btn-outline-secondary btn-block">基因-物种-蛋白质数量统计</a>
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="/static/images/download_icon.png" class="ncbi-icon" alt="download">
+            <h5>文献/实验数据</h5>
+            <p class="text-muted">管理文献与实验数据</p>
+            <a href="{{ url_for('main.publication_list') }}" class="btn btn-outline-secondary btn-block">文献管理</a>
+            <a href="{{ url_for('main.experiment_list') }}" class="btn btn-outline-dark btn-block">实验数据管理</a>
+        </div>
+    </div>
+</div>
+{% endblock %} 

@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>{{ title }}</h2>
+    <form method="post">
+        {{ form.hidden_tag() }}
+        <div class="form-group">
+            {{ form.gene_name.label(class="form-label") }}
+            {{ form.gene_name(class="form-control") }}
+        </div>
+        <div class="form-group">
+            {{ form.gene_symbol.label(class="form-label") }}
+            {{ form.gene_symbol(class="form-control") }}
+        </div>
+        <div class="form-group">
+            {{ form.sequence.label(class="form-label") }}
+            {{ form.sequence(class="form-control", rows=3) }}
+        </div>
+        <div class="form-group">
+            {{ form.chromosome.label(class="form-label") }}
+            {{ form.chromosome(class="form-control") }}
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                {{ form.start_position.label(class="form-label") }}
+                {{ form.start_position(class="form-control") }}
+            </div>
+            <div class="form-group col-md-6">
+                {{ form.end_position.label(class="form-label") }}
+                {{ form.end_position(class="form-control") }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.strand.label(class="form-label") }}
+            {{ form.strand(class="form-control") }}
+        </div>
+        <div class="form-group">
+            {{ form.species_id.label(class="form-label") }}
+            {{ form.species_id(class="form-control") }}
+        </div>
+        <div class="form-group mt-3">
+            {{ form.submit(class="btn btn-primary") }}
+            <a href="{{ url_for('main.gene_list') }}" class="btn btn-secondary">返回</a>
+        </div>
+    </form>
+</div>
+{% endblock %} 

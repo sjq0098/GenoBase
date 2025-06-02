@@ -1,0 +1,187 @@
+[
+  {
+    "user_id": 7,
+    "department": "Computational Biology",
+    "access_level": "limited"
+  },
+  {
+    "user_id": 8,
+    "department": "Genomics",
+    "access_level": "full"
+  },
+  {
+    "user_id": 9,
+    "department": "Systems Biology",
+    "access_level": "full"
+  },
+  {
+    "user_id": 16,
+    "department": "Molecular Biology",
+    "access_level": "limited"
+  },
+  {
+    "user_id": 28,
+    "department": "Systems Biology",
+    "access_level": "full"
+  },
+  {
+    "user_id": 29,
+    "department": "Computational Biology",
+    "access_level": "limited"
+  },
+  {
+    "user_id": 30,
+    "department": "Bioinformatics",
+    "access_level": "full"
+  },
+  {
+    "user_id": 32,
+    "department": "Computational Biology",
+    "access_level": "limited"
+  },
+  {
+    "user_id": 33,
+    "department": "Genomics",
+    "access_level": "full"
+  },
+  {
+    "user_id": 35,
+    "department": "Bioinformatics",
+    "access_level": "full"
+  },
+  {
+    "user_id": 41,
+    "department": "Molecular Biology",
+    "access_level": "limited"
+  },
+  {
+    "user_id": 45,
+    "department": "Molecular Biology",
+    "access_level": "limited"
+  },
+  {
+    "user_id": 46,
+    "department": "Systems Biology",
+    "access_level": "limited"
+  },
+  {
+    "user_id": 48,
+    "department": "Systems Biology",
+    "access_level": "full"
+  },
+  {
+    "user_id": 49,
+    "department": "Genomics",
+    "access_level": "full"
+  },
+  {
+    "user_id": 50,
+    "department": "Bioinformatics",
+    "access_level": "limited"
+  },
+  {
+    "user_id": 52,
+    "department": "Computational Biology",
+    "access_level": "full"
+  },
+  {
+    "user_id": 53,
+    "department": "Molecular Biology",
+    "access_level": "limited"
+  },
+  {
+    "user_id": 56,
+    "department": "Genomics",
+    "access_level": "limited"
+  },
+  {
+    "user_id": 58,
+    "department": "Computational Biology",
+    "access_level": "limited"
+  },
+  {
+    "user_id": 60,
+    "department": "Systems Biology",
+    "access_level": "full"
+  },
+  {
+    "user_id": 61,
+    "department": "Systems Biology",
+    "access_level": "limited"
+  },
+  {
+    "user_id": 62,
+    "department": "Bioinformatics",
+    "access_level": "full"
+  },
+  {
+    "user_id": 63,
+    "department": "Genomics",
+    "access_level": "full"
+  },
+  {
+    "user_id": 65,
+    "department": "Computational Biology",
+    "access_level": "full"
+  },
+  {
+    "user_id": 66,
+    "department": "Molecular Biology",
+    "access_level": "limited"
+  },
+  {
+    "user_id": 70,
+    "department": "Molecular Biology",
+    "access_level": "full"
+  },
+  {
+    "user_id": 73,
+    "department": "Systems Biology",
+    "access_level": "limited"
+  },
+  {
+    "user_id": 75,
+    "department": "Genomics",
+    "access_level": "full"
+  },
+  {
+    "user_id": 77,
+    "department": "Genomics",
+    "access_level": "limited"
+  },
+  {
+    "user_id": 78,
+    "department": "Molecular Biology",
+    "access_level": "limited"
+  },
+  {
+    "user_id": 81,
+    "department": "Computational Biology",
+    "access_level": "limited"
+  },
+  {
+    "user_id": 82,
+    "department": "Genomics",
+    "access_level": "limited"
+  },
+  {
+    "user_id": 91,
+    "department": "Molecular Biology",
+    "access_level": "full"
+  },
+  {
+    "user_id": 93,
+    "department": "Genomics",
+    "access_level": "limited"
+  },
+  {
+    "user_id": 94,
+    "department": "Genomics",
+    "access_level": "full"
+  },
+  {
+    "user_id": 98,
+    "department": "Systems Biology",
+    "access_level": "full"
+  }
+]

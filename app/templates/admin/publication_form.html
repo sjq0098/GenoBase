@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>{{ title }}</h2>
+    <form method="post">
+        {{ form.hidden_tag() }}
+        <div class="form-group">
+            {{ form.title.label(class="form-label") }}
+            {{ form.title(class="form-control") }}
+        </div>
+        <div class="form-group">
+            {{ form.authors.label(class="form-label") }}
+            {{ form.authors(class="form-control", rows=2) }}
+        </div>
+        <div class="form-group">
+            {{ form.journal.label(class="form-label") }}
+            {{ form.journal(class="form-control") }}
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                {{ form.publication_year.label(class="form-label") }}
+                {{ form.publication_year(class="form-control") }}
+            </div>
+            <div class="form-group col-md-6">
+                {{ form.doi.label(class="form-label") }}
+                {{ form.doi(class="form-control") }}
+            </div>
+        </div>
+        <div class="form-group">
+            {{ form.gene_ids.label(class="form-label") }}
+            {{ form.gene_ids(class="form-control", multiple=True) }}
+        </div>
+        <div class="form-group mt-3">
+            {{ form.submit(class="btn btn-primary") }}
+            <a href="{{ url_for('main.publication_list') }}" class="btn btn-secondary">返回</a>
+        </div>
+    </form>
+</div>
+{% endblock %} 

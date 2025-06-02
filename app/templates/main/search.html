@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0">基因组数据搜索</h4>
+            </div>
+            <div class="card-body">
+                <form method="post" action="{{ url_for('main.search') }}">
+                    {{ form.hidden_tag() }}
+                    <div class="form-group">
+                        {{ form.query.label(class="form-control-label") }}
+                        {{ form.query(class="form-control", placeholder="输入搜索关键词...") }}
+                        {% for error in form.query.errors %}
+                            <span class="text-danger">{{ error }}</span>
+                        {% endfor %}
+                    </div>
+                    <div class="form-group">
+                        {{ form.category.label(class="form-control-label") }}
+                        {{ form.category(class="form-control") }}
+                    </div>
+                    <div class="form-group text-center">
+                        {{ form.submit(class="btn btn-primary btn-lg") }}
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header bg-light">
+                <h5 class="mb-0">高级搜索提示</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6>物种搜索</h6>
+                        <ul>
+                            <li>可以使用学名（如 "Escherichia coli"）</li>
+                            <li>可以使用常用名（如 "大肠杆菌"）</li>
+                            <li>可以使用分类ID</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>基因搜索</h6>
+                        <ul>
+                            <li>可以使用基因名称（如 "lacZ"）</li>
+                            <li>可以使用基因符号</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <h6>蛋白质搜索</h6>
+                        <ul>
+                            <li>可以使用蛋白质名称</li>
+                            <li>可以使用UniProt ID</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>文献搜索</h6>
+                        <ul>
+                            <li>可以使用标题关键词</li>
+                            <li>可以使用作者姓名</li>
+                            <li>可以使用期刊名称</li>
+                            <li>可以使用DOI标识符</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>{{ title }}</h2>
+    <form method="post">
+        {{ form.hidden_tag() }}
+        <div class="form-group">
+            {{ form.experiment_type.label(class="form-label") }}
+            {{ form.experiment_type(class="form-control") }}
+        </div>
+        <div class="form-group">
+            {{ form.conditions.label(class="form-label") }}
+            {{ form.conditions(class="form-control", rows=2) }}
+        </div>
+        <div class="form-group">
+            {{ form.results.label(class="form-label") }}
+            {{ form.results(class="form-control", rows=2) }}
+        </div>
+        <div class="form-group">
+            {{ form.gene_id.label(class="form-label") }}
+            {{ form.gene_id(class="form-control" + (" is-invalid" if form.gene_id.errors else "")) }}
+            {% if form.gene_id.errors %}
+                <div class="invalid-feedback">
+                    {% for error in form.gene_id.errors %}
+                        {{ error }}
+                    {% endfor %}
+                </div>
+            {% endif %}
+            <small class="form-text text-muted">可选。若填写，必须为已存在的基因ID；不填则不关联基因。</small>
+        </div>
+        <div class="form-group">
+            {{ form.publication_id.label(class="form-label") }}
+            {{ form.publication_id(class="form-control") }}
+        </div>
+        <div class="form-group mt-3">
+            {{ form.submit(class="btn btn-primary") }}
+            <a href="{{ url_for('main.experiment_list') }}" class="btn btn-secondary">返回</a>
+        </div>
+    </form>
+</div>
+{% endblock %} 

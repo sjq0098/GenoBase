@@ -1,0 +1,123 @@
+{% extends "base.html" %}
+
+{% block content %}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ url_for('main.index') }}">首页</a></li>
+        <li class="breadcrumb-item"><a href="{{ url_for('main.gene_list') }}">基因</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ gene.gene_name }}</li>
+    </ol>
+</nav>
+
+<div class="row mb-4">
+    <div class="col-md-8">
+        <h2>{{ gene.gene_name }}</h2>
+        {% if gene.gene_symbol %}
+        <h5 class="text-muted">{{ gene.gene_symbol }}</h5>
+        {% endif %}
+    </div>
+    <div class="col-md-4 text-right">
+        {% if current_user.is_authenticated and (current_user.is_manager() or current_user.is_creator()) %}
+        <a href="{{ url_for('admin.edit_gene', id=gene.gene_id) }}" class="btn btn-warning">
+            <i class="fa fa-edit"></i> 编辑基因
+        </a>
+        <form action="{{ url_for('admin.delete_gene', id=gene.gene_id) }}" method="post" style="display:inline;">
+            <button type="submit" class="btn btn-danger" onclick="return confirm('确定要删除该基因吗？')">
+                <i class="fa fa-trash"></i> 删除
+            </button>
+        </form>
+        {% endif %}
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header ncbi-header">
+        <h4 class="mb-0">基因信息</h4>
+    </div>
+    <div class="card-body ncbi-content">
+        <div class="row">
+            <div class="col-md-6">
+                <table class="table table-bordered">
+                    <tr><th>ID</th><td>{{ gene.gene_id }}</td></tr>
+                    <tr><th>基因名称</th><td>{{ gene.gene_name }}</td></tr>
+                    <tr><th>基因符号</th><td>{{ gene.gene_symbol or '未设置' }}</td></tr>
+                    <tr><th>染色体</th><td>{{ gene.chromosome or '未设置' }}</td></tr>
+                    <tr><th>起始位置</th><td>{{ gene.start_position or '未设置' }}</td></tr>
+                    <tr><th>终止位置</th><td>{{ gene.end_position or '未设置' }}</td></tr>
+                    <tr><th>链</th><td>{{ gene.strand or '未设置' }}</td></tr>
+                    <tr><th>所属物种</th><td>{% if gene.species %}<a href="{{ url_for('main.species_detail', id=gene.species.species_id) }}">{{ gene.species.scientific_name }}</a>{% else %}未设置{% endif %}</td></tr>
+                    <tr><th>添加时间</th><td>{{ gene.created_at.strftime('%Y-%m-%d %H:%M:%S') }}</td></tr>
+                    <tr><th>更新时间</th><td>{{ gene.updated_at.strftime('%Y-%m-%d %H:%M:%S') }}</td></tr>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-header">序列</div>
+                    <div class="card-body">
+                        <pre style="font-size: 0.95em;">{{ gene.sequence }}</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header ncbi-header">
+        <h4 class="mb-0">相关蛋白质</h4>
+    </div>
+    <div class="card-body ncbi-content">
+        {% if proteins %}
+        <table class="table table-hover table-striped">
+            <thead><tr><th>ID</th><th>蛋白质名称</th><th>UniProt ID</th><th>操作</th></tr></thead>
+            <tbody>
+            {% for protein in proteins %}
+            <tr>
+                <td>{{ protein.protein_id }}</td>
+                <td>{{ protein.protein_name }}</td>
+                <td>{{ protein.uniprot_id or '未设置' }}</td>
+                <td><a href="{{ url_for('main.protein_detail', id=protein.protein_id) }}" class="btn btn-sm btn-info">查看</a></td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <div class="alert alert-info">暂无相关蛋白质</div>
+        {% endif %}
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header ncbi-header">
+        <h4 class="mb-0">相关文献</h4>
+    </div>
+    <div class="card-body ncbi-content">
+        {% if publications %}
+        <ul>
+        {% for pub in publications %}
+            <li><a href="{{ url_for('main.publication_detail', id=pub.publication_id) }}">{{ pub.title }}</a>（{{ pub.publication_year or '未知年份' }}）</li>
+        {% endfor %}
+        </ul>
+        {% else %}
+        <div class="alert alert-info">暂无相关文献</div>
+        {% endif %}
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header ncbi-header">
+        <h4 class="mb-0">相关实验数据</h4>
+    </div>
+    <div class="card-body ncbi-content">
+        {% if experiments %}
+        <ul>
+        {% for exp in experiments %}
+            <li><a href="{{ url_for('main.experiment_detail', id=exp.experiment_id) }}">{{ exp.experiment_type }}</a></li>
+        {% endfor %}
+        </ul>
+        {% else %}
+        <div class="alert alert-info">暂无相关实验数据</div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %} 

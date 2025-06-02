@@ -1,0 +1,157 @@
+[
+  {
+    "user_id": 1,
+    "organization": "Biotech Company B",
+    "subscription_type": "premium"
+  },
+  {
+    "user_id": 2,
+    "organization": "Medical Center D",
+    "subscription_type": "premium"
+  },
+  {
+    "user_id": 4,
+    "organization": "University Lab C",
+    "subscription_type": "premium"
+  },
+  {
+    "user_id": 6,
+    "organization": "Research Institute A",
+    "subscription_type": "premium"
+  },
+  {
+    "user_id": 12,
+    "organization": "Biotech Company B",
+    "subscription_type": "premium"
+  },
+  {
+    "user_id": 13,
+    "organization": "Medical Center D",
+    "subscription_type": "premium"
+  },
+  {
+    "user_id": 19,
+    "organization": "Research Institute A",
+    "subscription_type": "premium"
+  },
+  {
+    "user_id": 21,
+    "organization": "University Lab C",
+    "subscription_type": "free"
+  },
+  {
+    "user_id": 24,
+    "organization": "Medical Center D",
+    "subscription_type": "premium"
+  },
+  {
+    "user_id": 25,
+    "organization": "Research Institute A",
+    "subscription_type": "premium"
+  },
+  {
+    "user_id": 26,
+    "organization": "University Lab C",
+    "subscription_type": "free"
+  },
+  {
+    "user_id": 27,
+    "organization": "University Lab C",
+    "subscription_type": "premium"
+  },
+  {
+    "user_id": 40,
+    "organization": "University Lab C",
+    "subscription_type": "premium"
+  },
+  {
+    "user_id": 42,
+    "organization": "Medical Center D",
+    "subscription_type": "free"
+  },
+  {
+    "user_id": 43,
+    "organization": "Biotech Company B",
+    "subscription_type": "premium"
+  },
+  {
+    "user_id": 54,
+    "organization": "Research Institute A",
+    "subscription_type": "free"
+  },
+  {
+    "user_id": 55,
+    "organization": "Medical Center D",
+    "subscription_type": "free"
+  },
+  {
+    "user_id": 59,
+    "organization": "University Lab C",
+    "subscription_type": "premium"
+  },
+  {
+    "user_id": 64,
+    "organization": "University Lab C",
+    "subscription_type": "free"
+  },
+  {
+    "user_id": 67,
+    "organization": "Medical Center D",
+    "subscription_type": "free"
+  },
+  {
+    "user_id": 71,
+    "organization": "Research Institute A",
+    "subscription_type": "free"
+  },
+  {
+    "user_id": 72,
+    "organization": "Research Institute A",
+    "subscription_type": "premium"
+  },
+  {
+    "user_id": 79,
+    "organization": "University Lab C",
+    "subscription_type": "free"
+  },
+  {
+    "user_id": 80,
+    "organization": "University Lab C",
+    "subscription_type": "premium"
+  },
+  {
+    "user_id": 84,
+    "organization": "Biotech Company B",
+    "subscription_type": "premium"
+  },
+  {
+    "user_id": 89,
+    "organization": "Medical Center D",
+    "subscription_type": "free"
+  },
+  {
+    "user_id": 90,
+    "organization": "Medical Center D",
+    "subscription_type": "free"
+  },
+  {
+    "user_id": 96,
+    "organization": "Research Institute A",
+    "subscription_type": "premium"
+  },
+  {
+    "user_id": 97,
+    "organization": "University Lab C",
+    "subscription_type": "free"
+  },
+  {
+    "user_id": 99,
+    "organization": "University Lab C",
+    "subscription_type": "premium"
+  },
+  {
+    "user_id": 100,
+    "organization": "Biotech Company B",
+    "subscription_type": "premium"
+  }
+]

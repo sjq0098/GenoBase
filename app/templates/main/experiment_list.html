@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-md-8">
+        <h2>实验数据列表</h2>
+    </div>
+    <div class="col-md-4 text-right">
+        {% if current_user.is_authenticated and (current_user.is_manager() or current_user.is_creator()) %}
+        <a href="{{ url_for('admin.add_experiment') }}" class="btn btn-primary">
+            <i class="fa fa-plus"></i> 添加实验数据
+        </a>
+        {% endif %}
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>实验类型</th>
+                        <th>关联基因</th>
+                        <th>关联文献</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for exp in experiments.items %}
+                    <tr>
+                        <td>{{ exp.experiment_id }}</td>
+                        <td>{{ exp.experiment_type }}</td>
+                        <td>{% if exp.gene %}<a href="{{ url_for('main.gene_detail', id=exp.gene.gene_id) }}">{{ exp.gene.gene_name }}</a>{% else %}未设置{% endif %}</td>
+                        <td>{% if exp.publication %}<a href="{{ url_for('main.publication_detail', id=exp.publication.publication_id) }}">{{ exp.publication.title }}</a>{% else %}未设置{% endif %}</td>
+                        <td>
+                            <a href="{{ url_for('main.experiment_detail', id=exp.experiment_id) }}" class="btn btn-sm btn-info">查看</a>
+                            {% if current_user.is_authenticated and (current_user.is_manager() or current_user.is_creator()) %}
+                            <a href="{{ url_for('admin.edit_experiment', id=exp.experiment_id) }}" class="btn btn-sm btn-warning">编辑</a>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="5" class="text-center">暂无实验数据</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% if experiments.pages > 1 %}
+        <nav aria-label="分页导航">
+            <ul class="pagination justify-content-center">
+                {% if experiments.has_prev %}
+                <li class="page-item">
+                    <a class="page-link" href="{{ url_for('main.experiment_list', page=experiments.prev_num) }}">上一页</a>
+                </li>
+                {% else %}
+                <li class="page-item disabled">
+                    <span class="page-link">上一页</span>
+                </li>
+                {% endif %}
+                {% for page_num in experiments.iter_pages(left_edge=1, right_edge=1, left_current=2, right_current=2) %}
+                    {% if page_num %}
+                        {% if page_num == experiments.page %}
+                        <li class="page-item active">
+                            <span class="page-link">{{ page_num }}</span>
+                        </li>
+                        {% else %}
+                        <li class="page-item">
+                            <a class="page-link" href="{{ url_for('main.experiment_list', page=page_num) }}">{{ page_num }}</a>
+                        </li>
+                        {% endif %}
+                    {% else %}
+                    <li class="page-item disabled">
+                        <span class="page-link">...</span>
+                    </li>
+                    {% endif %}
+                {% endfor %}
+                {% if experiments.has_next %}
+                <li class="page-item">
+                    <a class="page-link" href="{{ url_for('main.experiment_list', page=experiments.next_num) }}">下一页</a>
+                </li>
+                {% else %}
+                <li class="page-item disabled">
+                    <span class="page-link">下一页</span>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
+        {% endif %}
+    </div>
+</div>
+{% endblock %} 

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>{{ title }}</h2>
+    <form method="post">
+        {{ form.hidden_tag() }}
+        <div class="form-group">
+            {{ form.scientific_name.label(class="form-label") }}
+            {{ form.scientific_name(class="form-control") }}
+        </div>
+        <div class="form-group">
+            {{ form.common_name.label(class="form-label") }}
+            {{ form.common_name(class="form-control") }}
+        </div>
+        <div class="form-group">
+            {{ form.taxonomy_id.label(class="form-label") }}
+            {{ form.taxonomy_id(class="form-control") }}
+        </div>
+        <div class="form-group">
+            {{ form.description.label(class="form-label") }}
+            {{ form.description(class="form-control", rows=3) }}
+        </div>
+        <div class="form-group mt-3">
+            {{ form.submit(class="btn btn-primary") }}
+            <a href="{{ url_for('main.species_list') }}" class="btn btn-secondary">返回</a>
+        </div>
+    </form>
+</div>
+{% endblock %} 

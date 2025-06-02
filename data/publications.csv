@@ -1,501 +1,501 @@
-publication_id,title,authors,journal,publication_date,doi
-PUB000000,Research Paper 0,"Author_3, Author_9",Science,2021-07-22,10.1234/paper.000000
-PUB000001,Research Paper 1,"Author_1, Author_7",BMC Genomics,2014-07-15,10.1234/paper.000001
-PUB000002,Research Paper 2,"Author_2, Author_9",Nature,2023-06-09,10.1234/paper.000002
-PUB000003,Research Paper 3,"Author_1, Author_10",PLOS ONE,2019-07-04,10.1234/paper.000003
-PUB000004,Research Paper 4,"Author_1, Author_8",Cell,2023-07-15,10.1234/paper.000004
-PUB000005,Research Paper 5,"Author_2, Author_7",Nature,2019-09-11,10.1234/paper.000005
-PUB000006,Research Paper 6,"Author_5, Author_6",Cell,2011-05-01,10.1234/paper.000006
-PUB000007,Research Paper 7,"Author_4, Author_9",Nature,2011-09-01,10.1234/paper.000007
-PUB000008,Research Paper 8,"Author_4, Author_7",Science,2022-02-01,10.1234/paper.000008
-PUB000009,Research Paper 9,"Author_1, Author_9",Nature,2014-04-03,10.1234/paper.000009
-PUB000010,Research Paper 10,"Author_5, Author_10",BMC Genomics,2013-09-12,10.1234/paper.000010
-PUB000011,Research Paper 11,"Author_2, Author_6",Nucleic Acids Research,2022-03-01,10.1234/paper.000011
-PUB000012,Research Paper 12,"Author_2, Author_8",BMC Genomics,2011-02-04,10.1234/paper.000012
-PUB000013,Research Paper 13,"Author_3, Author_8",Genome Research,2018-07-08,10.1234/paper.000013
-PUB000014,Research Paper 14,"Author_5, Author_7",Bioinformatics,2020-07-02,10.1234/paper.000014
-PUB000015,Research Paper 15,"Author_5, Author_6",BMC Genomics,2012-06-22,10.1234/paper.000015
-PUB000016,Research Paper 16,"Author_4, Author_6",Genome Research,2018-07-28,10.1234/paper.000016
-PUB000017,Research Paper 17,"Author_4, Author_6",Bioinformatics,2014-05-19,10.1234/paper.000017
-PUB000018,Research Paper 18,"Author_4, Author_9",Nature,2013-08-22,10.1234/paper.000018
-PUB000019,Research Paper 19,"Author_3, Author_9",BMC Genomics,2021-08-28,10.1234/paper.000019
-PUB000020,Research Paper 20,"Author_5, Author_8",BMC Genomics,2017-08-13,10.1234/paper.000020
-PUB000021,Research Paper 21,"Author_5, Author_10",Nucleic Acids Research,2010-11-11,10.1234/paper.000021
-PUB000022,Research Paper 22,"Author_4, Author_8",Cell,2014-07-15,10.1234/paper.000022
-PUB000023,Research Paper 23,"Author_1, Author_9",Cell,2022-12-06,10.1234/paper.000023
-PUB000024,Research Paper 24,"Author_1, Author_7",Bioinformatics,2014-05-12,10.1234/paper.000024
-PUB000025,Research Paper 25,"Author_2, Author_10",BMC Genomics,2017-03-03,10.1234/paper.000025
-PUB000026,Research Paper 26,"Author_1, Author_9",Nature,2013-12-07,10.1234/paper.000026
-PUB000027,Research Paper 27,"Author_5, Author_8",Bioinformatics,2019-10-25,10.1234/paper.000027
-PUB000028,Research Paper 28,"Author_2, Author_9",Bioinformatics,2016-07-11,10.1234/paper.000028
-PUB000029,Research Paper 29,"Author_4, Author_10",Nucleic Acids Research,2012-01-18,10.1234/paper.000029
-PUB000030,Research Paper 30,"Author_3, Author_6",Science,2022-06-01,10.1234/paper.000030
-PUB000031,Research Paper 31,"Author_4, Author_8",Nucleic Acids Research,2010-11-02,10.1234/paper.000031
-PUB000032,Research Paper 32,"Author_3, Author_9",Nucleic Acids Research,2017-11-20,10.1234/paper.000032
-PUB000033,Research Paper 33,"Author_4, Author_9",Cell,2010-01-26,10.1234/paper.000033
-PUB000034,Research Paper 34,"Author_2, Author_6",Nucleic Acids Research,2022-01-17,10.1234/paper.000034
-PUB000035,Research Paper 35,"Author_4, Author_10",Bioinformatics,2023-08-02,10.1234/paper.000035
-PUB000036,Research Paper 36,"Author_2, Author_9",Genome Research,2018-08-21,10.1234/paper.000036
-PUB000037,Research Paper 37,"Author_5, Author_6",Science,2015-10-19,10.1234/paper.000037
-PUB000038,Research Paper 38,"Author_2, Author_7",Nucleic Acids Research,2012-09-17,10.1234/paper.000038
-PUB000039,Research Paper 39,"Author_3, Author_7",PLOS ONE,2010-08-09,10.1234/paper.000039
-PUB000040,Research Paper 40,"Author_2, Author_7",Science,2013-10-09,10.1234/paper.000040
-PUB000041,Research Paper 41,"Author_2, Author_6",Genome Research,2010-05-23,10.1234/paper.000041
-PUB000042,Research Paper 42,"Author_3, Author_9",BMC Genomics,2019-12-22,10.1234/paper.000042
-PUB000043,Research Paper 43,"Author_2, Author_8",Genome Research,2022-06-08,10.1234/paper.000043
-PUB000044,Research Paper 44,"Author_3, Author_10",Bioinformatics,2011-03-20,10.1234/paper.000044
-PUB000045,Research Paper 45,"Author_4, Author_9",Science,2017-04-04,10.1234/paper.000045
-PUB000046,Research Paper 46,"Author_4, Author_9",Genome Research,2016-09-02,10.1234/paper.000046
-PUB000047,Research Paper 47,"Author_4, Author_9",Nature,2018-10-05,10.1234/paper.000047
-PUB000048,Research Paper 48,"Author_5, Author_10",Nature,2019-03-06,10.1234/paper.000048
-PUB000049,Research Paper 49,"Author_5, Author_9",BMC Genomics,2016-12-11,10.1234/paper.000049
-PUB000050,Research Paper 50,"Author_5, Author_6",BMC Genomics,2011-06-05,10.1234/paper.000050
-PUB000051,Research Paper 51,"Author_4, Author_10",Science,2017-01-26,10.1234/paper.000051
-PUB000052,Research Paper 52,"Author_5, Author_10",Nucleic Acids Research,2014-08-22,10.1234/paper.000052
-PUB000053,Research Paper 53,"Author_3, Author_8",Bioinformatics,2015-04-04,10.1234/paper.000053
-PUB000054,Research Paper 54,"Author_5, Author_6",Nucleic Acids Research,2017-02-18,10.1234/paper.000054
-PUB000055,Research Paper 55,"Author_2, Author_9",Nature,2017-06-11,10.1234/paper.000055
-PUB000056,Research Paper 56,"Author_3, Author_7",Bioinformatics,2013-01-22,10.1234/paper.000056
-PUB000057,Research Paper 57,"Author_4, Author_9",Nucleic Acids Research,2019-06-06,10.1234/paper.000057
-PUB000058,Research Paper 58,"Author_4, Author_9",BMC Genomics,2010-05-17,10.1234/paper.000058
-PUB000059,Research Paper 59,"Author_4, Author_7",Genome Research,2020-04-26,10.1234/paper.000059
-PUB000060,Research Paper 60,"Author_1, Author_6",Science,2022-12-24,10.1234/paper.000060
-PUB000061,Research Paper 61,"Author_5, Author_9",PLOS ONE,2019-12-24,10.1234/paper.000061
-PUB000062,Research Paper 62,"Author_3, Author_10",Science,2020-01-14,10.1234/paper.000062
-PUB000063,Research Paper 63,"Author_2, Author_6",Nucleic Acids Research,2011-10-05,10.1234/paper.000063
-PUB000064,Research Paper 64,"Author_2, Author_8",Bioinformatics,2010-11-20,10.1234/paper.000064
-PUB000065,Research Paper 65,"Author_5, Author_9",Cell,2013-06-02,10.1234/paper.000065
-PUB000066,Research Paper 66,"Author_1, Author_7",Genome Research,2019-02-17,10.1234/paper.000066
-PUB000067,Research Paper 67,"Author_1, Author_10",Nature,2018-05-20,10.1234/paper.000067
-PUB000068,Research Paper 68,"Author_3, Author_7",PLOS ONE,2018-06-22,10.1234/paper.000068
-PUB000069,Research Paper 69,"Author_2, Author_8",PLOS ONE,2022-09-01,10.1234/paper.000069
-PUB000070,Research Paper 70,"Author_4, Author_6",PLOS ONE,2015-08-08,10.1234/paper.000070
-PUB000071,Research Paper 71,"Author_3, Author_7",Cell,2013-09-17,10.1234/paper.000071
-PUB000072,Research Paper 72,"Author_3, Author_10",Genome Research,2014-04-21,10.1234/paper.000072
-PUB000073,Research Paper 73,"Author_2, Author_8",Bioinformatics,2017-09-18,10.1234/paper.000073
-PUB000074,Research Paper 74,"Author_3, Author_7",Nature,2010-07-16,10.1234/paper.000074
-PUB000075,Research Paper 75,"Author_1, Author_10",Nucleic Acids Research,2012-07-22,10.1234/paper.000075
-PUB000076,Research Paper 76,"Author_4, Author_8",BMC Genomics,2015-03-08,10.1234/paper.000076
-PUB000077,Research Paper 77,"Author_2, Author_9",Cell,2017-06-23,10.1234/paper.000077
-PUB000078,Research Paper 78,"Author_4, Author_6",Cell,2018-07-22,10.1234/paper.000078
-PUB000079,Research Paper 79,"Author_3, Author_6",Cell,2012-10-08,10.1234/paper.000079
-PUB000080,Research Paper 80,"Author_2, Author_8",PLOS ONE,2012-06-10,10.1234/paper.000080
-PUB000081,Research Paper 81,"Author_2, Author_7",Bioinformatics,2015-08-13,10.1234/paper.000081
-PUB000082,Research Paper 82,"Author_5, Author_10",BMC Genomics,2016-02-17,10.1234/paper.000082
-PUB000083,Research Paper 83,"Author_5, Author_6",Genome Research,2023-06-16,10.1234/paper.000083
-PUB000084,Research Paper 84,"Author_4, Author_7",Bioinformatics,2016-07-01,10.1234/paper.000084
-PUB000085,Research Paper 85,"Author_2, Author_6",Nucleic Acids Research,2012-06-02,10.1234/paper.000085
-PUB000086,Research Paper 86,"Author_4, Author_6",Genome Research,2021-10-23,10.1234/paper.000086
-PUB000087,Research Paper 87,"Author_4, Author_8",PLOS ONE,2011-07-22,10.1234/paper.000087
-PUB000088,Research Paper 88,"Author_3, Author_8",Science,2018-01-17,10.1234/paper.000088
-PUB000089,Research Paper 89,"Author_1, Author_10",Cell,2019-03-07,10.1234/paper.000089
-PUB000090,Research Paper 90,"Author_5, Author_9",Bioinformatics,2010-11-24,10.1234/paper.000090
-PUB000091,Research Paper 91,"Author_2, Author_8",Nature,2019-09-07,10.1234/paper.000091
-PUB000092,Research Paper 92,"Author_2, Author_8",Cell,2011-07-27,10.1234/paper.000092
-PUB000093,Research Paper 93,"Author_3, Author_8",Bioinformatics,2015-03-01,10.1234/paper.000093
-PUB000094,Research Paper 94,"Author_1, Author_8",PLOS ONE,2017-01-07,10.1234/paper.000094
-PUB000095,Research Paper 95,"Author_4, Author_10",Nucleic Acids Research,2021-03-12,10.1234/paper.000095
-PUB000096,Research Paper 96,"Author_2, Author_7",PLOS ONE,2012-03-04,10.1234/paper.000096
-PUB000097,Research Paper 97,"Author_1, Author_10",BMC Genomics,2015-04-26,10.1234/paper.000097
-PUB000098,Research Paper 98,"Author_1, Author_9",Nature,2015-05-19,10.1234/paper.000098
-PUB000099,Research Paper 99,"Author_5, Author_9",Bioinformatics,2018-11-11,10.1234/paper.000099
-PUB000100,Research Paper 100,"Author_3, Author_10",Nucleic Acids Research,2011-04-20,10.1234/paper.000100
-PUB000101,Research Paper 101,"Author_3, Author_8",PLOS ONE,2017-04-24,10.1234/paper.000101
-PUB000102,Research Paper 102,"Author_3, Author_9",PLOS ONE,2021-07-07,10.1234/paper.000102
-PUB000103,Research Paper 103,"Author_5, Author_10",Science,2017-06-24,10.1234/paper.000103
-PUB000104,Research Paper 104,"Author_1, Author_9",Bioinformatics,2022-04-21,10.1234/paper.000104
-PUB000105,Research Paper 105,"Author_4, Author_8",PLOS ONE,2017-01-25,10.1234/paper.000105
-PUB000106,Research Paper 106,"Author_5, Author_7",PLOS ONE,2019-03-09,10.1234/paper.000106
-PUB000107,Research Paper 107,"Author_5, Author_8",Nature,2019-11-17,10.1234/paper.000107
-PUB000108,Research Paper 108,"Author_4, Author_9",Nucleic Acids Research,2019-02-12,10.1234/paper.000108
-PUB000109,Research Paper 109,"Author_1, Author_7",Science,2019-06-08,10.1234/paper.000109
-PUB000110,Research Paper 110,"Author_4, Author_10",Nature,2011-08-09,10.1234/paper.000110
-PUB000111,Research Paper 111,"Author_5, Author_8",Genome Research,2010-10-12,10.1234/paper.000111
-PUB000112,Research Paper 112,"Author_2, Author_10",Genome Research,2022-06-16,10.1234/paper.000112
-PUB000113,Research Paper 113,"Author_2, Author_7",Nucleic Acids Research,2018-09-12,10.1234/paper.000113
-PUB000114,Research Paper 114,"Author_2, Author_10",PLOS ONE,2018-10-22,10.1234/paper.000114
-PUB000115,Research Paper 115,"Author_1, Author_7",Nature,2014-09-17,10.1234/paper.000115
-PUB000116,Research Paper 116,"Author_3, Author_8",Nucleic Acids Research,2015-10-24,10.1234/paper.000116
-PUB000117,Research Paper 117,"Author_4, Author_10",BMC Genomics,2016-03-26,10.1234/paper.000117
-PUB000118,Research Paper 118,"Author_3, Author_8",Genome Research,2013-08-02,10.1234/paper.000118
-PUB000119,Research Paper 119,"Author_2, Author_6",Bioinformatics,2020-10-25,10.1234/paper.000119
-PUB000120,Research Paper 120,"Author_1, Author_10",Nucleic Acids Research,2017-07-12,10.1234/paper.000120
-PUB000121,Research Paper 121,"Author_5, Author_9",Cell,2021-11-05,10.1234/paper.000121
-PUB000122,Research Paper 122,"Author_2, Author_8",Science,2023-10-23,10.1234/paper.000122
-PUB000123,Research Paper 123,"Author_5, Author_8",Genome Research,2010-10-14,10.1234/paper.000123
-PUB000124,Research Paper 124,"Author_3, Author_7",Cell,2018-09-03,10.1234/paper.000124
-PUB000125,Research Paper 125,"Author_5, Author_6",Bioinformatics,2021-12-13,10.1234/paper.000125
-PUB000126,Research Paper 126,"Author_2, Author_6",Cell,2014-02-16,10.1234/paper.000126
-PUB000127,Research Paper 127,"Author_5, Author_10",Nucleic Acids Research,2021-05-01,10.1234/paper.000127
-PUB000128,Research Paper 128,"Author_3, Author_6",PLOS ONE,2018-03-23,10.1234/paper.000128
-PUB000129,Research Paper 129,"Author_1, Author_8",PLOS ONE,2022-07-11,10.1234/paper.000129
-PUB000130,Research Paper 130,"Author_1, Author_9",Cell,2020-07-23,10.1234/paper.000130
-PUB000131,Research Paper 131,"Author_4, Author_9",PLOS ONE,2017-12-10,10.1234/paper.000131
-PUB000132,Research Paper 132,"Author_2, Author_8",Genome Research,2017-05-27,10.1234/paper.000132
-PUB000133,Research Paper 133,"Author_2, Author_10",Cell,2022-10-07,10.1234/paper.000133
-PUB000134,Research Paper 134,"Author_4, Author_6",BMC Genomics,2011-11-12,10.1234/paper.000134
-PUB000135,Research Paper 135,"Author_2, Author_10",Nature,2012-04-20,10.1234/paper.000135
-PUB000136,Research Paper 136,"Author_5, Author_10",Nature,2020-08-16,10.1234/paper.000136
-PUB000137,Research Paper 137,"Author_4, Author_8",Nature,2010-06-03,10.1234/paper.000137
-PUB000138,Research Paper 138,"Author_2, Author_7",BMC Genomics,2021-01-18,10.1234/paper.000138
-PUB000139,Research Paper 139,"Author_2, Author_9",Cell,2012-03-26,10.1234/paper.000139
-PUB000140,Research Paper 140,"Author_5, Author_10",Genome Research,2010-05-14,10.1234/paper.000140
-PUB000141,Research Paper 141,"Author_5, Author_10",Nature,2020-01-17,10.1234/paper.000141
-PUB000142,Research Paper 142,"Author_5, Author_7",Nucleic Acids Research,2012-02-13,10.1234/paper.000142
-PUB000143,Research Paper 143,"Author_4, Author_6",BMC Genomics,2018-11-25,10.1234/paper.000143
-PUB000144,Research Paper 144,"Author_2, Author_6",Bioinformatics,2021-11-19,10.1234/paper.000144
-PUB000145,Research Paper 145,"Author_2, Author_6",Bioinformatics,2018-05-16,10.1234/paper.000145
-PUB000146,Research Paper 146,"Author_1, Author_10",BMC Genomics,2011-04-12,10.1234/paper.000146
-PUB000147,Research Paper 147,"Author_1, Author_8",Cell,2013-08-19,10.1234/paper.000147
-PUB000148,Research Paper 148,"Author_4, Author_10",Cell,2015-07-07,10.1234/paper.000148
-PUB000149,Research Paper 149,"Author_1, Author_8",Genome Research,2016-05-01,10.1234/paper.000149
-PUB000150,Research Paper 150,"Author_4, Author_8",PLOS ONE,2013-06-23,10.1234/paper.000150
-PUB000151,Research Paper 151,"Author_1, Author_8",BMC Genomics,2023-03-22,10.1234/paper.000151
-PUB000152,Research Paper 152,"Author_1, Author_10",Science,2018-07-22,10.1234/paper.000152
-PUB000153,Research Paper 153,"Author_4, Author_6",Science,2016-11-01,10.1234/paper.000153
-PUB000154,Research Paper 154,"Author_2, Author_10",PLOS ONE,2017-05-17,10.1234/paper.000154
-PUB000155,Research Paper 155,"Author_3, Author_9",Nature,2016-11-25,10.1234/paper.000155
-PUB000156,Research Paper 156,"Author_5, Author_7",Science,2011-05-19,10.1234/paper.000156
-PUB000157,Research Paper 157,"Author_5, Author_9",Nucleic Acids Research,2018-12-19,10.1234/paper.000157
-PUB000158,Research Paper 158,"Author_1, Author_7",Nucleic Acids Research,2013-06-04,10.1234/paper.000158
-PUB000159,Research Paper 159,"Author_5, Author_10",Nature,2018-02-07,10.1234/paper.000159
-PUB000160,Research Paper 160,"Author_1, Author_9",Bioinformatics,2010-06-01,10.1234/paper.000160
-PUB000161,Research Paper 161,"Author_1, Author_9",Cell,2014-06-28,10.1234/paper.000161
-PUB000162,Research Paper 162,"Author_1, Author_8",Nucleic Acids Research,2017-08-02,10.1234/paper.000162
-PUB000163,Research Paper 163,"Author_2, Author_8",Nature,2017-08-03,10.1234/paper.000163
-PUB000164,Research Paper 164,"Author_1, Author_8",BMC Genomics,2010-08-13,10.1234/paper.000164
-PUB000165,Research Paper 165,"Author_1, Author_8",Bioinformatics,2015-03-22,10.1234/paper.000165
-PUB000166,Research Paper 166,"Author_2, Author_6",Nature,2012-11-28,10.1234/paper.000166
-PUB000167,Research Paper 167,"Author_5, Author_7",BMC Genomics,2017-01-15,10.1234/paper.000167
-PUB000168,Research Paper 168,"Author_5, Author_9",Bioinformatics,2021-01-04,10.1234/paper.000168
-PUB000169,Research Paper 169,"Author_4, Author_6",BMC Genomics,2014-03-12,10.1234/paper.000169
-PUB000170,Research Paper 170,"Author_3, Author_7",PLOS ONE,2021-12-05,10.1234/paper.000170
-PUB000171,Research Paper 171,"Author_5, Author_6",BMC Genomics,2016-10-01,10.1234/paper.000171
-PUB000172,Research Paper 172,"Author_2, Author_8",PLOS ONE,2019-04-12,10.1234/paper.000172
-PUB000173,Research Paper 173,"Author_5, Author_8",Cell,2010-07-28,10.1234/paper.000173
-PUB000174,Research Paper 174,"Author_4, Author_9",BMC Genomics,2013-04-23,10.1234/paper.000174
-PUB000175,Research Paper 175,"Author_1, Author_10",Nucleic Acids Research,2010-05-04,10.1234/paper.000175
-PUB000176,Research Paper 176,"Author_3, Author_8",BMC Genomics,2016-08-24,10.1234/paper.000176
-PUB000177,Research Paper 177,"Author_4, Author_7",PLOS ONE,2023-07-19,10.1234/paper.000177
-PUB000178,Research Paper 178,"Author_5, Author_7",Bioinformatics,2020-01-01,10.1234/paper.000178
-PUB000179,Research Paper 179,"Author_3, Author_8",Science,2016-04-01,10.1234/paper.000179
-PUB000180,Research Paper 180,"Author_3, Author_6",Nucleic Acids Research,2016-01-17,10.1234/paper.000180
-PUB000181,Research Paper 181,"Author_5, Author_6",Science,2019-09-10,10.1234/paper.000181
-PUB000182,Research Paper 182,"Author_5, Author_7",BMC Genomics,2020-05-12,10.1234/paper.000182
-PUB000183,Research Paper 183,"Author_2, Author_8",Nucleic Acids Research,2013-10-07,10.1234/paper.000183
-PUB000184,Research Paper 184,"Author_3, Author_9",Cell,2010-12-07,10.1234/paper.000184
-PUB000185,Research Paper 185,"Author_1, Author_8",PLOS ONE,2010-09-28,10.1234/paper.000185
-PUB000186,Research Paper 186,"Author_3, Author_6",PLOS ONE,2010-05-02,10.1234/paper.000186
-PUB000187,Research Paper 187,"Author_1, Author_9",Cell,2022-12-26,10.1234/paper.000187
-PUB000188,Research Paper 188,"Author_4, Author_8",Nature,2019-01-09,10.1234/paper.000188
-PUB000189,Research Paper 189,"Author_2, Author_10",Nucleic Acids Research,2021-01-10,10.1234/paper.000189
-PUB000190,Research Paper 190,"Author_1, Author_9",Science,2021-01-09,10.1234/paper.000190
-PUB000191,Research Paper 191,"Author_3, Author_7",Bioinformatics,2023-12-03,10.1234/paper.000191
-PUB000192,Research Paper 192,"Author_5, Author_7",Bioinformatics,2022-06-06,10.1234/paper.000192
-PUB000193,Research Paper 193,"Author_2, Author_9",Nucleic Acids Research,2021-09-06,10.1234/paper.000193
-PUB000194,Research Paper 194,"Author_2, Author_9",Nucleic Acids Research,2020-01-01,10.1234/paper.000194
-PUB000195,Research Paper 195,"Author_3, Author_9",Nucleic Acids Research,2019-06-22,10.1234/paper.000195
-PUB000196,Research Paper 196,"Author_5, Author_6",Genome Research,2022-05-26,10.1234/paper.000196
-PUB000197,Research Paper 197,"Author_4, Author_7",PLOS ONE,2014-06-07,10.1234/paper.000197
-PUB000198,Research Paper 198,"Author_2, Author_10",PLOS ONE,2014-06-21,10.1234/paper.000198
-PUB000199,Research Paper 199,"Author_2, Author_9",PLOS ONE,2015-02-28,10.1234/paper.000199
-PUB000200,Research Paper 200,"Author_2, Author_9",BMC Genomics,2012-02-05,10.1234/paper.000200
-PUB000201,Research Paper 201,"Author_3, Author_8",Science,2013-09-25,10.1234/paper.000201
-PUB000202,Research Paper 202,"Author_3, Author_7",Nucleic Acids Research,2014-06-15,10.1234/paper.000202
-PUB000203,Research Paper 203,"Author_2, Author_7",Bioinformatics,2014-04-09,10.1234/paper.000203
-PUB000204,Research Paper 204,"Author_4, Author_8",PLOS ONE,2014-10-23,10.1234/paper.000204
-PUB000205,Research Paper 205,"Author_4, Author_9",Nucleic Acids Research,2015-10-08,10.1234/paper.000205
-PUB000206,Research Paper 206,"Author_4, Author_8",Genome Research,2012-07-15,10.1234/paper.000206
-PUB000207,Research Paper 207,"Author_1, Author_10",Nature,2015-04-17,10.1234/paper.000207
-PUB000208,Research Paper 208,"Author_2, Author_6",Science,2020-10-24,10.1234/paper.000208
-PUB000209,Research Paper 209,"Author_3, Author_8",PLOS ONE,2015-10-16,10.1234/paper.000209
-PUB000210,Research Paper 210,"Author_4, Author_6",Nucleic Acids Research,2011-05-13,10.1234/paper.000210
-PUB000211,Research Paper 211,"Author_5, Author_9",PLOS ONE,2020-12-23,10.1234/paper.000211
-PUB000212,Research Paper 212,"Author_4, Author_7",BMC Genomics,2011-09-28,10.1234/paper.000212
-PUB000213,Research Paper 213,"Author_5, Author_8",PLOS ONE,2010-10-08,10.1234/paper.000213
-PUB000214,Research Paper 214,"Author_5, Author_10",Nature,2017-07-27,10.1234/paper.000214
-PUB000215,Research Paper 215,"Author_2, Author_10",Bioinformatics,2022-11-11,10.1234/paper.000215
-PUB000216,Research Paper 216,"Author_1, Author_9",Nature,2018-09-10,10.1234/paper.000216
-PUB000217,Research Paper 217,"Author_1, Author_9",Bioinformatics,2013-09-16,10.1234/paper.000217
-PUB000218,Research Paper 218,"Author_5, Author_7",Cell,2019-11-12,10.1234/paper.000218
-PUB000219,Research Paper 219,"Author_3, Author_8",PLOS ONE,2020-08-15,10.1234/paper.000219
-PUB000220,Research Paper 220,"Author_5, Author_7",Cell,2013-04-19,10.1234/paper.000220
-PUB000221,Research Paper 221,"Author_2, Author_8",Nucleic Acids Research,2013-02-17,10.1234/paper.000221
-PUB000222,Research Paper 222,"Author_5, Author_6",Cell,2016-10-12,10.1234/paper.000222
-PUB000223,Research Paper 223,"Author_5, Author_6",Science,2022-03-19,10.1234/paper.000223
-PUB000224,Research Paper 224,"Author_1, Author_8",PLOS ONE,2019-09-19,10.1234/paper.000224
-PUB000225,Research Paper 225,"Author_3, Author_8",Nucleic Acids Research,2021-07-26,10.1234/paper.000225
-PUB000226,Research Paper 226,"Author_2, Author_8",Bioinformatics,2023-04-03,10.1234/paper.000226
-PUB000227,Research Paper 227,"Author_2, Author_7",Genome Research,2012-08-05,10.1234/paper.000227
-PUB000228,Research Paper 228,"Author_1, Author_6",BMC Genomics,2023-08-25,10.1234/paper.000228
-PUB000229,Research Paper 229,"Author_4, Author_6",Genome Research,2010-08-22,10.1234/paper.000229
-PUB000230,Research Paper 230,"Author_3, Author_10",Genome Research,2012-02-28,10.1234/paper.000230
-PUB000231,Research Paper 231,"Author_1, Author_10",Genome Research,2022-03-14,10.1234/paper.000231
-PUB000232,Research Paper 232,"Author_1, Author_9",Bioinformatics,2015-05-11,10.1234/paper.000232
-PUB000233,Research Paper 233,"Author_4, Author_8",Science,2010-07-27,10.1234/paper.000233
-PUB000234,Research Paper 234,"Author_2, Author_8",PLOS ONE,2014-09-16,10.1234/paper.000234
-PUB000235,Research Paper 235,"Author_5, Author_8",Nucleic Acids Research,2015-10-21,10.1234/paper.000235
-PUB000236,Research Paper 236,"Author_2, Author_6",Nucleic Acids Research,2014-07-07,10.1234/paper.000236
-PUB000237,Research Paper 237,"Author_5, Author_7",Science,2012-12-26,10.1234/paper.000237
-PUB000238,Research Paper 238,"Author_2, Author_6",Cell,2022-08-09,10.1234/paper.000238
-PUB000239,Research Paper 239,"Author_2, Author_8",Cell,2017-04-28,10.1234/paper.000239
-PUB000240,Research Paper 240,"Author_2, Author_6",Bioinformatics,2012-03-15,10.1234/paper.000240
-PUB000241,Research Paper 241,"Author_1, Author_7",BMC Genomics,2018-08-18,10.1234/paper.000241
-PUB000242,Research Paper 242,"Author_4, Author_6",Nucleic Acids Research,2022-06-08,10.1234/paper.000242
-PUB000243,Research Paper 243,"Author_5, Author_6",Cell,2023-07-25,10.1234/paper.000243
-PUB000244,Research Paper 244,"Author_5, Author_10",Genome Research,2023-11-08,10.1234/paper.000244
-PUB000245,Research Paper 245,"Author_2, Author_10",Genome Research,2017-07-16,10.1234/paper.000245
-PUB000246,Research Paper 246,"Author_5, Author_8",PLOS ONE,2014-05-15,10.1234/paper.000246
-PUB000247,Research Paper 247,"Author_4, Author_6",Science,2018-09-15,10.1234/paper.000247
-PUB000248,Research Paper 248,"Author_1, Author_6",PLOS ONE,2019-11-13,10.1234/paper.000248
-PUB000249,Research Paper 249,"Author_4, Author_8",Nucleic Acids Research,2015-06-05,10.1234/paper.000249
-PUB000250,Research Paper 250,"Author_2, Author_7",Nature,2018-08-20,10.1234/paper.000250
-PUB000251,Research Paper 251,"Author_5, Author_6",Bioinformatics,2018-09-21,10.1234/paper.000251
-PUB000252,Research Paper 252,"Author_3, Author_9",Nature,2018-02-07,10.1234/paper.000252
-PUB000253,Research Paper 253,"Author_2, Author_6",Bioinformatics,2010-12-20,10.1234/paper.000253
-PUB000254,Research Paper 254,"Author_3, Author_8",BMC Genomics,2017-01-25,10.1234/paper.000254
-PUB000255,Research Paper 255,"Author_5, Author_7",Cell,2018-08-25,10.1234/paper.000255
-PUB000256,Research Paper 256,"Author_3, Author_8",PLOS ONE,2015-05-05,10.1234/paper.000256
-PUB000257,Research Paper 257,"Author_3, Author_7",Science,2011-12-23,10.1234/paper.000257
-PUB000258,Research Paper 258,"Author_5, Author_7",Bioinformatics,2014-04-19,10.1234/paper.000258
-PUB000259,Research Paper 259,"Author_5, Author_9",Nature,2010-12-03,10.1234/paper.000259
-PUB000260,Research Paper 260,"Author_2, Author_9",Nature,2015-01-28,10.1234/paper.000260
-PUB000261,Research Paper 261,"Author_3, Author_9",BMC Genomics,2018-04-02,10.1234/paper.000261
-PUB000262,Research Paper 262,"Author_1, Author_6",Nature,2017-09-02,10.1234/paper.000262
-PUB000263,Research Paper 263,"Author_1, Author_6",PLOS ONE,2016-01-23,10.1234/paper.000263
-PUB000264,Research Paper 264,"Author_1, Author_6",Genome Research,2015-01-05,10.1234/paper.000264
-PUB000265,Research Paper 265,"Author_4, Author_10",Cell,2019-09-07,10.1234/paper.000265
-PUB000266,Research Paper 266,"Author_1, Author_7",Genome Research,2020-05-27,10.1234/paper.000266
-PUB000267,Research Paper 267,"Author_1, Author_7",BMC Genomics,2014-06-11,10.1234/paper.000267
-PUB000268,Research Paper 268,"Author_4, Author_9",BMC Genomics,2010-12-05,10.1234/paper.000268
-PUB000269,Research Paper 269,"Author_4, Author_9",Cell,2022-04-13,10.1234/paper.000269
-PUB000270,Research Paper 270,"Author_1, Author_7",Science,2023-07-11,10.1234/paper.000270
-PUB000271,Research Paper 271,"Author_5, Author_9",Nucleic Acids Research,2010-01-20,10.1234/paper.000271
-PUB000272,Research Paper 272,"Author_1, Author_6",Cell,2016-10-01,10.1234/paper.000272
-PUB000273,Research Paper 273,"Author_3, Author_10",PLOS ONE,2014-08-23,10.1234/paper.000273
-PUB000274,Research Paper 274,"Author_4, Author_7",Nucleic Acids Research,2014-10-28,10.1234/paper.000274
-PUB000275,Research Paper 275,"Author_5, Author_8",Nature,2020-08-18,10.1234/paper.000275
-PUB000276,Research Paper 276,"Author_5, Author_6",Nucleic Acids Research,2023-05-11,10.1234/paper.000276
-PUB000277,Research Paper 277,"Author_5, Author_6",Nucleic Acids Research,2017-03-06,10.1234/paper.000277
-PUB000278,Research Paper 278,"Author_2, Author_9",Nucleic Acids Research,2020-07-09,10.1234/paper.000278
-PUB000279,Research Paper 279,"Author_1, Author_6",Nucleic Acids Research,2010-06-17,10.1234/paper.000279
-PUB000280,Research Paper 280,"Author_4, Author_8",Genome Research,2010-12-03,10.1234/paper.000280
-PUB000281,Research Paper 281,"Author_3, Author_6",Cell,2018-06-19,10.1234/paper.000281
-PUB000282,Research Paper 282,"Author_4, Author_8",BMC Genomics,2010-02-06,10.1234/paper.000282
-PUB000283,Research Paper 283,"Author_3, Author_9",BMC Genomics,2010-08-10,10.1234/paper.000283
-PUB000284,Research Paper 284,"Author_3, Author_10",Genome Research,2010-10-01,10.1234/paper.000284
-PUB000285,Research Paper 285,"Author_2, Author_8",PLOS ONE,2017-07-12,10.1234/paper.000285
-PUB000286,Research Paper 286,"Author_5, Author_7",Cell,2012-03-22,10.1234/paper.000286
-PUB000287,Research Paper 287,"Author_5, Author_9",Bioinformatics,2012-07-22,10.1234/paper.000287
-PUB000288,Research Paper 288,"Author_1, Author_8",Science,2018-05-10,10.1234/paper.000288
-PUB000289,Research Paper 289,"Author_4, Author_8",BMC Genomics,2010-01-06,10.1234/paper.000289
-PUB000290,Research Paper 290,"Author_1, Author_10",Cell,2016-09-19,10.1234/paper.000290
-PUB000291,Research Paper 291,"Author_1, Author_7",PLOS ONE,2019-07-08,10.1234/paper.000291
-PUB000292,Research Paper 292,"Author_2, Author_10",BMC Genomics,2022-01-27,10.1234/paper.000292
-PUB000293,Research Paper 293,"Author_4, Author_9",PLOS ONE,2012-03-23,10.1234/paper.000293
-PUB000294,Research Paper 294,"Author_2, Author_9",Science,2022-04-05,10.1234/paper.000294
-PUB000295,Research Paper 295,"Author_3, Author_8",Bioinformatics,2011-05-01,10.1234/paper.000295
-PUB000296,Research Paper 296,"Author_3, Author_8",Science,2019-09-21,10.1234/paper.000296
-PUB000297,Research Paper 297,"Author_4, Author_10",Bioinformatics,2015-10-09,10.1234/paper.000297
-PUB000298,Research Paper 298,"Author_1, Author_9",Genome Research,2019-12-21,10.1234/paper.000298
-PUB000299,Research Paper 299,"Author_3, Author_10",Science,2012-06-11,10.1234/paper.000299
-PUB000300,Research Paper 300,"Author_4, Author_7",BMC Genomics,2020-06-28,10.1234/paper.000300
-PUB000301,Research Paper 301,"Author_4, Author_8",Bioinformatics,2010-02-02,10.1234/paper.000301
-PUB000302,Research Paper 302,"Author_1, Author_10",Nature,2016-01-10,10.1234/paper.000302
-PUB000303,Research Paper 303,"Author_5, Author_9",PLOS ONE,2022-05-26,10.1234/paper.000303
-PUB000304,Research Paper 304,"Author_2, Author_8",Bioinformatics,2011-09-26,10.1234/paper.000304
-PUB000305,Research Paper 305,"Author_5, Author_8",PLOS ONE,2010-07-07,10.1234/paper.000305
-PUB000306,Research Paper 306,"Author_4, Author_9",Nature,2013-03-17,10.1234/paper.000306
-PUB000307,Research Paper 307,"Author_3, Author_6",Nucleic Acids Research,2013-09-10,10.1234/paper.000307
-PUB000308,Research Paper 308,"Author_3, Author_10",PLOS ONE,2013-12-12,10.1234/paper.000308
-PUB000309,Research Paper 309,"Author_1, Author_10",Nature,2010-08-03,10.1234/paper.000309
-PUB000310,Research Paper 310,"Author_3, Author_9",Science,2020-08-27,10.1234/paper.000310
-PUB000311,Research Paper 311,"Author_3, Author_10",Nucleic Acids Research,2022-05-01,10.1234/paper.000311
-PUB000312,Research Paper 312,"Author_5, Author_10",Genome Research,2011-07-10,10.1234/paper.000312
-PUB000313,Research Paper 313,"Author_2, Author_6",BMC Genomics,2015-04-10,10.1234/paper.000313
-PUB000314,Research Paper 314,"Author_3, Author_9",Science,2018-12-28,10.1234/paper.000314
-PUB000315,Research Paper 315,"Author_4, Author_9",Genome Research,2011-08-28,10.1234/paper.000315
-PUB000316,Research Paper 316,"Author_3, Author_10",Nature,2012-03-17,10.1234/paper.000316
-PUB000317,Research Paper 317,"Author_4, Author_7",Genome Research,2022-11-05,10.1234/paper.000317
-PUB000318,Research Paper 318,"Author_1, Author_6",Genome Research,2022-10-23,10.1234/paper.000318
-PUB000319,Research Paper 319,"Author_4, Author_9",PLOS ONE,2017-03-03,10.1234/paper.000319
-PUB000320,Research Paper 320,"Author_1, Author_7",Nature,2013-10-28,10.1234/paper.000320
-PUB000321,Research Paper 321,"Author_1, Author_8",Genome Research,2013-09-04,10.1234/paper.000321
-PUB000322,Research Paper 322,"Author_5, Author_7",BMC Genomics,2021-12-23,10.1234/paper.000322
-PUB000323,Research Paper 323,"Author_4, Author_7",Science,2012-11-02,10.1234/paper.000323
-PUB000324,Research Paper 324,"Author_5, Author_6",Genome Research,2017-02-28,10.1234/paper.000324
-PUB000325,Research Paper 325,"Author_1, Author_6",Genome Research,2014-06-15,10.1234/paper.000325
-PUB000326,Research Paper 326,"Author_4, Author_7",Nucleic Acids Research,2017-10-13,10.1234/paper.000326
-PUB000327,Research Paper 327,"Author_1, Author_7",Science,2020-04-10,10.1234/paper.000327
-PUB000328,Research Paper 328,"Author_3, Author_8",Cell,2022-09-18,10.1234/paper.000328
-PUB000329,Research Paper 329,"Author_1, Author_8",Science,2022-04-24,10.1234/paper.000329
-PUB000330,Research Paper 330,"Author_1, Author_9",Genome Research,2010-03-13,10.1234/paper.000330
-PUB000331,Research Paper 331,"Author_3, Author_10",PLOS ONE,2015-09-11,10.1234/paper.000331
-PUB000332,Research Paper 332,"Author_3, Author_9",Bioinformatics,2021-08-10,10.1234/paper.000332
-PUB000333,Research Paper 333,"Author_5, Author_9",Cell,2023-02-06,10.1234/paper.000333
-PUB000334,Research Paper 334,"Author_5, Author_6",Bioinformatics,2023-12-11,10.1234/paper.000334
-PUB000335,Research Paper 335,"Author_4, Author_8",Science,2018-11-25,10.1234/paper.000335
-PUB000336,Research Paper 336,"Author_3, Author_8",Nature,2015-05-25,10.1234/paper.000336
-PUB000337,Research Paper 337,"Author_1, Author_9",BMC Genomics,2014-09-22,10.1234/paper.000337
-PUB000338,Research Paper 338,"Author_5, Author_10",Genome Research,2013-05-10,10.1234/paper.000338
-PUB000339,Research Paper 339,"Author_2, Author_9",Nature,2023-08-20,10.1234/paper.000339
-PUB000340,Research Paper 340,"Author_3, Author_6",PLOS ONE,2022-01-11,10.1234/paper.000340
-PUB000341,Research Paper 341,"Author_2, Author_8",Nature,2011-04-01,10.1234/paper.000341
-PUB000342,Research Paper 342,"Author_2, Author_10",PLOS ONE,2014-07-26,10.1234/paper.000342
-PUB000343,Research Paper 343,"Author_1, Author_10",Science,2020-10-27,10.1234/paper.000343
-PUB000344,Research Paper 344,"Author_1, Author_7",Science,2020-10-07,10.1234/paper.000344
-PUB000345,Research Paper 345,"Author_4, Author_8",Bioinformatics,2019-01-21,10.1234/paper.000345
-PUB000346,Research Paper 346,"Author_5, Author_9",Science,2023-11-23,10.1234/paper.000346
-PUB000347,Research Paper 347,"Author_1, Author_7",PLOS ONE,2019-06-19,10.1234/paper.000347
-PUB000348,Research Paper 348,"Author_4, Author_9",Nature,2011-04-25,10.1234/paper.000348
-PUB000349,Research Paper 349,"Author_1, Author_10",BMC Genomics,2012-06-26,10.1234/paper.000349
-PUB000350,Research Paper 350,"Author_5, Author_6",Nature,2020-02-25,10.1234/paper.000350
-PUB000351,Research Paper 351,"Author_1, Author_9",Cell,2021-11-01,10.1234/paper.000351
-PUB000352,Research Paper 352,"Author_2, Author_9",BMC Genomics,2019-09-08,10.1234/paper.000352
-PUB000353,Research Paper 353,"Author_2, Author_8",BMC Genomics,2019-04-28,10.1234/paper.000353
-PUB000354,Research Paper 354,"Author_4, Author_7",Cell,2021-07-02,10.1234/paper.000354
-PUB000355,Research Paper 355,"Author_5, Author_9",Nucleic Acids Research,2019-08-17,10.1234/paper.000355
-PUB000356,Research Paper 356,"Author_1, Author_10",PLOS ONE,2015-03-23,10.1234/paper.000356
-PUB000357,Research Paper 357,"Author_3, Author_8",Bioinformatics,2014-12-25,10.1234/paper.000357
-PUB000358,Research Paper 358,"Author_2, Author_6",Nature,2020-03-12,10.1234/paper.000358
-PUB000359,Research Paper 359,"Author_5, Author_7",BMC Genomics,2014-09-27,10.1234/paper.000359
-PUB000360,Research Paper 360,"Author_1, Author_6",BMC Genomics,2021-10-22,10.1234/paper.000360
-PUB000361,Research Paper 361,"Author_3, Author_6",Genome Research,2017-01-19,10.1234/paper.000361
-PUB000362,Research Paper 362,"Author_5, Author_10",Nucleic Acids Research,2011-08-22,10.1234/paper.000362
-PUB000363,Research Paper 363,"Author_1, Author_8",Cell,2011-11-10,10.1234/paper.000363
-PUB000364,Research Paper 364,"Author_5, Author_6",Bioinformatics,2017-07-26,10.1234/paper.000364
-PUB000365,Research Paper 365,"Author_5, Author_7",Nucleic Acids Research,2015-11-10,10.1234/paper.000365
-PUB000366,Research Paper 366,"Author_3, Author_7",Science,2015-01-03,10.1234/paper.000366
-PUB000367,Research Paper 367,"Author_5, Author_6",Genome Research,2021-09-06,10.1234/paper.000367
-PUB000368,Research Paper 368,"Author_5, Author_10",Cell,2019-03-26,10.1234/paper.000368
-PUB000369,Research Paper 369,"Author_5, Author_9",PLOS ONE,2023-12-10,10.1234/paper.000369
-PUB000370,Research Paper 370,"Author_1, Author_6",Genome Research,2021-02-16,10.1234/paper.000370
-PUB000371,Research Paper 371,"Author_2, Author_9",Bioinformatics,2023-11-26,10.1234/paper.000371
-PUB000372,Research Paper 372,"Author_5, Author_6",PLOS ONE,2012-09-02,10.1234/paper.000372
-PUB000373,Research Paper 373,"Author_4, Author_7",BMC Genomics,2015-02-04,10.1234/paper.000373
-PUB000374,Research Paper 374,"Author_1, Author_9",Genome Research,2013-10-09,10.1234/paper.000374
-PUB000375,Research Paper 375,"Author_2, Author_8",PLOS ONE,2012-02-10,10.1234/paper.000375
-PUB000376,Research Paper 376,"Author_2, Author_8",Nature,2011-09-03,10.1234/paper.000376
-PUB000377,Research Paper 377,"Author_3, Author_10",BMC Genomics,2019-08-07,10.1234/paper.000377
-PUB000378,Research Paper 378,"Author_4, Author_7",Nucleic Acids Research,2017-07-27,10.1234/paper.000378
-PUB000379,Research Paper 379,"Author_1, Author_8",Nucleic Acids Research,2020-02-23,10.1234/paper.000379
-PUB000380,Research Paper 380,"Author_5, Author_10",Nucleic Acids Research,2016-04-19,10.1234/paper.000380
-PUB000381,Research Paper 381,"Author_4, Author_7",BMC Genomics,2014-03-12,10.1234/paper.000381
-PUB000382,Research Paper 382,"Author_4, Author_8",Nature,2020-05-28,10.1234/paper.000382
-PUB000383,Research Paper 383,"Author_3, Author_10",Science,2020-05-10,10.1234/paper.000383
-PUB000384,Research Paper 384,"Author_2, Author_10",Bioinformatics,2014-03-25,10.1234/paper.000384
-PUB000385,Research Paper 385,"Author_5, Author_10",Science,2015-02-23,10.1234/paper.000385
-PUB000386,Research Paper 386,"Author_5, Author_8",Nature,2015-11-16,10.1234/paper.000386
-PUB000387,Research Paper 387,"Author_5, Author_8",Science,2017-09-13,10.1234/paper.000387
-PUB000388,Research Paper 388,"Author_5, Author_6",Genome Research,2015-04-20,10.1234/paper.000388
-PUB000389,Research Paper 389,"Author_2, Author_10",PLOS ONE,2020-10-03,10.1234/paper.000389
-PUB000390,Research Paper 390,"Author_2, Author_7",Science,2013-11-24,10.1234/paper.000390
-PUB000391,Research Paper 391,"Author_5, Author_6",Genome Research,2011-08-20,10.1234/paper.000391
-PUB000392,Research Paper 392,"Author_5, Author_7",Science,2014-06-14,10.1234/paper.000392
-PUB000393,Research Paper 393,"Author_1, Author_6",BMC Genomics,2012-03-19,10.1234/paper.000393
-PUB000394,Research Paper 394,"Author_5, Author_8",Nature,2012-11-24,10.1234/paper.000394
-PUB000395,Research Paper 395,"Author_2, Author_9",Genome Research,2013-12-14,10.1234/paper.000395
-PUB000396,Research Paper 396,"Author_5, Author_7",Science,2022-05-10,10.1234/paper.000396
-PUB000397,Research Paper 397,"Author_1, Author_7",Science,2022-01-13,10.1234/paper.000397
-PUB000398,Research Paper 398,"Author_5, Author_6",Genome Research,2017-10-09,10.1234/paper.000398
-PUB000399,Research Paper 399,"Author_3, Author_8",Nucleic Acids Research,2021-08-28,10.1234/paper.000399
-PUB000400,Research Paper 400,"Author_1, Author_8",Nucleic Acids Research,2010-12-28,10.1234/paper.000400
-PUB000401,Research Paper 401,"Author_5, Author_9",BMC Genomics,2012-01-07,10.1234/paper.000401
-PUB000402,Research Paper 402,"Author_2, Author_8",Cell,2020-01-24,10.1234/paper.000402
-PUB000403,Research Paper 403,"Author_5, Author_9",PLOS ONE,2022-12-03,10.1234/paper.000403
-PUB000404,Research Paper 404,"Author_2, Author_10",BMC Genomics,2013-02-19,10.1234/paper.000404
-PUB000405,Research Paper 405,"Author_1, Author_7",Nature,2016-05-22,10.1234/paper.000405
-PUB000406,Research Paper 406,"Author_2, Author_6",PLOS ONE,2022-06-18,10.1234/paper.000406
-PUB000407,Research Paper 407,"Author_2, Author_10",Bioinformatics,2017-08-15,10.1234/paper.000407
-PUB000408,Research Paper 408,"Author_4, Author_9",Genome Research,2015-09-17,10.1234/paper.000408
-PUB000409,Research Paper 409,"Author_3, Author_8",PLOS ONE,2020-08-27,10.1234/paper.000409
-PUB000410,Research Paper 410,"Author_3, Author_7",PLOS ONE,2010-04-13,10.1234/paper.000410
-PUB000411,Research Paper 411,"Author_1, Author_6",Nature,2019-09-15,10.1234/paper.000411
-PUB000412,Research Paper 412,"Author_2, Author_9",Cell,2017-11-11,10.1234/paper.000412
-PUB000413,Research Paper 413,"Author_3, Author_10",Genome Research,2018-10-06,10.1234/paper.000413
-PUB000414,Research Paper 414,"Author_4, Author_7",Nature,2011-04-28,10.1234/paper.000414
-PUB000415,Research Paper 415,"Author_1, Author_10",BMC Genomics,2023-02-14,10.1234/paper.000415
-PUB000416,Research Paper 416,"Author_5, Author_8",Science,2012-07-08,10.1234/paper.000416
-PUB000417,Research Paper 417,"Author_4, Author_7",BMC Genomics,2013-11-13,10.1234/paper.000417
-PUB000418,Research Paper 418,"Author_4, Author_8",PLOS ONE,2015-10-07,10.1234/paper.000418
-PUB000419,Research Paper 419,"Author_1, Author_6",Genome Research,2019-05-22,10.1234/paper.000419
-PUB000420,Research Paper 420,"Author_2, Author_7",Cell,2022-03-25,10.1234/paper.000420
-PUB000421,Research Paper 421,"Author_5, Author_8",Science,2018-08-06,10.1234/paper.000421
-PUB000422,Research Paper 422,"Author_4, Author_8",BMC Genomics,2012-06-17,10.1234/paper.000422
-PUB000423,Research Paper 423,"Author_5, Author_10",BMC Genomics,2019-04-16,10.1234/paper.000423
-PUB000424,Research Paper 424,"Author_5, Author_8",Genome Research,2012-04-12,10.1234/paper.000424
-PUB000425,Research Paper 425,"Author_4, Author_6",Cell,2020-04-21,10.1234/paper.000425
-PUB000426,Research Paper 426,"Author_2, Author_9",Cell,2014-07-24,10.1234/paper.000426
-PUB000427,Research Paper 427,"Author_1, Author_7",Cell,2015-12-05,10.1234/paper.000427
-PUB000428,Research Paper 428,"Author_2, Author_6",Genome Research,2016-07-17,10.1234/paper.000428
-PUB000429,Research Paper 429,"Author_4, Author_8",Nature,2013-09-11,10.1234/paper.000429
-PUB000430,Research Paper 430,"Author_5, Author_6",Cell,2011-03-26,10.1234/paper.000430
-PUB000431,Research Paper 431,"Author_1, Author_7",Bioinformatics,2014-04-05,10.1234/paper.000431
-PUB000432,Research Paper 432,"Author_3, Author_8",Genome Research,2014-02-21,10.1234/paper.000432
-PUB000433,Research Paper 433,"Author_3, Author_7",Nature,2022-07-13,10.1234/paper.000433
-PUB000434,Research Paper 434,"Author_1, Author_9",Nucleic Acids Research,2012-09-16,10.1234/paper.000434
-PUB000435,Research Paper 435,"Author_3, Author_10",Bioinformatics,2011-04-20,10.1234/paper.000435
-PUB000436,Research Paper 436,"Author_5, Author_8",Bioinformatics,2018-07-19,10.1234/paper.000436
-PUB000437,Research Paper 437,"Author_5, Author_9",Nature,2015-12-28,10.1234/paper.000437
-PUB000438,Research Paper 438,"Author_5, Author_8",PLOS ONE,2010-03-27,10.1234/paper.000438
-PUB000439,Research Paper 439,"Author_5, Author_8",Science,2016-08-23,10.1234/paper.000439
-PUB000440,Research Paper 440,"Author_2, Author_8",Nature,2017-09-20,10.1234/paper.000440
-PUB000441,Research Paper 441,"Author_1, Author_10",Bioinformatics,2018-02-03,10.1234/paper.000441
-PUB000442,Research Paper 442,"Author_1, Author_6",Nucleic Acids Research,2022-09-11,10.1234/paper.000442
-PUB000443,Research Paper 443,"Author_5, Author_7",Genome Research,2016-04-02,10.1234/paper.000443
-PUB000444,Research Paper 444,"Author_2, Author_10",Nature,2019-08-01,10.1234/paper.000444
-PUB000445,Research Paper 445,"Author_1, Author_8",Cell,2013-04-10,10.1234/paper.000445
-PUB000446,Research Paper 446,"Author_5, Author_9",Bioinformatics,2014-09-01,10.1234/paper.000446
-PUB000447,Research Paper 447,"Author_3, Author_6",Bioinformatics,2017-12-01,10.1234/paper.000447
-PUB000448,Research Paper 448,"Author_2, Author_9",Nucleic Acids Research,2023-04-14,10.1234/paper.000448
-PUB000449,Research Paper 449,"Author_4, Author_10",Nature,2019-08-28,10.1234/paper.000449
-PUB000450,Research Paper 450,"Author_2, Author_10",Cell,2015-10-01,10.1234/paper.000450
-PUB000451,Research Paper 451,"Author_3, Author_7",BMC Genomics,2014-06-23,10.1234/paper.000451
-PUB000452,Research Paper 452,"Author_1, Author_10",Cell,2022-11-04,10.1234/paper.000452
-PUB000453,Research Paper 453,"Author_3, Author_8",Genome Research,2010-06-10,10.1234/paper.000453
-PUB000454,Research Paper 454,"Author_2, Author_6",Science,2016-08-03,10.1234/paper.000454
-PUB000455,Research Paper 455,"Author_4, Author_7",Science,2022-11-01,10.1234/paper.000455
-PUB000456,Research Paper 456,"Author_4, Author_8",BMC Genomics,2011-03-18,10.1234/paper.000456
-PUB000457,Research Paper 457,"Author_3, Author_8",PLOS ONE,2018-02-08,10.1234/paper.000457
-PUB000458,Research Paper 458,"Author_4, Author_9",Cell,2012-01-14,10.1234/paper.000458
-PUB000459,Research Paper 459,"Author_2, Author_6",BMC Genomics,2023-06-27,10.1234/paper.000459
-PUB000460,Research Paper 460,"Author_4, Author_10",Bioinformatics,2017-06-20,10.1234/paper.000460
-PUB000461,Research Paper 461,"Author_2, Author_6",Genome Research,2010-01-19,10.1234/paper.000461
-PUB000462,Research Paper 462,"Author_2, Author_10",Science,2023-05-12,10.1234/paper.000462
-PUB000463,Research Paper 463,"Author_1, Author_6",Nature,2021-07-03,10.1234/paper.000463
-PUB000464,Research Paper 464,"Author_5, Author_10",Genome Research,2011-03-21,10.1234/paper.000464
-PUB000465,Research Paper 465,"Author_1, Author_8",PLOS ONE,2015-04-19,10.1234/paper.000465
-PUB000466,Research Paper 466,"Author_1, Author_7",PLOS ONE,2016-08-21,10.1234/paper.000466
-PUB000467,Research Paper 467,"Author_3, Author_10",PLOS ONE,2010-02-14,10.1234/paper.000467
-PUB000468,Research Paper 468,"Author_2, Author_10",Genome Research,2016-02-05,10.1234/paper.000468
-PUB000469,Research Paper 469,"Author_4, Author_9",Nucleic Acids Research,2020-11-10,10.1234/paper.000469
-PUB000470,Research Paper 470,"Author_1, Author_9",Bioinformatics,2012-09-27,10.1234/paper.000470
-PUB000471,Research Paper 471,"Author_4, Author_6",Nature,2016-11-13,10.1234/paper.000471
-PUB000472,Research Paper 472,"Author_4, Author_10",Nature,2016-10-23,10.1234/paper.000472
-PUB000473,Research Paper 473,"Author_4, Author_6",Nucleic Acids Research,2010-10-05,10.1234/paper.000473
-PUB000474,Research Paper 474,"Author_2, Author_7",BMC Genomics,2014-11-09,10.1234/paper.000474
-PUB000475,Research Paper 475,"Author_4, Author_8",Science,2010-02-02,10.1234/paper.000475
-PUB000476,Research Paper 476,"Author_4, Author_9",Science,2015-02-04,10.1234/paper.000476
-PUB000477,Research Paper 477,"Author_3, Author_7",Cell,2013-02-04,10.1234/paper.000477
-PUB000478,Research Paper 478,"Author_2, Author_8",PLOS ONE,2013-11-23,10.1234/paper.000478
-PUB000479,Research Paper 479,"Author_1, Author_9",Bioinformatics,2011-05-27,10.1234/paper.000479
-PUB000480,Research Paper 480,"Author_2, Author_10",PLOS ONE,2021-05-25,10.1234/paper.000480
-PUB000481,Research Paper 481,"Author_2, Author_8",Nature,2012-05-16,10.1234/paper.000481
-PUB000482,Research Paper 482,"Author_1, Author_7",PLOS ONE,2015-06-12,10.1234/paper.000482
-PUB000483,Research Paper 483,"Author_2, Author_8",Genome Research,2023-10-22,10.1234/paper.000483
-PUB000484,Research Paper 484,"Author_5, Author_8",Nature,2018-05-17,10.1234/paper.000484
-PUB000485,Research Paper 485,"Author_2, Author_9",Bioinformatics,2018-08-13,10.1234/paper.000485
-PUB000486,Research Paper 486,"Author_5, Author_10",Nature,2021-11-12,10.1234/paper.000486
-PUB000487,Research Paper 487,"Author_4, Author_9",PLOS ONE,2015-09-19,10.1234/paper.000487
-PUB000488,Research Paper 488,"Author_4, Author_8",BMC Genomics,2018-04-13,10.1234/paper.000488
-PUB000489,Research Paper 489,"Author_2, Author_6",BMC Genomics,2016-09-12,10.1234/paper.000489
-PUB000490,Research Paper 490,"Author_3, Author_6",PLOS ONE,2016-06-22,10.1234/paper.000490
-PUB000491,Research Paper 491,"Author_4, Author_8",BMC Genomics,2022-11-14,10.1234/paper.000491
-PUB000492,Research Paper 492,"Author_5, Author_7",Genome Research,2014-08-23,10.1234/paper.000492
-PUB000493,Research Paper 493,"Author_2, Author_6",Science,2023-01-12,10.1234/paper.000493
-PUB000494,Research Paper 494,"Author_2, Author_6",Cell,2015-12-22,10.1234/paper.000494
-PUB000495,Research Paper 495,"Author_1, Author_8",Nature,2018-10-14,10.1234/paper.000495
-PUB000496,Research Paper 496,"Author_1, Author_10",PLOS ONE,2011-03-14,10.1234/paper.000496
-PUB000497,Research Paper 497,"Author_1, Author_10",Nature,2023-11-20,10.1234/paper.000497
-PUB000498,Research Paper 498,"Author_1, Author_6",Cell,2011-09-24,10.1234/paper.000498
-PUB000499,Research Paper 499,"Author_4, Author_8",PLOS ONE,2020-08-15,10.1234/paper.000499
+title,authors,journal,publication_year,doi
+Research on Gene Function 0,"Author0, Author1",Bioinformatics,2014,10.1234/journal.9631.0
+Research on Gene Function 1,"Author0, Author1, Author2, Author3",BMC Genomics,2018,10.1234/journal.6605.1
+Research on Gene Function 2,"Author0, Author1, Author2",Nature,2012,10.1234/journal.7840.2
+Research on Gene Function 3,Author0,BMC Genomics,2024,10.1234/journal.2249.3
+Research on Gene Function 4,"Author0, Author1, Author2",Bioinformatics,2015,10.1234/journal.4331.4
+Research on Gene Function 5,"Author0, Author1, Author2, Author3",Science,2020,10.1234/journal.1536.5
+Research on Gene Function 6,"Author0, Author1, Author2",Cell,2011,10.1234/journal.3883.6
+Research on Gene Function 7,"Author0, Author1",BMC Genomics,2012,10.1234/journal.9672.7
+Research on Gene Function 8,"Author0, Author1, Author2, Author3, Author4",Nature,2020,10.1234/journal.8858.8
+Research on Gene Function 9,"Author0, Author1",PLOS ONE,2014,10.1234/journal.6679.9
+Research on Gene Function 10,"Author0, Author1, Author2, Author3, Author4",Cell,2013,10.1234/journal.8394.10
+Research on Gene Function 11,"Author0, Author1, Author2, Author3, Author4",Science,2023,10.1234/journal.5727.11
+Research on Gene Function 12,"Author0, Author1, Author2",Science,2023,10.1234/journal.1050.12
+Research on Gene Function 13,"Author0, Author1, Author2, Author3",Bioinformatics,2011,10.1234/journal.2177.13
+Research on Gene Function 14,"Author0, Author1, Author2, Author3, Author4",Nucleic Acids Research,2016,10.1234/journal.2860.14
+Research on Gene Function 15,"Author0, Author1",PLOS ONE,2015,10.1234/journal.6414.15
+Research on Gene Function 16,"Author0, Author1, Author2, Author3",Nature,2024,10.1234/journal.7477.16
+Research on Gene Function 17,"Author0, Author1, Author2",Cell,2014,10.1234/journal.3030.17
+Research on Gene Function 18,"Author0, Author1, Author2",Genome Research,2011,10.1234/journal.9455.18
+Research on Gene Function 19,Author0,Cell,2019,10.1234/journal.8942.19
+Research on Gene Function 20,"Author0, Author1",Science,2016,10.1234/journal.1745.20
+Research on Gene Function 21,"Author0, Author1, Author2, Author3",Cell,2024,10.1234/journal.4491.21
+Research on Gene Function 22,"Author0, Author1",BMC Genomics,2016,10.1234/journal.2018.22
+Research on Gene Function 23,"Author0, Author1, Author2, Author3",Cell,2018,10.1234/journal.8437.23
+Research on Gene Function 24,"Author0, Author1, Author2, Author3",Cell,2023,10.1234/journal.1722.24
+Research on Gene Function 25,"Author0, Author1, Author2, Author3, Author4",Science,2021,10.1234/journal.2079.25
+Research on Gene Function 26,"Author0, Author1, Author2",Nature,2022,10.1234/journal.9284.26
+Research on Gene Function 27,Author0,Bioinformatics,2012,10.1234/journal.1343.27
+Research on Gene Function 28,"Author0, Author1",Science,2015,10.1234/journal.3798.28
+Research on Gene Function 29,"Author0, Author1, Author2, Author3",Science,2016,10.1234/journal.2721.29
+Research on Gene Function 30,Author0,Genome Research,2022,10.1234/journal.9194.30
+Research on Gene Function 31,"Author0, Author1, Author2",Nature,2012,10.1234/journal.7708.31
+Research on Gene Function 32,"Author0, Author1, Author2, Author3",Genome Research,2016,10.1234/journal.3217.32
+Research on Gene Function 33,"Author0, Author1",Cell,2023,10.1234/journal.3222.33
+Research on Gene Function 34,"Author0, Author1, Author2",Cell,2019,10.1234/journal.5880.34
+Research on Gene Function 35,"Author0, Author1",Science,2011,10.1234/journal.2178.35
+Research on Gene Function 36,"Author0, Author1, Author2",Nucleic Acids Research,2023,10.1234/journal.6450.36
+Research on Gene Function 37,"Author0, Author1, Author2",Nature,2022,10.1234/journal.8291.37
+Research on Gene Function 38,Author0,Nature,2023,10.1234/journal.7582.38
+Research on Gene Function 39,"Author0, Author1",Genome Research,2021,10.1234/journal.7599.39
+Research on Gene Function 40,"Author0, Author1, Author2, Author3, Author4",Science,2013,10.1234/journal.8463.40
+Research on Gene Function 41,"Author0, Author1, Author2, Author3, Author4",Genome Research,2024,10.1234/journal.3444.41
+Research on Gene Function 42,"Author0, Author1, Author2, Author3",Bioinformatics,2013,10.1234/journal.4434.42
+Research on Gene Function 43,"Author0, Author1, Author2",Cell,2016,10.1234/journal.1951.43
+Research on Gene Function 44,Author0,Genome Research,2018,10.1234/journal.7093.44
+Research on Gene Function 45,"Author0, Author1, Author2, Author3",Nucleic Acids Research,2018,10.1234/journal.2745.45
+Research on Gene Function 46,"Author0, Author1, Author2, Author3, Author4",Nucleic Acids Research,2017,10.1234/journal.5301.46
+Research on Gene Function 47,"Author0, Author1",Cell,2019,10.1234/journal.9824.47
+Research on Gene Function 48,"Author0, Author1, Author2, Author3, Author4",PLOS ONE,2023,10.1234/journal.5644.48
+Research on Gene Function 49,Author0,Cell,2011,10.1234/journal.6992.49
+Research on Gene Function 50,Author0,Cell,2018,10.1234/journal.9085.50
+Research on Gene Function 51,Author0,BMC Genomics,2011,10.1234/journal.3698.51
+Research on Gene Function 52,Author0,Nucleic Acids Research,2010,10.1234/journal.5605.52
+Research on Gene Function 53,"Author0, Author1, Author2, Author3, Author4",Cell,2022,10.1234/journal.4781.53
+Research on Gene Function 54,Author0,Bioinformatics,2013,10.1234/journal.7226.54
+Research on Gene Function 55,Author0,Nucleic Acids Research,2024,10.1234/journal.6339.55
+Research on Gene Function 56,"Author0, Author1, Author2",BMC Genomics,2017,10.1234/journal.8810.56
+Research on Gene Function 57,"Author0, Author1",Bioinformatics,2024,10.1234/journal.2494.57
+Research on Gene Function 58,"Author0, Author1",Nature,2019,10.1234/journal.2935.58
+Research on Gene Function 59,"Author0, Author1",Genome Research,2012,10.1234/journal.2278.59
+Research on Gene Function 60,"Author0, Author1, Author2",Cell,2020,10.1234/journal.1585.60
+Research on Gene Function 61,"Author0, Author1",Genome Research,2022,10.1234/journal.8579.61
+Research on Gene Function 62,"Author0, Author1, Author2",Bioinformatics,2020,10.1234/journal.5660.62
+Research on Gene Function 63,"Author0, Author1, Author2, Author3",Science,2020,10.1234/journal.5653.63
+Research on Gene Function 64,"Author0, Author1, Author2, Author3",Bioinformatics,2015,10.1234/journal.9937.64
+Research on Gene Function 65,"Author0, Author1, Author2",PLOS ONE,2012,10.1234/journal.7865.65
+Research on Gene Function 66,"Author0, Author1",PLOS ONE,2017,10.1234/journal.2290.66
+Research on Gene Function 67,Author0,BMC Genomics,2013,10.1234/journal.4360.67
+Research on Gene Function 68,"Author0, Author1, Author2, Author3",Genome Research,2014,10.1234/journal.3711.68
+Research on Gene Function 69,"Author0, Author1, Author2, Author3, Author4",Science,2024,10.1234/journal.6818.69
+Research on Gene Function 70,"Author0, Author1, Author2",Genome Research,2014,10.1234/journal.3570.70
+Research on Gene Function 71,"Author0, Author1",PLOS ONE,2022,10.1234/journal.1153.71
+Research on Gene Function 72,"Author0, Author1, Author2",Nature,2020,10.1234/journal.3991.72
+Research on Gene Function 73,"Author0, Author1, Author2, Author3, Author4",Nucleic Acids Research,2015,10.1234/journal.9042.73
+Research on Gene Function 74,"Author0, Author1, Author2, Author3",PLOS ONE,2023,10.1234/journal.4397.74
+Research on Gene Function 75,"Author0, Author1",Genome Research,2023,10.1234/journal.3625.75
+Research on Gene Function 76,"Author0, Author1",Bioinformatics,2013,10.1234/journal.8895.76
+Research on Gene Function 77,Author0,Nucleic Acids Research,2018,10.1234/journal.3605.77
+Research on Gene Function 78,"Author0, Author1",Genome Research,2020,10.1234/journal.8067.78
+Research on Gene Function 79,"Author0, Author1",Cell,2014,10.1234/journal.9682.79
+Research on Gene Function 80,"Author0, Author1",PLOS ONE,2020,10.1234/journal.1684.80
+Research on Gene Function 81,"Author0, Author1, Author2",Genome Research,2011,10.1234/journal.9596.81
+Research on Gene Function 82,"Author0, Author1, Author2, Author3",Science,2018,10.1234/journal.8814.82
+Research on Gene Function 83,"Author0, Author1, Author2, Author3, Author4",Science,2013,10.1234/journal.6378.83
+Research on Gene Function 84,"Author0, Author1",Genome Research,2024,10.1234/journal.3975.84
+Research on Gene Function 85,"Author0, Author1",Nature,2010,10.1234/journal.5353.85
+Research on Gene Function 86,"Author0, Author1, Author2, Author3",BMC Genomics,2013,10.1234/journal.1041.86
+Research on Gene Function 87,Author0,PLOS ONE,2013,10.1234/journal.4371.87
+Research on Gene Function 88,"Author0, Author1",Cell,2012,10.1234/journal.1514.88
+Research on Gene Function 89,Author0,Cell,2011,10.1234/journal.5246.89
+Research on Gene Function 90,"Author0, Author1, Author2, Author3",Science,2019,10.1234/journal.1578.90
+Research on Gene Function 91,Author0,Cell,2020,10.1234/journal.5917.91
+Research on Gene Function 92,"Author0, Author1",Nucleic Acids Research,2011,10.1234/journal.3534.92
+Research on Gene Function 93,"Author0, Author1, Author2, Author3",Genome Research,2010,10.1234/journal.9900.93
+Research on Gene Function 94,"Author0, Author1, Author2",Nature,2015,10.1234/journal.4247.94
+Research on Gene Function 95,Author0,BMC Genomics,2013,10.1234/journal.2053.95
+Research on Gene Function 96,"Author0, Author1",Nucleic Acids Research,2019,10.1234/journal.2009.96
+Research on Gene Function 97,"Author0, Author1, Author2, Author3",Nature,2018,10.1234/journal.9237.97
+Research on Gene Function 98,"Author0, Author1, Author2",BMC Genomics,2012,10.1234/journal.3374.98
+Research on Gene Function 99,"Author0, Author1, Author2, Author3, Author4",Nature,2023,10.1234/journal.1785.99
+Research on Gene Function 100,"Author0, Author1, Author2, Author3, Author4",Genome Research,2019,10.1234/journal.2092.100
+Research on Gene Function 101,"Author0, Author1, Author2, Author3",Cell,2010,10.1234/journal.4988.101
+Research on Gene Function 102,"Author0, Author1",PLOS ONE,2019,10.1234/journal.1708.102
+Research on Gene Function 103,"Author0, Author1, Author2, Author3, Author4",BMC Genomics,2024,10.1234/journal.7390.103
+Research on Gene Function 104,"Author0, Author1, Author2",Cell,2016,10.1234/journal.8800.104
+Research on Gene Function 105,Author0,BMC Genomics,2013,10.1234/journal.4872.105
+Research on Gene Function 106,"Author0, Author1, Author2, Author3",PLOS ONE,2014,10.1234/journal.5356.106
+Research on Gene Function 107,"Author0, Author1",Cell,2010,10.1234/journal.8577.107
+Research on Gene Function 108,"Author0, Author1",Cell,2021,10.1234/journal.3534.108
+Research on Gene Function 109,"Author0, Author1",Cell,2021,10.1234/journal.7907.109
+Research on Gene Function 110,Author0,BMC Genomics,2017,10.1234/journal.7692.110
+Research on Gene Function 111,"Author0, Author1, Author2, Author3, Author4",Bioinformatics,2023,10.1234/journal.9384.111
+Research on Gene Function 112,Author0,Nature,2015,10.1234/journal.4135.112
+Research on Gene Function 113,"Author0, Author1",BMC Genomics,2024,10.1234/journal.6404.113
+Research on Gene Function 114,"Author0, Author1",Nature,2015,10.1234/journal.3497.114
+Research on Gene Function 115,Author0,Bioinformatics,2013,10.1234/journal.8922.115
+Research on Gene Function 116,"Author0, Author1, Author2, Author3, Author4",Science,2023,10.1234/journal.8555.116
+Research on Gene Function 117,"Author0, Author1, Author2",PLOS ONE,2012,10.1234/journal.6083.117
+Research on Gene Function 118,"Author0, Author1, Author2",Bioinformatics,2014,10.1234/journal.8084.118
+Research on Gene Function 119,"Author0, Author1, Author2, Author3, Author4",BMC Genomics,2020,10.1234/journal.9676.119
+Research on Gene Function 120,"Author0, Author1",Cell,2014,10.1234/journal.2809.120
+Research on Gene Function 121,"Author0, Author1",Bioinformatics,2020,10.1234/journal.6294.121
+Research on Gene Function 122,"Author0, Author1, Author2, Author3",BMC Genomics,2023,10.1234/journal.3719.122
+Research on Gene Function 123,"Author0, Author1",PLOS ONE,2010,10.1234/journal.8662.123
+Research on Gene Function 124,"Author0, Author1, Author2",Cell,2021,10.1234/journal.9075.124
+Research on Gene Function 125,"Author0, Author1",Nature,2012,10.1234/journal.3597.125
+Research on Gene Function 126,"Author0, Author1, Author2",Nature,2021,10.1234/journal.3198.126
+Research on Gene Function 127,"Author0, Author1",Science,2017,10.1234/journal.8450.127
+Research on Gene Function 128,"Author0, Author1, Author2",BMC Genomics,2022,10.1234/journal.8430.128
+Research on Gene Function 129,"Author0, Author1, Author2",Science,2024,10.1234/journal.3521.129
+Research on Gene Function 130,"Author0, Author1, Author2, Author3, Author4",Science,2014,10.1234/journal.9312.130
+Research on Gene Function 131,Author0,Bioinformatics,2017,10.1234/journal.5397.131
+Research on Gene Function 132,"Author0, Author1, Author2, Author3, Author4",Nucleic Acids Research,2011,10.1234/journal.9687.132
+Research on Gene Function 133,"Author0, Author1, Author2",BMC Genomics,2011,10.1234/journal.7777.133
+Research on Gene Function 134,"Author0, Author1, Author2, Author3",PLOS ONE,2020,10.1234/journal.7432.134
+Research on Gene Function 135,"Author0, Author1, Author2",Cell,2011,10.1234/journal.9315.135
+Research on Gene Function 136,"Author0, Author1, Author2, Author3",Bioinformatics,2015,10.1234/journal.6125.136
+Research on Gene Function 137,Author0,Genome Research,2011,10.1234/journal.5264.137
+Research on Gene Function 138,"Author0, Author1, Author2, Author3, Author4",Science,2015,10.1234/journal.5111.138
+Research on Gene Function 139,"Author0, Author1, Author2, Author3",Cell,2011,10.1234/journal.8767.139
+Research on Gene Function 140,"Author0, Author1",Bioinformatics,2023,10.1234/journal.9130.140
+Research on Gene Function 141,Author0,Nature,2017,10.1234/journal.6589.141
+Research on Gene Function 142,"Author0, Author1, Author2, Author3",BMC Genomics,2012,10.1234/journal.1376.142
+Research on Gene Function 143,Author0,Genome Research,2019,10.1234/journal.1506.143
+Research on Gene Function 144,"Author0, Author1, Author2, Author3",Cell,2015,10.1234/journal.1992.144
+Research on Gene Function 145,Author0,BMC Genomics,2022,10.1234/journal.6231.145
+Research on Gene Function 146,"Author0, Author1",Nucleic Acids Research,2012,10.1234/journal.3017.146
+Research on Gene Function 147,"Author0, Author1, Author2, Author3, Author4",Science,2010,10.1234/journal.7175.147
+Research on Gene Function 148,"Author0, Author1, Author2, Author3, Author4",Genome Research,2010,10.1234/journal.4993.148
+Research on Gene Function 149,Author0,Nucleic Acids Research,2014,10.1234/journal.7287.149
+Research on Gene Function 150,Author0,Bioinformatics,2022,10.1234/journal.6884.150
+Research on Gene Function 151,"Author0, Author1, Author2, Author3",Genome Research,2016,10.1234/journal.7061.151
+Research on Gene Function 152,Author0,Nature,2010,10.1234/journal.3982.152
+Research on Gene Function 153,"Author0, Author1, Author2",Cell,2012,10.1234/journal.2070.153
+Research on Gene Function 154,"Author0, Author1, Author2, Author3, Author4",Nucleic Acids Research,2015,10.1234/journal.3388.154
+Research on Gene Function 155,"Author0, Author1, Author2, Author3, Author4",PLOS ONE,2018,10.1234/journal.3097.155
+Research on Gene Function 156,Author0,Science,2022,10.1234/journal.2478.156
+Research on Gene Function 157,"Author0, Author1, Author2, Author3",Genome Research,2017,10.1234/journal.6664.157
+Research on Gene Function 158,"Author0, Author1",Science,2022,10.1234/journal.1746.158
+Research on Gene Function 159,"Author0, Author1, Author2",Science,2016,10.1234/journal.9773.159
+Research on Gene Function 160,Author0,Genome Research,2013,10.1234/journal.5756.160
+Research on Gene Function 161,Author0,Nature,2017,10.1234/journal.7591.161
+Research on Gene Function 162,"Author0, Author1, Author2, Author3",Nucleic Acids Research,2021,10.1234/journal.7632.162
+Research on Gene Function 163,"Author0, Author1, Author2, Author3, Author4",Bioinformatics,2011,10.1234/journal.2409.163
+Research on Gene Function 164,"Author0, Author1, Author2, Author3",PLOS ONE,2019,10.1234/journal.3500.164
+Research on Gene Function 165,"Author0, Author1, Author2, Author3, Author4",Science,2015,10.1234/journal.2528.165
+Research on Gene Function 166,"Author0, Author1, Author2",Genome Research,2011,10.1234/journal.6094.166
+Research on Gene Function 167,"Author0, Author1, Author2",Nature,2019,10.1234/journal.9331.167
+Research on Gene Function 168,Author0,Nature,2024,10.1234/journal.6037.168
+Research on Gene Function 169,Author0,Science,2017,10.1234/journal.4255.169
+Research on Gene Function 170,"Author0, Author1, Author2",Nature,2023,10.1234/journal.1917.170
+Research on Gene Function 171,"Author0, Author1, Author2, Author3",Cell,2013,10.1234/journal.7452.171
+Research on Gene Function 172,Author0,Science,2024,10.1234/journal.4096.172
+Research on Gene Function 173,"Author0, Author1, Author2",PLOS ONE,2022,10.1234/journal.2095.173
+Research on Gene Function 174,Author0,BMC Genomics,2018,10.1234/journal.1560.174
+Research on Gene Function 175,"Author0, Author1, Author2, Author3, Author4",PLOS ONE,2012,10.1234/journal.5689.175
+Research on Gene Function 176,"Author0, Author1, Author2, Author3, Author4",Science,2022,10.1234/journal.1560.176
+Research on Gene Function 177,"Author0, Author1, Author2, Author3, Author4",Nature,2014,10.1234/journal.8463.177
+Research on Gene Function 178,"Author0, Author1",Cell,2023,10.1234/journal.1519.178
+Research on Gene Function 179,"Author0, Author1, Author2, Author3",Cell,2015,10.1234/journal.7927.179
+Research on Gene Function 180,"Author0, Author1, Author2, Author3",Nature,2010,10.1234/journal.1655.180
+Research on Gene Function 181,"Author0, Author1, Author2, Author3, Author4",Science,2020,10.1234/journal.6415.181
+Research on Gene Function 182,Author0,Genome Research,2010,10.1234/journal.2059.182
+Research on Gene Function 183,"Author0, Author1, Author2, Author3",BMC Genomics,2011,10.1234/journal.2177.183
+Research on Gene Function 184,"Author0, Author1",Genome Research,2015,10.1234/journal.2107.184
+Research on Gene Function 185,"Author0, Author1, Author2, Author3, Author4",PLOS ONE,2011,10.1234/journal.4818.185
+Research on Gene Function 186,"Author0, Author1",PLOS ONE,2023,10.1234/journal.8434.186
+Research on Gene Function 187,Author0,Nucleic Acids Research,2022,10.1234/journal.6579.187
+Research on Gene Function 188,"Author0, Author1, Author2",Bioinformatics,2013,10.1234/journal.7826.188
+Research on Gene Function 189,"Author0, Author1, Author2, Author3, Author4",Science,2012,10.1234/journal.6351.189
+Research on Gene Function 190,"Author0, Author1, Author2, Author3",Cell,2019,10.1234/journal.1158.190
+Research on Gene Function 191,"Author0, Author1, Author2, Author3, Author4",Genome Research,2020,10.1234/journal.2156.191
+Research on Gene Function 192,"Author0, Author1, Author2",Genome Research,2010,10.1234/journal.4842.192
+Research on Gene Function 193,Author0,Nature,2024,10.1234/journal.2753.193
+Research on Gene Function 194,Author0,Genome Research,2010,10.1234/journal.2929.194
+Research on Gene Function 195,"Author0, Author1, Author2",Genome Research,2024,10.1234/journal.5455.195
+Research on Gene Function 196,"Author0, Author1",Science,2013,10.1234/journal.8037.196
+Research on Gene Function 197,"Author0, Author1, Author2",BMC Genomics,2016,10.1234/journal.2786.197
+Research on Gene Function 198,"Author0, Author1, Author2",Nucleic Acids Research,2014,10.1234/journal.6547.198
+Research on Gene Function 199,"Author0, Author1, Author2, Author3, Author4",Bioinformatics,2023,10.1234/journal.6644.199
+Research on Gene Function 200,"Author0, Author1, Author2, Author3, Author4",Bioinformatics,2014,10.1234/journal.5195.200
+Research on Gene Function 201,"Author0, Author1, Author2",BMC Genomics,2011,10.1234/journal.5582.201
+Research on Gene Function 202,"Author0, Author1, Author2, Author3, Author4",Science,2021,10.1234/journal.8061.202
+Research on Gene Function 203,Author0,Cell,2013,10.1234/journal.7342.203
+Research on Gene Function 204,"Author0, Author1, Author2",Genome Research,2013,10.1234/journal.8256.204
+Research on Gene Function 205,Author0,Cell,2016,10.1234/journal.2118.205
+Research on Gene Function 206,"Author0, Author1, Author2, Author3, Author4",Cell,2018,10.1234/journal.8174.206
+Research on Gene Function 207,"Author0, Author1, Author2, Author3, Author4",Cell,2017,10.1234/journal.7247.207
+Research on Gene Function 208,"Author0, Author1",Cell,2014,10.1234/journal.9704.208
+Research on Gene Function 209,"Author0, Author1, Author2, Author3",Nucleic Acids Research,2015,10.1234/journal.6498.209
+Research on Gene Function 210,"Author0, Author1",Science,2011,10.1234/journal.6588.210
+Research on Gene Function 211,"Author0, Author1, Author2, Author3, Author4",Science,2010,10.1234/journal.8049.211
+Research on Gene Function 212,"Author0, Author1, Author2",BMC Genomics,2020,10.1234/journal.2608.212
+Research on Gene Function 213,"Author0, Author1, Author2, Author3",Bioinformatics,2020,10.1234/journal.5350.213
+Research on Gene Function 214,"Author0, Author1, Author2, Author3, Author4",Cell,2016,10.1234/journal.9581.214
+Research on Gene Function 215,"Author0, Author1, Author2, Author3, Author4",Nature,2017,10.1234/journal.9761.215
+Research on Gene Function 216,"Author0, Author1, Author2, Author3, Author4",PLOS ONE,2023,10.1234/journal.1113.216
+Research on Gene Function 217,"Author0, Author1, Author2, Author3",Bioinformatics,2014,10.1234/journal.3649.217
+Research on Gene Function 218,Author0,Genome Research,2013,10.1234/journal.5562.218
+Research on Gene Function 219,"Author0, Author1, Author2, Author3",Genome Research,2022,10.1234/journal.9065.219
+Research on Gene Function 220,Author0,Genome Research,2021,10.1234/journal.6270.220
+Research on Gene Function 221,"Author0, Author1, Author2, Author3",Nucleic Acids Research,2010,10.1234/journal.6510.221
+Research on Gene Function 222,"Author0, Author1",Cell,2012,10.1234/journal.2741.222
+Research on Gene Function 223,"Author0, Author1, Author2",Cell,2024,10.1234/journal.1739.223
+Research on Gene Function 224,"Author0, Author1",PLOS ONE,2016,10.1234/journal.5611.224
+Research on Gene Function 225,"Author0, Author1, Author2, Author3",Bioinformatics,2011,10.1234/journal.7983.225
+Research on Gene Function 226,"Author0, Author1, Author2, Author3, Author4",Science,2020,10.1234/journal.3166.226
+Research on Gene Function 227,"Author0, Author1, Author2, Author3, Author4",Cell,2016,10.1234/journal.9697.227
+Research on Gene Function 228,"Author0, Author1",Nucleic Acids Research,2023,10.1234/journal.9282.228
+Research on Gene Function 229,"Author0, Author1, Author2, Author3, Author4",BMC Genomics,2014,10.1234/journal.4338.229
+Research on Gene Function 230,"Author0, Author1",Cell,2015,10.1234/journal.2888.230
+Research on Gene Function 231,"Author0, Author1",Nature,2024,10.1234/journal.8826.231
+Research on Gene Function 232,"Author0, Author1, Author2, Author3, Author4",Cell,2016,10.1234/journal.8402.232
+Research on Gene Function 233,"Author0, Author1, Author2, Author3, Author4",Science,2020,10.1234/journal.8591.233
+Research on Gene Function 234,"Author0, Author1",Nature,2014,10.1234/journal.2341.234
+Research on Gene Function 235,"Author0, Author1, Author2",Science,2014,10.1234/journal.7604.235
+Research on Gene Function 236,Author0,Genome Research,2017,10.1234/journal.4458.236
+Research on Gene Function 237,"Author0, Author1, Author2",Genome Research,2017,10.1234/journal.7549.237
+Research on Gene Function 238,"Author0, Author1, Author2, Author3, Author4",Genome Research,2022,10.1234/journal.8569.238
+Research on Gene Function 239,"Author0, Author1, Author2, Author3, Author4",PLOS ONE,2017,10.1234/journal.1849.239
+Research on Gene Function 240,"Author0, Author1",Science,2019,10.1234/journal.2018.240
+Research on Gene Function 241,"Author0, Author1, Author2, Author3",Nucleic Acids Research,2024,10.1234/journal.1497.241
+Research on Gene Function 242,"Author0, Author1, Author2, Author3, Author4",BMC Genomics,2016,10.1234/journal.8991.242
+Research on Gene Function 243,"Author0, Author1, Author2",Nature,2015,10.1234/journal.9279.243
+Research on Gene Function 244,"Author0, Author1",Nature,2020,10.1234/journal.6661.244
+Research on Gene Function 245,"Author0, Author1",Nucleic Acids Research,2017,10.1234/journal.7839.245
+Research on Gene Function 246,Author0,Genome Research,2010,10.1234/journal.5221.246
+Research on Gene Function 247,"Author0, Author1, Author2, Author3",Bioinformatics,2013,10.1234/journal.5842.247
+Research on Gene Function 248,"Author0, Author1, Author2",BMC Genomics,2022,10.1234/journal.2196.248
+Research on Gene Function 249,"Author0, Author1, Author2",Bioinformatics,2012,10.1234/journal.4778.249
+Research on Gene Function 250,"Author0, Author1, Author2, Author3, Author4",Nature,2015,10.1234/journal.6704.250
+Research on Gene Function 251,"Author0, Author1, Author2",Science,2011,10.1234/journal.8985.251
+Research on Gene Function 252,Author0,Nucleic Acids Research,2018,10.1234/journal.9791.252
+Research on Gene Function 253,"Author0, Author1",Nature,2013,10.1234/journal.4334.253
+Research on Gene Function 254,"Author0, Author1",PLOS ONE,2017,10.1234/journal.7655.254
+Research on Gene Function 255,"Author0, Author1",Nucleic Acids Research,2016,10.1234/journal.4934.255
+Research on Gene Function 256,"Author0, Author1",Genome Research,2015,10.1234/journal.6696.256
+Research on Gene Function 257,"Author0, Author1, Author2, Author3",Cell,2017,10.1234/journal.8838.257
+Research on Gene Function 258,"Author0, Author1, Author2, Author3",Bioinformatics,2011,10.1234/journal.6601.258
+Research on Gene Function 259,"Author0, Author1, Author2",BMC Genomics,2014,10.1234/journal.2667.259
+Research on Gene Function 260,Author0,BMC Genomics,2013,10.1234/journal.3533.260
+Research on Gene Function 261,"Author0, Author1, Author2, Author3",Science,2017,10.1234/journal.2076.261
+Research on Gene Function 262,"Author0, Author1, Author2, Author3, Author4",Science,2024,10.1234/journal.5259.262
+Research on Gene Function 263,"Author0, Author1, Author2, Author3",Cell,2023,10.1234/journal.1759.263
+Research on Gene Function 264,"Author0, Author1, Author2",PLOS ONE,2022,10.1234/journal.2273.264
+Research on Gene Function 265,"Author0, Author1, Author2, Author3",Science,2017,10.1234/journal.6846.265
+Research on Gene Function 266,"Author0, Author1, Author2, Author3",Bioinformatics,2013,10.1234/journal.4180.266
+Research on Gene Function 267,"Author0, Author1",Cell,2024,10.1234/journal.4575.267
+Research on Gene Function 268,Author0,Nucleic Acids Research,2019,10.1234/journal.2426.268
+Research on Gene Function 269,Author0,Cell,2022,10.1234/journal.5522.269
+Research on Gene Function 270,"Author0, Author1, Author2, Author3",Genome Research,2016,10.1234/journal.5447.270
+Research on Gene Function 271,"Author0, Author1, Author2, Author3, Author4",BMC Genomics,2010,10.1234/journal.4779.271
+Research on Gene Function 272,Author0,Nature,2017,10.1234/journal.7442.272
+Research on Gene Function 273,"Author0, Author1, Author2, Author3, Author4",Cell,2016,10.1234/journal.5345.273
+Research on Gene Function 274,Author0,PLOS ONE,2014,10.1234/journal.2915.274
+Research on Gene Function 275,Author0,BMC Genomics,2011,10.1234/journal.5488.275
+Research on Gene Function 276,"Author0, Author1, Author2, Author3",Nucleic Acids Research,2011,10.1234/journal.4073.276
+Research on Gene Function 277,"Author0, Author1, Author2, Author3, Author4",Science,2013,10.1234/journal.4060.277
+Research on Gene Function 278,"Author0, Author1, Author2",Science,2021,10.1234/journal.1330.278
+Research on Gene Function 279,"Author0, Author1, Author2, Author3",Science,2014,10.1234/journal.8603.279
+Research on Gene Function 280,"Author0, Author1, Author2, Author3, Author4",PLOS ONE,2024,10.1234/journal.1616.280
+Research on Gene Function 281,Author0,PLOS ONE,2024,10.1234/journal.5802.281
+Research on Gene Function 282,"Author0, Author1, Author2, Author3, Author4",Cell,2013,10.1234/journal.4217.282
+Research on Gene Function 283,"Author0, Author1, Author2, Author3",Bioinformatics,2012,10.1234/journal.4271.283
+Research on Gene Function 284,Author0,Genome Research,2022,10.1234/journal.1931.284
+Research on Gene Function 285,"Author0, Author1, Author2, Author3",Nature,2022,10.1234/journal.7478.285
+Research on Gene Function 286,Author0,BMC Genomics,2015,10.1234/journal.3099.286
+Research on Gene Function 287,"Author0, Author1, Author2, Author3, Author4",Cell,2016,10.1234/journal.1763.287
+Research on Gene Function 288,"Author0, Author1, Author2, Author3",PLOS ONE,2012,10.1234/journal.2385.288
+Research on Gene Function 289,"Author0, Author1",Cell,2011,10.1234/journal.5386.289
+Research on Gene Function 290,Author0,Genome Research,2024,10.1234/journal.1203.290
+Research on Gene Function 291,"Author0, Author1, Author2, Author3, Author4",Cell,2016,10.1234/journal.3574.291
+Research on Gene Function 292,"Author0, Author1, Author2, Author3",Nucleic Acids Research,2015,10.1234/journal.9953.292
+Research on Gene Function 293,"Author0, Author1, Author2",PLOS ONE,2017,10.1234/journal.3816.293
+Research on Gene Function 294,"Author0, Author1, Author2, Author3",Nature,2013,10.1234/journal.3163.294
+Research on Gene Function 295,"Author0, Author1, Author2, Author3, Author4",Genome Research,2012,10.1234/journal.6800.295
+Research on Gene Function 296,"Author0, Author1",Science,2021,10.1234/journal.1673.296
+Research on Gene Function 297,"Author0, Author1, Author2, Author3, Author4",PLOS ONE,2016,10.1234/journal.1780.297
+Research on Gene Function 298,"Author0, Author1, Author2, Author3",PLOS ONE,2010,10.1234/journal.5772.298
+Research on Gene Function 299,"Author0, Author1",Science,2020,10.1234/journal.3804.299
+Research on Gene Function 300,"Author0, Author1, Author2",Nucleic Acids Research,2010,10.1234/journal.8624.300
+Research on Gene Function 301,"Author0, Author1, Author2, Author3, Author4",PLOS ONE,2014,10.1234/journal.5896.301
+Research on Gene Function 302,"Author0, Author1, Author2",Science,2012,10.1234/journal.8819.302
+Research on Gene Function 303,"Author0, Author1, Author2, Author3, Author4",Nucleic Acids Research,2020,10.1234/journal.5849.303
+Research on Gene Function 304,"Author0, Author1",PLOS ONE,2020,10.1234/journal.5566.304
+Research on Gene Function 305,"Author0, Author1, Author2, Author3",Science,2016,10.1234/journal.9973.305
+Research on Gene Function 306,"Author0, Author1, Author2, Author3",Genome Research,2010,10.1234/journal.9205.306
+Research on Gene Function 307,"Author0, Author1, Author2, Author3",BMC Genomics,2010,10.1234/journal.9977.307
+Research on Gene Function 308,Author0,Nature,2023,10.1234/journal.6792.308
+Research on Gene Function 309,"Author0, Author1",Genome Research,2020,10.1234/journal.3674.309
+Research on Gene Function 310,Author0,PLOS ONE,2020,10.1234/journal.2811.310
+Research on Gene Function 311,Author0,BMC Genomics,2020,10.1234/journal.5281.311
+Research on Gene Function 312,"Author0, Author1, Author2, Author3, Author4",Nucleic Acids Research,2017,10.1234/journal.1641.312
+Research on Gene Function 313,"Author0, Author1, Author2, Author3, Author4",Nature,2017,10.1234/journal.5757.313
+Research on Gene Function 314,"Author0, Author1, Author2",Nature,2013,10.1234/journal.9070.314
+Research on Gene Function 315,"Author0, Author1",Genome Research,2019,10.1234/journal.3145.315
+Research on Gene Function 316,"Author0, Author1, Author2, Author3, Author4",Cell,2011,10.1234/journal.9539.316
+Research on Gene Function 317,"Author0, Author1, Author2, Author3",Nucleic Acids Research,2023,10.1234/journal.5114.317
+Research on Gene Function 318,"Author0, Author1, Author2, Author3, Author4",Bioinformatics,2019,10.1234/journal.4306.318
+Research on Gene Function 319,"Author0, Author1, Author2, Author3, Author4",Genome Research,2011,10.1234/journal.7918.319
+Research on Gene Function 320,Author0,Nature,2021,10.1234/journal.7063.320
+Research on Gene Function 321,"Author0, Author1, Author2, Author3, Author4",Nature,2010,10.1234/journal.8805.321
+Research on Gene Function 322,Author0,Cell,2024,10.1234/journal.4025.322
+Research on Gene Function 323,"Author0, Author1, Author2",Nucleic Acids Research,2014,10.1234/journal.8436.323
+Research on Gene Function 324,"Author0, Author1",Nucleic Acids Research,2013,10.1234/journal.3142.324
+Research on Gene Function 325,"Author0, Author1, Author2",BMC Genomics,2022,10.1234/journal.8114.325
+Research on Gene Function 326,"Author0, Author1, Author2, Author3",Genome Research,2013,10.1234/journal.6901.326
+Research on Gene Function 327,"Author0, Author1, Author2",Nucleic Acids Research,2024,10.1234/journal.5249.327
+Research on Gene Function 328,"Author0, Author1, Author2, Author3, Author4",Genome Research,2021,10.1234/journal.8135.328
+Research on Gene Function 329,"Author0, Author1",Genome Research,2019,10.1234/journal.1867.329
+Research on Gene Function 330,"Author0, Author1, Author2, Author3, Author4",Bioinformatics,2022,10.1234/journal.2136.330
+Research on Gene Function 331,"Author0, Author1, Author2, Author3",Nature,2015,10.1234/journal.7400.331
+Research on Gene Function 332,"Author0, Author1, Author2, Author3, Author4",Bioinformatics,2020,10.1234/journal.1433.332
+Research on Gene Function 333,"Author0, Author1, Author2, Author3",Nucleic Acids Research,2013,10.1234/journal.5290.333
+Research on Gene Function 334,"Author0, Author1, Author2, Author3",Science,2012,10.1234/journal.3922.334
+Research on Gene Function 335,Author0,Cell,2022,10.1234/journal.4803.335
+Research on Gene Function 336,"Author0, Author1",BMC Genomics,2010,10.1234/journal.9950.336
+Research on Gene Function 337,"Author0, Author1, Author2, Author3",Bioinformatics,2024,10.1234/journal.4320.337
+Research on Gene Function 338,Author0,PLOS ONE,2018,10.1234/journal.8032.338
+Research on Gene Function 339,"Author0, Author1, Author2",Bioinformatics,2016,10.1234/journal.2387.339
+Research on Gene Function 340,"Author0, Author1, Author2",BMC Genomics,2017,10.1234/journal.4419.340
+Research on Gene Function 341,"Author0, Author1, Author2, Author3, Author4",PLOS ONE,2014,10.1234/journal.1693.341
+Research on Gene Function 342,"Author0, Author1",Nucleic Acids Research,2011,10.1234/journal.7239.342
+Research on Gene Function 343,"Author0, Author1, Author2",Cell,2012,10.1234/journal.3708.343
+Research on Gene Function 344,Author0,Genome Research,2012,10.1234/journal.3267.344
+Research on Gene Function 345,"Author0, Author1",Bioinformatics,2018,10.1234/journal.2174.345
+Research on Gene Function 346,"Author0, Author1, Author2, Author3, Author4",Nature,2010,10.1234/journal.8167.346
+Research on Gene Function 347,Author0,Bioinformatics,2024,10.1234/journal.9807.347
+Research on Gene Function 348,"Author0, Author1",Nature,2021,10.1234/journal.1210.348
+Research on Gene Function 349,"Author0, Author1, Author2, Author3",Genome Research,2012,10.1234/journal.1261.349
+Research on Gene Function 350,"Author0, Author1",BMC Genomics,2010,10.1234/journal.6125.350
+Research on Gene Function 351,Author0,Cell,2011,10.1234/journal.3560.351
+Research on Gene Function 352,"Author0, Author1, Author2, Author3",Bioinformatics,2020,10.1234/journal.1456.352
+Research on Gene Function 353,"Author0, Author1",PLOS ONE,2011,10.1234/journal.7254.353
+Research on Gene Function 354,Author0,Genome Research,2012,10.1234/journal.1465.354
+Research on Gene Function 355,Author0,BMC Genomics,2014,10.1234/journal.2886.355
+Research on Gene Function 356,Author0,Genome Research,2019,10.1234/journal.6662.356
+Research on Gene Function 357,"Author0, Author1, Author2, Author3, Author4",Bioinformatics,2020,10.1234/journal.4134.357
+Research on Gene Function 358,"Author0, Author1, Author2, Author3",Genome Research,2015,10.1234/journal.5169.358
+Research on Gene Function 359,Author0,Science,2017,10.1234/journal.2371.359
+Research on Gene Function 360,Author0,Cell,2011,10.1234/journal.8348.360
+Research on Gene Function 361,"Author0, Author1, Author2",Bioinformatics,2018,10.1234/journal.4706.361
+Research on Gene Function 362,Author0,PLOS ONE,2014,10.1234/journal.1382.362
+Research on Gene Function 363,"Author0, Author1, Author2",Nature,2015,10.1234/journal.6845.363
+Research on Gene Function 364,"Author0, Author1, Author2, Author3",Science,2019,10.1234/journal.7303.364
+Research on Gene Function 365,"Author0, Author1, Author2",PLOS ONE,2024,10.1234/journal.6669.365
+Research on Gene Function 366,"Author0, Author1, Author2",Science,2018,10.1234/journal.9381.366
+Research on Gene Function 367,"Author0, Author1, Author2, Author3",Science,2019,10.1234/journal.4630.367
+Research on Gene Function 368,"Author0, Author1, Author2",Bioinformatics,2010,10.1234/journal.7331.368
+Research on Gene Function 369,"Author0, Author1, Author2, Author3, Author4",Nucleic Acids Research,2022,10.1234/journal.8650.369
+Research on Gene Function 370,"Author0, Author1, Author2, Author3, Author4",Nature,2020,10.1234/journal.3498.370
+Research on Gene Function 371,"Author0, Author1",Science,2012,10.1234/journal.8750.371
+Research on Gene Function 372,"Author0, Author1, Author2, Author3",Genome Research,2023,10.1234/journal.2393.372
+Research on Gene Function 373,"Author0, Author1",BMC Genomics,2010,10.1234/journal.6289.373
+Research on Gene Function 374,"Author0, Author1, Author2, Author3",Science,2023,10.1234/journal.7627.374
+Research on Gene Function 375,Author0,PLOS ONE,2020,10.1234/journal.7312.375
+Research on Gene Function 376,Author0,PLOS ONE,2024,10.1234/journal.5463.376
+Research on Gene Function 377,"Author0, Author1, Author2, Author3, Author4",BMC Genomics,2014,10.1234/journal.6030.377
+Research on Gene Function 378,Author0,Bioinformatics,2011,10.1234/journal.4887.378
+Research on Gene Function 379,"Author0, Author1",Nucleic Acids Research,2017,10.1234/journal.6736.379
+Research on Gene Function 380,"Author0, Author1, Author2",PLOS ONE,2014,10.1234/journal.8913.380
+Research on Gene Function 381,"Author0, Author1, Author2, Author3, Author4",Science,2020,10.1234/journal.3656.381
+Research on Gene Function 382,"Author0, Author1, Author2",Bioinformatics,2013,10.1234/journal.3625.382
+Research on Gene Function 383,"Author0, Author1, Author2, Author3, Author4",Science,2022,10.1234/journal.2276.383
+Research on Gene Function 384,"Author0, Author1, Author2, Author3",Bioinformatics,2010,10.1234/journal.5680.384
+Research on Gene Function 385,Author0,Nature,2011,10.1234/journal.2063.385
+Research on Gene Function 386,"Author0, Author1",Genome Research,2015,10.1234/journal.5854.386
+Research on Gene Function 387,Author0,Nucleic Acids Research,2021,10.1234/journal.4598.387
+Research on Gene Function 388,"Author0, Author1, Author2",Cell,2019,10.1234/journal.3788.388
+Research on Gene Function 389,"Author0, Author1",Cell,2023,10.1234/journal.4378.389
+Research on Gene Function 390,"Author0, Author1, Author2",Bioinformatics,2016,10.1234/journal.8306.390
+Research on Gene Function 391,"Author0, Author1",Nature,2011,10.1234/journal.4154.391
+Research on Gene Function 392,"Author0, Author1",Science,2020,10.1234/journal.3446.392
+Research on Gene Function 393,"Author0, Author1, Author2, Author3, Author4",Nucleic Acids Research,2022,10.1234/journal.8563.393
+Research on Gene Function 394,"Author0, Author1, Author2",Genome Research,2013,10.1234/journal.2735.394
+Research on Gene Function 395,"Author0, Author1, Author2, Author3",BMC Genomics,2016,10.1234/journal.2206.395
+Research on Gene Function 396,"Author0, Author1, Author2, Author3",Cell,2017,10.1234/journal.9574.396
+Research on Gene Function 397,"Author0, Author1, Author2, Author3",Nature,2010,10.1234/journal.2945.397
+Research on Gene Function 398,"Author0, Author1, Author2, Author3, Author4",Bioinformatics,2015,10.1234/journal.1140.398
+Research on Gene Function 399,"Author0, Author1, Author2, Author3",Science,2024,10.1234/journal.9066.399
+Research on Gene Function 400,Author0,Nucleic Acids Research,2015,10.1234/journal.5647.400
+Research on Gene Function 401,Author0,BMC Genomics,2022,10.1234/journal.3221.401
+Research on Gene Function 402,"Author0, Author1",PLOS ONE,2016,10.1234/journal.1482.402
+Research on Gene Function 403,"Author0, Author1, Author2, Author3",Cell,2021,10.1234/journal.5374.403
+Research on Gene Function 404,Author0,BMC Genomics,2010,10.1234/journal.1290.404
+Research on Gene Function 405,"Author0, Author1, Author2",Science,2023,10.1234/journal.4900.405
+Research on Gene Function 406,"Author0, Author1, Author2, Author3, Author4",Cell,2019,10.1234/journal.9012.406
+Research on Gene Function 407,"Author0, Author1, Author2",Nucleic Acids Research,2024,10.1234/journal.3605.407
+Research on Gene Function 408,"Author0, Author1, Author2",Nature,2012,10.1234/journal.6532.408
+Research on Gene Function 409,"Author0, Author1",Genome Research,2011,10.1234/journal.4411.409
+Research on Gene Function 410,"Author0, Author1, Author2, Author3, Author4",BMC Genomics,2020,10.1234/journal.5950.410
+Research on Gene Function 411,"Author0, Author1, Author2",Cell,2016,10.1234/journal.6168.411
+Research on Gene Function 412,Author0,Science,2011,10.1234/journal.7018.412
+Research on Gene Function 413,"Author0, Author1, Author2",Bioinformatics,2011,10.1234/journal.2792.413
+Research on Gene Function 414,"Author0, Author1, Author2, Author3",Genome Research,2014,10.1234/journal.5472.414
+Research on Gene Function 415,"Author0, Author1, Author2, Author3",Science,2014,10.1234/journal.3296.415
+Research on Gene Function 416,"Author0, Author1, Author2",BMC Genomics,2024,10.1234/journal.2756.416
+Research on Gene Function 417,"Author0, Author1, Author2, Author3, Author4",Cell,2012,10.1234/journal.9878.417
+Research on Gene Function 418,"Author0, Author1, Author2, Author3, Author4",Science,2021,10.1234/journal.7489.418
+Research on Gene Function 419,Author0,PLOS ONE,2019,10.1234/journal.4132.419
+Research on Gene Function 420,"Author0, Author1, Author2, Author3",PLOS ONE,2011,10.1234/journal.3880.420
+Research on Gene Function 421,"Author0, Author1, Author2, Author3",BMC Genomics,2023,10.1234/journal.9134.421
+Research on Gene Function 422,"Author0, Author1",Bioinformatics,2023,10.1234/journal.8977.422
+Research on Gene Function 423,"Author0, Author1",Bioinformatics,2019,10.1234/journal.5814.423
+Research on Gene Function 424,"Author0, Author1, Author2",Nucleic Acids Research,2015,10.1234/journal.2233.424
+Research on Gene Function 425,"Author0, Author1, Author2, Author3",Nature,2017,10.1234/journal.8920.425
+Research on Gene Function 426,"Author0, Author1, Author2, Author3, Author4",Bioinformatics,2016,10.1234/journal.9206.426
+Research on Gene Function 427,"Author0, Author1",BMC Genomics,2021,10.1234/journal.6071.427
+Research on Gene Function 428,"Author0, Author1, Author2",Nucleic Acids Research,2018,10.1234/journal.8575.428
+Research on Gene Function 429,"Author0, Author1, Author2",Nature,2022,10.1234/journal.5086.429
+Research on Gene Function 430,"Author0, Author1, Author2",Bioinformatics,2022,10.1234/journal.3098.430
+Research on Gene Function 431,"Author0, Author1, Author2",Cell,2020,10.1234/journal.1182.431
+Research on Gene Function 432,Author0,Science,2016,10.1234/journal.5338.432
+Research on Gene Function 433,"Author0, Author1, Author2, Author3, Author4",Cell,2014,10.1234/journal.3261.433
+Research on Gene Function 434,Author0,Genome Research,2012,10.1234/journal.2037.434
+Research on Gene Function 435,"Author0, Author1, Author2",Nucleic Acids Research,2022,10.1234/journal.5711.435
+Research on Gene Function 436,"Author0, Author1, Author2, Author3",Bioinformatics,2011,10.1234/journal.8783.436
+Research on Gene Function 437,"Author0, Author1, Author2",Science,2017,10.1234/journal.2655.437
+Research on Gene Function 438,Author0,Science,2018,10.1234/journal.5177.438
+Research on Gene Function 439,"Author0, Author1, Author2, Author3",PLOS ONE,2012,10.1234/journal.4466.439
+Research on Gene Function 440,Author0,Genome Research,2023,10.1234/journal.8489.440
+Research on Gene Function 441,"Author0, Author1, Author2",Cell,2018,10.1234/journal.7777.441
+Research on Gene Function 442,"Author0, Author1, Author2",Cell,2024,10.1234/journal.4036.442
+Research on Gene Function 443,"Author0, Author1, Author2, Author3, Author4",Bioinformatics,2013,10.1234/journal.3070.443
+Research on Gene Function 444,"Author0, Author1",Nucleic Acids Research,2023,10.1234/journal.5861.444
+Research on Gene Function 445,"Author0, Author1",BMC Genomics,2023,10.1234/journal.7182.445
+Research on Gene Function 446,"Author0, Author1, Author2, Author3",Science,2014,10.1234/journal.9466.446
+Research on Gene Function 447,Author0,Nature,2013,10.1234/journal.2912.447
+Research on Gene Function 448,"Author0, Author1, Author2",BMC Genomics,2021,10.1234/journal.7665.448
+Research on Gene Function 449,"Author0, Author1, Author2, Author3, Author4",Cell,2018,10.1234/journal.5336.449
+Research on Gene Function 450,Author0,Nature,2019,10.1234/journal.5513.450
+Research on Gene Function 451,"Author0, Author1, Author2, Author3, Author4",Nucleic Acids Research,2012,10.1234/journal.1738.451
+Research on Gene Function 452,"Author0, Author1",Genome Research,2021,10.1234/journal.8182.452
+Research on Gene Function 453,"Author0, Author1",PLOS ONE,2023,10.1234/journal.5357.453
+Research on Gene Function 454,"Author0, Author1, Author2, Author3",PLOS ONE,2016,10.1234/journal.6694.454
+Research on Gene Function 455,"Author0, Author1, Author2",Bioinformatics,2011,10.1234/journal.4201.455
+Research on Gene Function 456,"Author0, Author1, Author2, Author3",Nature,2021,10.1234/journal.4859.456
+Research on Gene Function 457,"Author0, Author1, Author2",BMC Genomics,2023,10.1234/journal.2152.457
+Research on Gene Function 458,Author0,Genome Research,2024,10.1234/journal.2914.458
+Research on Gene Function 459,"Author0, Author1, Author2, Author3, Author4",Genome Research,2018,10.1234/journal.9687.459
+Research on Gene Function 460,"Author0, Author1",Genome Research,2024,10.1234/journal.3020.460
+Research on Gene Function 461,Author0,BMC Genomics,2012,10.1234/journal.9363.461
+Research on Gene Function 462,"Author0, Author1, Author2, Author3",Science,2012,10.1234/journal.9611.462
+Research on Gene Function 463,Author0,Science,2010,10.1234/journal.1537.463
+Research on Gene Function 464,Author0,Genome Research,2021,10.1234/journal.1237.464
+Research on Gene Function 465,"Author0, Author1, Author2, Author3, Author4",Cell,2018,10.1234/journal.7602.465
+Research on Gene Function 466,"Author0, Author1, Author2",PLOS ONE,2013,10.1234/journal.5137.466
+Research on Gene Function 467,"Author0, Author1, Author2, Author3, Author4",Science,2018,10.1234/journal.8153.467
+Research on Gene Function 468,"Author0, Author1",Cell,2023,10.1234/journal.2252.468
+Research on Gene Function 469,Author0,Nucleic Acids Research,2022,10.1234/journal.6310.469
+Research on Gene Function 470,"Author0, Author1, Author2",Nature,2021,10.1234/journal.9081.470
+Research on Gene Function 471,"Author0, Author1, Author2, Author3",Bioinformatics,2019,10.1234/journal.6310.471
+Research on Gene Function 472,"Author0, Author1, Author2, Author3",Nucleic Acids Research,2021,10.1234/journal.7332.472
+Research on Gene Function 473,"Author0, Author1",Genome Research,2019,10.1234/journal.5238.473
+Research on Gene Function 474,"Author0, Author1, Author2, Author3, Author4",BMC Genomics,2021,10.1234/journal.4238.474
+Research on Gene Function 475,"Author0, Author1, Author2",Bioinformatics,2017,10.1234/journal.1473.475
+Research on Gene Function 476,"Author0, Author1",Bioinformatics,2018,10.1234/journal.7655.476
+Research on Gene Function 477,"Author0, Author1, Author2, Author3, Author4",Bioinformatics,2017,10.1234/journal.6592.477
+Research on Gene Function 478,"Author0, Author1, Author2, Author3",Genome Research,2019,10.1234/journal.2362.478
+Research on Gene Function 479,Author0,Science,2017,10.1234/journal.9846.479
+Research on Gene Function 480,Author0,Science,2016,10.1234/journal.2873.480
+Research on Gene Function 481,"Author0, Author1, Author2, Author3",Nature,2014,10.1234/journal.7612.481
+Research on Gene Function 482,"Author0, Author1, Author2, Author3, Author4",Nucleic Acids Research,2024,10.1234/journal.2880.482
+Research on Gene Function 483,"Author0, Author1, Author2, Author3",PLOS ONE,2023,10.1234/journal.4279.483
+Research on Gene Function 484,"Author0, Author1, Author2",Bioinformatics,2015,10.1234/journal.8212.484
+Research on Gene Function 485,Author0,Cell,2021,10.1234/journal.2267.485
+Research on Gene Function 486,"Author0, Author1",Genome Research,2015,10.1234/journal.6967.486
+Research on Gene Function 487,"Author0, Author1, Author2",BMC Genomics,2011,10.1234/journal.6379.487
+Research on Gene Function 488,"Author0, Author1, Author2, Author3",Genome Research,2019,10.1234/journal.2272.488
+Research on Gene Function 489,"Author0, Author1",Nature,2023,10.1234/journal.1952.489
+Research on Gene Function 490,"Author0, Author1, Author2, Author3, Author4",PLOS ONE,2022,10.1234/journal.8253.490
+Research on Gene Function 491,"Author0, Author1, Author2, Author3, Author4",PLOS ONE,2012,10.1234/journal.7802.491
+Research on Gene Function 492,Author0,Science,2015,10.1234/journal.6895.492
+Research on Gene Function 493,Author0,Bioinformatics,2024,10.1234/journal.4221.493
+Research on Gene Function 494,Author0,Nature,2022,10.1234/journal.3035.494
+Research on Gene Function 495,Author0,Bioinformatics,2019,10.1234/journal.4609.495
+Research on Gene Function 496,Author0,Nature,2011,10.1234/journal.6380.496
+Research on Gene Function 497,"Author0, Author1, Author2, Author3",Cell,2021,10.1234/journal.8805.497
+Research on Gene Function 498,"Author0, Author1, Author2, Author3",Science,2012,10.1234/journal.7904.498
+Research on Gene Function 499,"Author0, Author1, Author2, Author3, Author4",BMC Genomics,2016,10.1234/journal.5975.499

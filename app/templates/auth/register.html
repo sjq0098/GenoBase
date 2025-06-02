@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0">注册新账号</h4>
+            </div>
+            <div class="card-body">
+                <form method="post" action="{{ url_for('auth.register') }}">
+                    {{ form.hidden_tag() }}
+                    <div class="form-group">
+                        {{ form.username.label(class="form-control-label") }}
+                        {{ form.username(class="form-control") }}
+                        {% for error in form.username.errors %}
+                            <span class="text-danger">{{ error }}</span>
+                        {% endfor %}
+                    </div>
+                    <div class="form-group">
+                        {{ form.email.label(class="form-control-label") }}
+                        {{ form.email(class="form-control") }}
+                        {% for error in form.email.errors %}
+                            <span class="text-danger">{{ error }}</span>
+                        {% endfor %}
+                    </div>
+                    <div class="form-group">
+                        {{ form.password.label(class="form-control-label") }}
+                        {{ form.password(class="form-control") }}
+                        {% for error in form.password.errors %}
+                            <span class="text-danger">{{ error }}</span>
+                        {% endfor %}
+                    </div>
+                    <div class="form-group">
+                        {{ form.password2.label(class="form-control-label") }}
+                        {{ form.password2(class="form-control") }}
+                        {% for error in form.password2.errors %}
+                            <span class="text-danger">{{ error }}</span>
+                        {% endfor %}
+                    </div>
+                    <div class="form-group">
+                        {{ form.user_type.label(class="form-control-label") }}
+                        {{ form.user_type(class="form-control") }}
+                        <small class="form-text text-muted">
+                            <ul>
+                                <li>读者: 可以浏览和搜索数据</li>
+                                <li>创建者: 可以添加和管理自己的数据</li>
+                                <li>管理员: 可以管理所有用户和数据</li>
+                            </ul>
+                        </small>
+                    </div>
+                    <div class="form-group">
+                        {{ form.submit(class="btn btn-primary btn-block") }}
+                    </div>
+                </form>
+            </div>
+            <div class="card-footer text-center">
+                <p class="mb-0">已有账号？<a href="{{ url_for('auth.login') }}">立即登录</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

@@ -1,27 +1,32 @@
 [
   {
-    "name": "Homo sapiens",
+    "scientific_name": "Homo sapiens",
+    "common_name": "Human",
     "taxonomy_id": "9606",
-    "common_name": "Human"
+    "description": "Modern human"
   },
   {
-    "name": "Mus musculus",
+    "scientific_name": "Mus musculus",
+    "common_name": "Mouse",
     "taxonomy_id": "10090",
-    "common_name": "Mouse"
+    "description": "House mouse"
   },
   {
-    "name": "Rattus norvegicus",
+    "scientific_name": "Rattus norvegicus",
+    "common_name": "Rat",
     "taxonomy_id": "10116",
-    "common_name": "Rat"
+    "description": "Brown rat"
   },
   {
-    "name": "Drosophila melanogaster",
+    "scientific_name": "Drosophila melanogaster",
+    "common_name": "Fruit fly",
     "taxonomy_id": "7227",
-    "common_name": "Fruit fly"
+    "description": "Common fruit fly"
   },
   {
-    "name": "Saccharomyces cerevisiae",
+    "scientific_name": "Saccharomyces cerevisiae",
+    "common_name": "Baker's yeast",
     "taxonomy_id": "4932",
-    "common_name": "Baker's yeast"
+    "description": "Budding yeast"
   }
 ]

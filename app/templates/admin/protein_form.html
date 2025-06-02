@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>{{ title }}</h2>
+    
+    <!-- 显示错误消息 -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+                <div class="alert alert-{{ category if category != 'error' else 'danger' }} alert-dismissible fade show" role="alert">
+                    {{ message }}
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+    <form method="post" class="needs-validation" novalidate>
+        {{ form.hidden_tag() }}
+        
+        <div class="form-group">
+            {{ form.protein_name.label(class="form-label") }}
+            {{ form.protein_name(class="form-control" + (" is-invalid" if form.protein_name.errors else "")) }}
+            {% if form.protein_name.errors %}
+                <div class="invalid-feedback">
+                    {% for error in form.protein_name.errors %}
+                        {{ error }}
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+
+        <div class="form-group">
+            {{ form.uniprot_id.label(class="form-label") }}
+            {{ form.uniprot_id(class="form-control" + (" is-invalid" if form.uniprot_id.errors else "")) }}
+            {% if form.uniprot_id.errors %}
+                <div class="invalid-feedback">
+                    {% for error in form.uniprot_id.errors %}
+                        {{ error }}
+                    {% endfor %}
+                </div>
+            {% endif %}
+            <small class="form-text text-muted">请输入有效的 UniProt ID</small>
+        </div>
+
+        <div class="form-group">
+            {{ form.gene_id.label(class="form-label") }}
+            {{ form.gene_id(class="form-control" + (" is-invalid" if form.gene_id.errors else "")) }}
+            {% if form.gene_id.errors %}
+                <div class="invalid-feedback">
+                    {% for error in form.gene_id.errors %}
+                        {{ error }}
+                    {% endfor %}
+                </div>
+            {% endif %}
+            <small class="form-text text-muted">请输入基因ID（可输入不存在的ID以测试触发器）</small>
+        </div>
+
+        <div class="form-group">
+            {{ form.amino_acid_sequence.label(class="form-label") }}
+            {{ form.amino_acid_sequence(class="form-control" + (" is-invalid" if form.amino_acid_sequence.errors else ""), rows=5) }}
+            {% if form.amino_acid_sequence.errors %}
+                <div class="invalid-feedback">
+                    {% for error in form.amino_acid_sequence.errors %}
+                        {{ error }}
+                    {% endfor %}
+                </div>
+            {% endif %}
+            <small class="form-text text-muted">请输入氨基酸序列，系统会自动清理空白字符</small>
+        </div>
+
+        <div class="form-group mt-4">
+            {{ form.submit(class="btn btn-primary") }}
+            <a href="{{ url_for('main.protein_list') }}" class="btn btn-secondary">返回</a>
+        </div>
+    </form>
+</div>
+
+<!-- 添加 Select2 支持 -->
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    // 初始化 Select2
+    $('.select2').select2({
+        placeholder: '请选择基因',
+        width: '100%'
+    });
+});
+
+// 表单验证
+(function() {
+    'use strict';
+    window.addEventListener('load', function() {
+        var forms = document.getElementsByClassName('needs-validation');
+        Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+            }, false);
+        });
+    }, false);
+})();
+
+// 序列输入处理
+document.getElementById('amino_acid_sequence').addEventListener('input', function(e) {
+    // 自动清理空白字符
+    this.value = this.value.replace(/\s+/g, '');
+});
+</script>
+{% endblock %}

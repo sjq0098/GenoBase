@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>用户详情：{{ user.username }}</h2>
+    <div class="card mt-3">
+        <div class="card-body">
+            <h5 class="card-title">基本信息</h5>
+            <p class="card-text"><strong>用户名：</strong> {{ user.username }}</p>
+            <p class="card-text"><strong>邮箱：</strong> {{ user.email }}</p>
+            <p class="card-text"><strong>用户类型：</strong> {{ user.user_type }}</p>
+            <p class="card-text"><strong>API Key：</strong> {{ user.api_key or '未分配' }}</p>
+            {% if user.is_creator() and user.creator %}
+                <p class="card-text"><strong>机构：</strong> {{ user.creator.institution or '未填写' }}</p>
+                <p class="card-text"><strong>研究领域：</strong> {{ user.creator.research_field or '未填写' }}</p>
+            {% elif user.is_manager() and user.manager %}
+                <p class="card-text"><strong>部门：</strong> {{ user.manager.department or '未填写' }}</p>
+                <p class="card-text"><strong>权限等级：</strong> {{ user.manager.access_level or '未填写' }}</p>
+            {% elif user.is_reader() and user.reader %}
+                <p class="card-text"><strong>组织：</strong> {{ user.reader.organization or '未填写' }}</p>
+                <p class="card-text"><strong>订阅类型：</strong> {{ user.reader.subscription_type or '未填写' }}</p>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- 编辑按钮 -->
+    <a href="{{ url_for('auth.edit_profile', user_id=user.user_id) }}" class="btn btn-primary mt-3">编辑信息</a>
+    <a href="{{ url_for('main.index') }}" class="btn btn-secondary mt-3">返回首页</a>
+    <a href="{{ url_for('auth.regenerate_api_key', user_id=user.user_id) }}" class="btn btn-warning mt-3">重置API Key</a>
+</div>
+{% endblock %} 

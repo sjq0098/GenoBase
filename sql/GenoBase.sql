@@ -46,22 +46,22 @@ CREATE TABLE IF NOT EXISTS Readers (
 );
 
 -- 用户表索引
-CREATE INDEX IF NOT EXISTS idx_users_username ON Users(username);
-CREATE INDEX IF NOT EXISTS idx_users_email ON Users(email);
-CREATE INDEX IF NOT EXISTS idx_users_api_key ON Users(api_key);
-CREATE INDEX IF NOT EXISTS idx_users_type ON Users(user_type);
+CREATE INDEX  idx_users_username ON Users(username);
+CREATE INDEX  idx_users_email ON Users(email);
+CREATE INDEX  idx_users_api_key ON Users(api_key);
+CREATE INDEX  idx_users_type ON Users(user_type);
 
 -- 创建者表索引
-CREATE INDEX IF NOT EXISTS idx_creators_institution ON Creators(institution);
-CREATE INDEX IF NOT EXISTS idx_creators_research_field ON Creators(research_field);
+CREATE INDEX  idx_creators_institution ON Creators(institution);
+CREATE INDEX  idx_creators_research_field ON Creators(research_field);
 
 -- 管理员表索引
-CREATE INDEX IF NOT EXISTS idx_managers_department ON Managers(department);
-CREATE INDEX IF NOT EXISTS idx_managers_access_level ON Managers(access_level);
+CREATE INDEX  idx_managers_department ON Managers(department);
+CREATE INDEX  idx_managers_access_level ON Managers(access_level);
 
 -- 读者表索引
-CREATE INDEX IF NOT EXISTS idx_readers_organization ON Readers(organization);
-CREATE INDEX IF NOT EXISTS idx_readers_subscription ON Readers(subscription_type);
+CREATE INDEX  idx_readers_organization ON Readers(organization);
+CREATE INDEX  idx_readers_subscription ON Readers(subscription_type);
 
 -- 2. 物种表
 CREATE TABLE IF NOT EXISTS Species (
@@ -75,8 +75,8 @@ CREATE TABLE IF NOT EXISTS Species (
 );
 
 -- 物种表索引
-CREATE INDEX IF NOT EXISTS idx_species_name ON Species(scientific_name);
-CREATE INDEX IF NOT EXISTS idx_species_taxonomy ON Species(taxonomy_id);
+CREATE INDEX  idx_species_name ON Species(scientific_name);
+CREATE INDEX  idx_species_taxonomy ON Species(taxonomy_id);
 
 -- 3. 基因表
 CREATE TABLE IF NOT EXISTS Genes (
@@ -95,10 +95,10 @@ CREATE TABLE IF NOT EXISTS Genes (
 );
 
 -- 基因表索引
-CREATE INDEX IF NOT EXISTS idx_genes_name ON Genes(gene_name);
-CREATE INDEX IF NOT EXISTS idx_genes_symbol ON Genes(gene_symbol);
-CREATE INDEX IF NOT EXISTS idx_genes_species ON Genes(species_id);
-CREATE INDEX IF NOT EXISTS idx_genes_chromosome ON Genes(chromosome);
+CREATE INDEX  idx_genes_name ON Genes(gene_name);
+CREATE INDEX  idx_genes_symbol ON Genes(gene_symbol);
+CREATE INDEX  idx_genes_species ON Genes(species_id);
+CREATE INDEX  idx_genes_chromosome ON Genes(chromosome);
 
 -- 4. 蛋白质表
 CREATE TABLE IF NOT EXISTS Proteins (
@@ -113,9 +113,9 @@ CREATE TABLE IF NOT EXISTS Proteins (
 );
 
 -- 蛋白质表索引
-CREATE INDEX IF NOT EXISTS idx_proteins_name ON Proteins(protein_name);
-CREATE INDEX IF NOT EXISTS idx_proteins_uniprot ON Proteins(uniprot_id);
-CREATE INDEX IF NOT EXISTS idx_proteins_gene ON Proteins(gene_id);
+CREATE INDEX  idx_proteins_name ON Proteins(protein_name);
+CREATE INDEX  idx_proteins_uniprot ON Proteins(uniprot_id);
+CREATE INDEX  idx_proteins_gene ON Proteins(gene_id);
 
 -- 5. 文献表
 CREATE TABLE IF NOT EXISTS Publications (
@@ -130,9 +130,9 @@ CREATE TABLE IF NOT EXISTS Publications (
 );
 
 -- 文献表索引
-CREATE INDEX IF NOT EXISTS idx_publications_title ON Publications(title);
-CREATE INDEX IF NOT EXISTS idx_publications_doi ON Publications(doi);
-CREATE INDEX IF NOT EXISTS idx_publications_year ON Publications(publication_year);
+CREATE INDEX  idx_publications_title ON Publications(title);
+CREATE INDEX  idx_publications_doi ON Publications(doi);
+CREATE INDEX  idx_publications_year ON Publications(publication_year);
 
 -- 6. 基因-文献关联表
 CREATE TABLE IF NOT EXISTS Gene_Publications (
@@ -158,8 +158,8 @@ CREATE TABLE IF NOT EXISTS Experimental_Data (
 );
 
 -- 实验数据表索引
-CREATE INDEX IF NOT EXISTS idx_experiments_gene ON Experimental_Data(gene_id);
-CREATE INDEX IF NOT EXISTS idx_experiments_publication ON Experimental_Data(publication_id);
+CREATE INDEX  idx_experiments_gene ON Experimental_Data(gene_id);
+CREATE INDEX  idx_experiments_publication ON Experimental_Data(publication_id);
 
 -- 添加注释
 ALTER TABLE Users COMMENT '用户信息表';

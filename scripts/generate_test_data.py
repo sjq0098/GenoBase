@@ -11,6 +11,7 @@ import numpy as np
 from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
+import hashlib
 
 class TestDataGenerator:
     def __init__(self, data_dir: str = "data"):
@@ -20,19 +21,44 @@ class TestDataGenerator:
         
         # 基础数据
         self.species = [
-            {"name": "Homo sapiens", "taxonomy_id": "9606", "common_name": "Human"},
-            {"name": "Mus musculus", "taxonomy_id": "10090", "common_name": "Mouse"},
-            {"name": "Rattus norvegicus", "taxonomy_id": "10116", "common_name": "Rat"},
-            {"name": "Drosophila melanogaster", "taxonomy_id": "7227", "common_name": "Fruit fly"},
-            {"name": "Saccharomyces cerevisiae", "taxonomy_id": "4932", "common_name": "Baker's yeast"}
+            {
+                "scientific_name": "Homo sapiens",
+                "common_name": "Human",
+                "taxonomy_id": "9606",
+                "description": "Modern human"
+            },
+            {
+                "scientific_name": "Mus musculus",
+                "common_name": "Mouse",
+                "taxonomy_id": "10090",
+                "description": "House mouse"
+            },
+            {
+                "scientific_name": "Rattus norvegicus",
+                "common_name": "Rat",
+                "taxonomy_id": "10116",
+                "description": "Brown rat"
+            },
+            {
+                "scientific_name": "Drosophila melanogaster",
+                "common_name": "Fruit fly",
+                "taxonomy_id": "7227",
+                "description": "Common fruit fly"
+            },
+            {
+                "scientific_name": "Saccharomyces cerevisiae",
+                "common_name": "Baker's yeast",
+                "taxonomy_id": "4932",
+                "description": "Budding yeast"
+            }
         ]
         
         self.chromosomes = {
             "Homo sapiens": [f"chr{i}" for i in range(1, 23)] + ["chrX", "chrY"],
             "Mus musculus": [f"chr{i}" for i in range(1, 20)] + ["chrX", "chrY"],
             "Rattus norvegicus": [f"chr{i}" for i in range(1, 21)] + ["chrX", "chrY"],
-            "Drosophila melanogaster": [f"chr{chr}" for chr in ["2L", "2R", "3L", "3R", "4", "X", "Y"]],
-            "Saccharomyces cerevisiae": [f"chr{i}" for i in range(1, 17)]
+            "Drosophila melanogaster": ["2L", "2R", "3L", "3R", "4", "X", "Y"],
+            "Saccharomyces cerevisiae": [f"{i}" for i in range(1, 17)]
         }
         
         self.journals = [
@@ -45,10 +71,85 @@ class TestDataGenerator:
             "Microarray", "Proteomics", "Metabolomics"
         ]
 
+        self.institutions = [
+            "Harvard University", "MIT", "Stanford University", 
+            "Oxford University", "Cambridge University"
+        ]
+
+        self.departments = [
+            "Bioinformatics", "Genomics", "Molecular Biology",
+            "Systems Biology", "Computational Biology"
+        ]
+
+        self.organizations = [
+            "Research Institute A", "Biotech Company B",
+            "University Lab C", "Medical Center D"
+        ]
+
     def _ensure_data_dir(self):
         """确保数据目录存在"""
         if not os.path.exists(self.data_dir):
             os.makedirs(self.data_dir)
+
+    def generate_api_key(self) -> str:
+        """生成随机API密钥"""
+        return hashlib.sha256(str(random.getrandbits(256)).encode()).hexdigest()[:64]
+
+    def generate_users(self, num_users: int) -> Dict[str, List[Dict[str, Any]]]:
+        """生成用户数据，包括基础用户和三种类型的用户"""
+        users = []
+        creators = []
+        managers = []
+        readers = []
+        
+        user_types = ['creator', 'manager', 'reader']
+        
+        for i in range(num_users):
+            user_type = random.choice(user_types)
+            
+            # 基础用户信息
+            user = {
+                "username": f"user_{i}",
+                "password_hash": hashlib.sha256(f"password_{i}".encode()).hexdigest(),
+                "email": f"user_{i}@example.com",
+                "user_type": user_type,
+                "api_key": self.generate_api_key() if random.random() > 0.5 else None,
+                "is_active": random.choice([True, True, True, False])  # 75%概率活跃
+            }
+            users.append(user)
+            
+            # 根据用户类型生成对应的特定信息
+            if user_type == 'creator':
+                creator = {
+                    "user_id": i + 1,  # 假设自增ID从1开始
+                    "institution": random.choice(self.institutions),
+                    "research_field": random.choice(self.departments),
+                    "max_storage_size": random.choice([1073741824, 2147483648, 4294967296])  # 1GB, 2GB, 4GB
+                }
+                creators.append(creator)
+            
+            elif user_type == 'manager':
+                manager = {
+                    "user_id": i + 1,
+                    "department": random.choice(self.departments),
+                    "access_level": random.choice(['full', 'limited'])
+                }
+                managers.append(manager)
+            
+            else:  # reader
+                reader = {
+                    "user_id": i + 1,
+                    "organization": random.choice(self.organizations),
+                    "subscription_type": random.choice(['free', 'premium'])
+                }
+                readers.append(reader)
+        
+        return {
+            "users": users,
+            "creators": creators,
+            "managers": managers,
+            "readers": readers
+        }
 
     def generate_dna_sequence(self, length: int) -> str:
         """生成随机DNA序列"""
@@ -65,19 +166,18 @@ class TestDataGenerator:
         genes = []
         for i in range(num_genes):
             species = random.choice(self.species)
-            chromosome = random.choice(self.chromosomes[species["name"]])
-            sequence_length = random.randint(1000, 10000)
+            chromosome = random.choice(self.chromosomes[species["scientific_name"]])
+            start_pos = random.randint(1, 1000000)
             
             gene = {
-                "gene_id": f"GENE{i:06d}",
                 "gene_name": f"Gene_{i}",
                 "gene_symbol": f"G{i}",
-                "sequence": self.generate_dna_sequence(sequence_length),
+                "sequence": self.generate_dna_sequence(random.randint(1000, 10000)),
                 "chromosome": chromosome,
-                "start_position": random.randint(1, 1000000),
-                "end_position": random.randint(1000001, 2000000),
-                "strand": random.choice(["+", "-"]),
-                "species_id": species["taxonomy_id"]
+                "start_position": start_pos,
+                "end_position": start_pos + random.randint(1000, 10000),
+                "strand": random.choice(['+', '-']),
+                "species_id": random.randint(1, len(self.species))  # 假设species_id从1开始
             }
             genes.append(gene)
         return genes
@@ -86,50 +186,57 @@ class TestDataGenerator:
         """生成蛋白质数据"""
         proteins = []
         for i in range(num_proteins):
-            sequence_length = random.randint(100, 1000)
-            protein = {
-                "protein_id": f"PROT{i:06d}",
+            proteins.append({
                 "protein_name": f"Protein_{i}",
-                "sequence": self.generate_protein_sequence(sequence_length),
-                "molecular_weight": round(random.uniform(10000, 100000), 2),
-                "isoelectric_point": round(random.uniform(4.0, 10.0), 2),
-                "gene_id": f"GENE{random.randint(0, 999999):06d}"
-            }
-            proteins.append(protein)
+                "uniprot_id": f"P{random.randint(10000, 99999)}",
+                "amino_acid_sequence": self.generate_protein_sequence(random.randint(100, 1000)),
+                "gene_id": random.randint(1, 1000)  # 假设有1000个基因
+            })
         return proteins
 
     def generate_publications(self, num_publications: int) -> List[Dict[str, Any]]:
         """生成文献数据"""
         publications = []
         for i in range(num_publications):
-            year = random.randint(2010, 2023)
-            month = random.randint(1, 12)
-            day = random.randint(1, 28)
-            publication_date = datetime(year, month, day)
-            
-            publication = {
-                "publication_id": f"PUB{i:06d}",
-                "title": f"Research Paper {i}",
-                "authors": f"Author_{random.randint(1, 5)}, Author_{random.randint(6, 10)}",
+            publications.append({
+                "title": f"Research on Gene Function {i}",
+                "authors": ", ".join([f"Author{j}" for j in range(random.randint(1, 5))]),
                 "journal": random.choice(self.journals),
-                "publication_date": publication_date.strftime("%Y-%m-%d"),
-                "doi": f"10.1234/paper.{i:06d}"
-            }
-            publications.append(publication)
+                "publication_year": random.randint(2010, 2024),
+                "doi": f"10.1234/journal.{random.randint(1000, 9999)}.{i}"
+            })
         return publications
+
+    def generate_gene_publications(self, num_genes: int, num_publications: int) -> List[Dict[str, Any]]:
+        """生成基因-文献关联数据"""
+        associations = []
+        for _ in range(num_genes * 2):  # 平均每个基因关联2篇文献
+            associations.append({
+                "gene_id": random.randint(1, num_genes),
+                "publication_id": random.randint(1, num_publications)
+            })
+        # 去重
+        unique_associations = list({(a["gene_id"], a["publication_id"]): a for a in associations}.values())
+        return unique_associations
 
     def generate_experimental_data(self, num_experiments: int) -> List[Dict[str, Any]]:
         """生成实验数据"""
         experiments = []
         for i in range(num_experiments):
             experiment = {
-                "experiment_id": f"EXP{i:06d}",
                 "experiment_type": random.choice(self.experiment_types),
-                "gene_id": f"GENE{random.randint(0, 999999):06d}",
-                "condition": f"Condition_{random.randint(1, 5)}",
-                "value": round(random.uniform(0, 100), 2),
-                "p_value": round(random.uniform(0, 1), 4),
-                "publication_id": f"PUB{random.randint(0, 999999):06d}"
+                "conditions": json.dumps({
+                    "temperature": f"{random.randint(20, 37)}°C",
+                    "ph": round(random.uniform(6.0, 8.0), 1),
+                    "time": f"{random.randint(1, 48)}h"
+                }),
+                "results": json.dumps({
+                    "measurement": round(random.uniform(0, 100), 2),
+                    "p_value": round(random.uniform(0, 0.05), 4),
+                    "fold_change": round(random.uniform(-5, 5), 2)
+                }),
+                "gene_id": random.randint(1, 1000),  # 假设有1000个基因
+                "publication_id": random.randint(1, 500)  # 假设有500篇文献
             }
             experiments.append(experiment)
         return experiments
@@ -149,20 +256,8 @@ class TestDataGenerator:
                 writer.writeheader()
                 writer.writerows(data)
 
-    def save_to_fasta(self, sequences: List[Dict[str, str]], filename: str):
-        """保存序列数据到FASTA文件"""
-        filepath = os.path.join(self.data_dir, filename)
-        records = []
-        for seq in sequences:
-            record = SeqRecord(
-                Seq(seq["sequence"]),
-                id=seq["gene_id"],
-                description=f"gene_name={seq['gene_name']}"
-            )
-            records.append(record)
-        SeqIO.write(records, filepath, "fasta")
-
-    def generate_all_test_data(self, 
+    def generate_all_test_data(self,
+                             num_users: int = 100,
                              num_genes: int = 1000,
                              num_proteins: int = 800,
                              num_publications: int = 500,
@@ -174,11 +269,18 @@ class TestDataGenerator:
         self.save_to_json(self.species, "species.json")
         print("✓ 物种数据已生成")
         
+        # 生成并保存用户相关数据
+        users_data = self.generate_users(num_users)
+        self.save_to_json(users_data["users"], "users.json")
+        self.save_to_json(users_data["creators"], "creators.json")
+        self.save_to_json(users_data["managers"], "managers.json")
+        self.save_to_json(users_data["readers"], "readers.json")
+        print("✓ 用户数据已生成")
+        
         # 生成并保存基因数据
         genes = self.generate_genes(num_genes)
         self.save_to_json(genes, "genes.json")
         self.save_to_csv(genes, "genes.csv")
-        self.save_to_fasta(genes, "genes.fasta")
         print("✓ 基因数据已生成")
         
         # 生成并保存蛋白质数据
@@ -192,6 +294,12 @@ class TestDataGenerator:
         self.save_to_json(publications, "publications.json")
         self.save_to_csv(publications, "publications.csv")
         print("✓ 文献数据已生成")
+        
+        # 生成并保存基因-文献关联数据
+        gene_publications = self.generate_gene_publications(num_genes, num_publications)
+        self.save_to_json(gene_publications, "gene_publications.json")
+        self.save_to_csv(gene_publications, "gene_publications.csv")
+        print("✓ 基因-文献关联数据已生成")
         
         # 生成并保存实验数据
         experiments = self.generate_experimental_data(num_experiments)

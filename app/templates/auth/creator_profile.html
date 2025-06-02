@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>创建者资料</h2>
+    <div class="card mt-3">
+        <div class="card-body">
+            <h5 class="card-title">基本信息</h5>
+            <p class="card-text"><strong>用户名：</strong> {{ current_user.username }}</p>
+            <p class="card-text"><strong>邮箱：</strong> {{ current_user.email }}</p>
+            <p class="card-text"><strong>用户类型：</strong> {{ current_user.user_type }}</p>
+            {% if current_user.api_key %}
+            <p class="card-text">
+                <strong>API Key：</strong> 
+                <span id="api-key">{{ current_user.api_key }}</span>
+                <!-- 复制按钮 -->
+                <button class="btn btn-outline-secondary btn-sm" onclick="copyApiKey()">复制</button>
+            </p>
+            <!-- 重置API密钥按钮 -->
+            <form action="{{ url_for('auth.reset_api_key') }}" method="post" style="display:inline;">
+                <button type="submit" class="btn btn-warning btn-sm">重置API密钥</button>
+            </form>
+            {% endif %}
+            {% if current_user.is_creator() and current_user.creator %}
+            <p class="card-text"><strong>机构：</strong> {{ current_user.creator.institution }}</p>
+            <p class="card-text"><strong>研究领域：</strong> {{ current_user.creator.research_field }}</p>
+            {% endif %}
+            {% if current_user.is_manager() and current_user.manager %}
+            <p class="card-text"><strong>部门：</strong> {{ current_user.manager.department }}</p>
+            <p class="card-text"><strong>权限等级：</strong> {{ current_user.manager.access_level }}</p>
+            {% endif %}
+            {% if current_user.is_reader() and current_user.reader %}
+            <p class="card-text"><strong>组织：</strong> {{ current_user.reader.organization }}</p>
+            <p class="card-text"><strong>订阅类型：</strong> {{ current_user.reader.subscription_type }}</p>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="card mt-3">
+        <div class="card-body">
+            <h5 class="card-title">创建的内容</h5>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-title">基因</h6>
+                            <p class="card-text">已创建：{{ genes_count|default(0) }}</p>
+                            <a href="{{ url_for('main.gene_list') }}" class="btn btn-primary btn-sm">查看</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-title">蛋白质</h6>
+                            <p class="card-text">已创建：{{ proteins_count|default(0) }}</p>
+                            <a href="{{ url_for('main.protein_list') }}" class="btn btn-primary btn-sm">查看</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-title">文献</h6>
+                            <p class="card-text">已创建：{{ publications_count|default(0) }}</p>
+                            <a href="{{ url_for('main.publication_list') }}" class="btn btn-primary btn-sm">查看</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-3">
+        <a href="{{ url_for('main.index') }}" class="btn btn-secondary">返回首页</a>
+        <a href="{{ url_for('auth.edit_profile') }}" class="btn btn-primary">编辑资料</a>
+    </div>
+</div>
+
+<!-- 复制API Key的JS -->
+<script>
+function copyApiKey() {
+    var apiKey = document.getElementById("api-key").innerText;
+    navigator.clipboard.writeText(apiKey).then(function() {
+        alert("API Key 已复制到剪贴板！");
+    }, function() {
+        alert("复制失败，请手动复制。");
+    });
+}
+</script>
+{% endblock %} 

@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-md-8">
+        <h2>物种列表</h2>
+    </div>
+    <div class="col-md-4 text-right">
+        {% if current_user.is_authenticated and (current_user.is_manager() or current_user.is_creator()) %}
+        <a href="{{ url_for('admin.add_species') }}" class="btn btn-primary">
+            <i class="fa fa-plus"></i> 添加物种
+        </a>
+        {% endif %}
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>学名</th>
+                        <th>常用名</th>
+                        <th>分类ID</th>
+                        <th>基因数量</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for sp in species.items %}
+                    <tr>
+                        <td>{{ sp.species_id }}</td>
+                        <td>{{ sp.scientific_name }}</td>
+                        <td>{{ sp.common_name or '未设置' }}</td>
+                        <td>{{ sp.taxonomy_id or '未设置' }}</td>
+                        <td>{{ sp.genes.count() }}</td>
+                        <td>
+                            <a href="{{ url_for('main.species_detail', id=sp.species_id) }}" class="btn btn-sm btn-info">查看</a>
+                            {% if current_user.is_authenticated and (current_user.is_manager() or current_user.is_creator()) %}
+                            <a href="{{ url_for('admin.edit_species', id=sp.species_id) }}" class="btn btn-sm btn-warning">编辑</a>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="6" class="text-center">暂无物种数据</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        
+        {% if species.pages > 1 %}
+        <nav aria-label="分页导航">
+            <ul class="pagination justify-content-center">
+                {% if species.has_prev %}
+                <li class="page-item">
+                    <a class="page-link" href="{{ url_for('main.species_list', page=species.prev_num) }}">上一页</a>
+                </li>
+                {% else %}
+                <li class="page-item disabled">
+                    <span class="page-link">上一页</span>
+                </li>
+                {% endif %}
+                
+                {% for page_num in species.iter_pages(left_edge=1, right_edge=1, left_current=2, right_current=2) %}
+                    {% if page_num %}
+                        {% if page_num == species.page %}
+                        <li class="page-item active">
+                            <span class="page-link">{{ page_num }}</span>
+                        </li>
+                        {% else %}
+                        <li class="page-item">
+                            <a class="page-link" href="{{ url_for('main.species_list', page=page_num) }}">{{ page_num }}</a>
+                        </li>
+                        {% endif %}
+                    {% else %}
+                    <li class="page-item disabled">
+                        <span class="page-link">...</span>
+                    </li>
+                    {% endif %}
+                {% endfor %}
+                
+                {% if species.has_next %}
+                <li class="page-item">
+                    <a class="page-link" href="{{ url_for('main.species_list', page=species.next_num) }}">下一页</a>
+                </li>
+                {% else %}
+                <li class="page-item disabled">
+                    <span class="page-link">下一页</span>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
+        {% endif %}
+    </div>
+</div>
+{% endblock %} 

@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">欢迎使用 GenoBase</h1>
+    <p class="lead">GenoBase 是一个全面的基因组数据库平台，提供基因、蛋白质、物种和文献的整合信息数据库系统。</p>
+    <hr class="my-4">
+    <p>通过本平台，您可以便捷地查询和分析各种生物信息学数据。</p>
+    <a class="btn btn-primary btn-lg" href="{{ url_for('main.search') }}" role="button">开始搜索</a>
+</div>
+
+<!-- 数据统计 -->
+<div class="row mt-5">
+    <div class="col-md-3">
+        <div class="card text-white bg-primary mb-3">
+            <div class="card-header">物种</div>
+            <div class="card-body">
+                <h5 class="card-title">{{ stats.species_count }}</h5>
+                <p class="card-text">收录物种数量</p>
+                <a href="{{ url_for('main.species_list') }}" class="text-white">查看全部 &raquo;</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-success mb-3">
+            <div class="card-header">基因</div>
+            <div class="card-body">
+                <h5 class="card-title">{{ stats.gene_count }}</h5>
+                <p class="card-text">收录基因数量</p>
+                <a href="{{ url_for('main.gene_list') }}" class="text-white">查看全部 &raquo;</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-info mb-3">
+            <div class="card-header">蛋白质</div>
+            <div class="card-body">
+                <h5 class="card-title">{{ stats.protein_count }}</h5>
+                <p class="card-text">收录蛋白质数量</p>
+                <a href="{{ url_for('main.protein_list') }}" class="text-white">查看全部 &raquo;</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-secondary mb-3">
+            <div class="card-header">文献</div>
+            <div class="card-body">
+                <h5 class="card-title">{{ stats.publication_count }}</h5>
+                <p class="card-text">收录文献数量</p>
+                <a href="{{ url_for('main.publication_list') }}" class="text-white">查看全部 &raquo;</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 最新数据 -->
+<div class="row mt-4">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header bg-light">
+                最新基因
+            </div>
+            <ul class="list-group list-group-flush">
+                {% for gene in latest_genes %}
+                <li class="list-group-item">
+                    <a href="{{ url_for('main.gene_detail', id=gene.gene_id) }}">{{ gene.gene_name }}</a>
+                    {% if gene.gene_symbol %}({{ gene.gene_symbol }}){% endif %}
+                </li>
+                {% else %}
+                <li class="list-group-item">暂无数据</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header bg-light">
+                最新蛋白质
+            </div>
+            <ul class="list-group list-group-flush">
+                {% for protein in latest_proteins %}
+                <li class="list-group-item">
+                    <a href="{{ url_for('main.protein_detail', id=protein.protein_id) }}">{{ protein.protein_name }}</a>
+                </li>
+                {% else %}
+                <li class="list-group-item">暂无数据</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header bg-light">
+                最新文献
+            </div>
+            <ul class="list-group list-group-flush">
+                {% for publication in latest_publications %}
+                <li class="list-group-item">
+                    <a href="{{ url_for('main.publication_detail', id=publication.publication_id) }}">{{ publication.title }}</a>
+                </li>
+                {% else %}
+                <li class="list-group-item">暂无数据</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %} 

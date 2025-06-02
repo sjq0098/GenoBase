@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+
+{% block content %}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ url_for('main.index') }}">首页</a></li>
+        <li class="breadcrumb-item"><a href="{{ url_for('main.protein_list') }}">蛋白质</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ protein.protein_name }}</li>
+    </ol>
+</nav>
+
+<div class="row mb-4">
+    <div class="col-md-8">
+        <h2>{{ protein.protein_name }}</h2>
+        {% if protein.uniprot_id %}
+        <h5 class="text-muted">UniProt: {{ protein.uniprot_id }}</h5>
+        {% endif %}
+    </div>
+    <div class="col-md-4 text-right">
+        {% if current_user.is_authenticated and (current_user.is_manager() or current_user.is_creator()) %}
+        <a href="{{ url_for('admin.edit_protein', id=protein.protein_id) }}" class="btn btn-warning">
+            <i class="fa fa-edit"></i> 编辑蛋白质
+        </a>
+        <form action="{{ url_for('admin.delete_protein', id=protein.protein_id) }}" method="post" id="deleteProteinForm" style="display:inline;">
+            <button type="submit" class="btn btn-danger">
+                <i class="fa fa-trash"></i> 删除
+            </button>
+        </form>
+        {% endif %}
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header ncbi-header">
+        <h4 class="mb-0">蛋白质信息</h4>
+    </div>
+    <div class="card-body ncbi-content">
+        <div class="row">
+            <div class="col-md-6">
+                <table class="table table-bordered">
+                    <tr><th>ID</th><td>{{ protein.protein_id }}</td></tr>
+                    <tr><th>蛋白质名称</th><td>{{ protein.protein_name }}</td></tr>
+                    <tr><th>UniProt ID</th><td>{{ protein.uniprot_id or '未设置' }}</td></tr>
+                    <tr><th>关联基因</th><td>{% if protein.gene %}<a href="{{ url_for('main.gene_detail', id=protein.gene.gene_id) }}">{{ protein.gene.gene_name }}</a>{% else %}未设置{% endif %}</td></tr>
+                    <tr><th>添加时间</th><td>{{ protein.created_at.strftime('%Y-%m-%d %H:%M:%S') }}</td></tr>
+                    <tr><th>更新时间</th><td>{{ protein.updated_at.strftime('%Y-%m-%d %H:%M:%S') }}</td></tr>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-header">氨基酸序列</div>
+                    <div class="card-body">
+                        <pre style="font-size: 0.95em;">{{ protein.amino_acid_sequence }}</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 添加删除确认对话框 -->
+<div class="modal fade" id="deleteProteinModal" tabindex="-1" role="dialog" aria-labelledby="deleteProteinModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title" id="deleteProteinModalLabel">确认删除蛋白质</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>您确定要删除蛋白质 <strong>{{ protein.protein_name }}</strong> 吗？</p>
+                <p class="text-danger">警告：此操作无法恢复！</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-danger" id="confirmDeleteProtein">确认删除</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 添加 JavaScript 处理删除操作 -->
+<script>
+document.getElementById('deleteProteinForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    $('#deleteProteinModal').modal('show');
+});
+
+document.getElementById('confirmDeleteProtein').addEventListener('click', function() {
+    const form = document.getElementById('deleteProteinForm');
+    fetch(form.action, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        }
+    })
+    .then(response => {
+        if (response.ok) {
+            // 删除成功后直接跳转到列表页
+            window.location.href = "{{ url_for('main.protein_list') }}";
+        } else {
+            alert('删除失败，请重试');
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('删除失败，请重试');
+    });
+});
+</script>
+{% endblock %} 

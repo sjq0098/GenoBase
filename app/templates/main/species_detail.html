@@ -1,0 +1,166 @@
+{% extends "base.html" %}
+
+{% block content %}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ url_for('main.index') }}">首页</a></li>
+        <li class="breadcrumb-item"><a href="{{ url_for('main.species_list') }}">物种</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ species.scientific_name }}</li>
+    </ol>
+</nav>
+
+<div class="row mb-4">
+    <div class="col-md-8">
+        <h2>{{ species.scientific_name }}</h2>
+        {% if species.common_name %}
+        <h5 class="text-muted">{{ species.common_name }}</h5>
+        {% endif %}
+    </div>
+    <div class="col-md-4 text-right">
+        {% if current_user.is_authenticated and (current_user.is_manager() or current_user.is_creator()) %}
+        <a href="{{ url_for('admin.edit_species', id=species.species_id) }}" class="btn btn-warning">
+            <i class="fa fa-edit"></i> 编辑物种
+        </a>
+        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#deleteSpeciesModal">
+            <i class="fa fa-trash"></i> 删除物种
+        </button>
+        {% endif %}
+    </div>
+</div>
+
+<!-- 物种信息卡片 -->
+<div class="card mb-4">
+    <div class="card-header ncbi-header">
+        <h4 class="mb-0">物种信息</h4>
+    </div>
+    <div class="card-body ncbi-content">
+        <div class="row">
+            <div class="col-md-6">
+                <table class="table table-bordered">
+                    <tr>
+                        <th style="width: 30%">ID</th>
+                        <td>{{ species.species_id }}</td>
+                    </tr>
+                    <tr>
+                        <th>学名</th>
+                        <td>{{ species.scientific_name }}</td>
+                    </tr>
+                    <tr>
+                        <th>常用名</th>
+                        <td>{{ species.common_name or '未设置' }}</td>
+                    </tr>
+                    <tr>
+                        <th>分类ID</th>
+                        <td>
+                            {% if species.taxonomy_id %}
+                                <a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id={{ species.taxonomy_id }}" target="_blank">
+                                    {{ species.taxonomy_id }} <i class="fa fa-external-link-alt"></i>
+                                </a>
+                            {% else %}
+                                未设置
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>添加时间</th>
+                        <td>{{ species.created_at.strftime('%Y-%m-%d %H:%M:%S') }}</td>
+                    </tr>
+                    <tr>
+                        <th>更新时间</th>
+                        <td>{{ species.updated_at.strftime('%Y-%m-%d %H:%M:%S') }}</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-header">描述</div>
+                    <div class="card-body">
+                        {% if species.description %}
+                            {{ species.description }}
+                        {% else %}
+                            <p class="text-muted">暂无描述</p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 基因列表卡片 -->
+<div class="card mb-4">
+    <div class="card-header ncbi-header">
+        <div class="d-flex justify-content-between align-items-center">
+            <h4 class="mb-0">基因列表</h4>
+            {% if current_user.is_authenticated and (current_user.is_manager() or current_user.is_creator()) %}
+            <a href="{{ url_for('admin.add_gene') }}?species_id={{ species.species_id }}" class="btn btn-sm btn-light">
+                <i class="fa fa-plus"></i> 添加基因
+            </a>
+            {% endif %}
+        </div>
+    </div>
+    <div class="card-body ncbi-content">
+        {% if genes %}
+            <div class="table-responsive">
+                <table class="table table-hover table-striped">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>ID</th>
+                            <th>基因名称</th>
+                            <th>基因符号</th>
+                            <th>染色体</th>
+                            <th>蛋白质数量</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for gene in genes %}
+                        <tr>
+                            <td>{{ gene.gene_id }}</td>
+                            <td>{{ gene.gene_name }}</td>
+                            <td>{{ gene.gene_symbol or '未设置' }}</td>
+                            <td>{{ gene.chromosome or '未设置' }}</td>
+                            <td>{{ gene.proteins.count() }}</td>
+                            <td>
+                                <a href="{{ url_for('main.gene_detail', id=gene.gene_id) }}" class="btn btn-sm btn-info">查看</a>
+                                {% if current_user.is_authenticated and (current_user.is_manager() or current_user.is_creator()) %}
+                                <a href="{{ url_for('admin.edit_gene', id=gene.gene_id) }}" class="btn btn-sm btn-warning">编辑</a>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        {% else %}
+            <div class="alert alert-info">该物种暂无基因数据</div>
+        {% endif %}
+    </div>
+</div>
+
+<!-- 删除确认模态框 -->
+{% if current_user.is_authenticated and (current_user.is_manager() or current_user.is_creator()) %}
+<div class="modal fade" id="deleteSpeciesModal" tabindex="-1" role="dialog" aria-labelledby="deleteSpeciesModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title" id="deleteSpeciesModalLabel">确认删除物种</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>您确定要删除物种 <strong>{{ species.scientific_name }}</strong> 吗？</p>
+                <p class="text-danger">警告：此操作将同时删除与该物种相关的所有基因、蛋白质和实验数据，且无法恢复！</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                <form action="{{ url_for('admin.delete_species', id=species.species_id) }}" method="post">
+                    <button type="submit" class="btn btn-danger">确认删除</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endblock %} 

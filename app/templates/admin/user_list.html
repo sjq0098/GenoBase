@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container mt-4">
+    <h2 class="mb-4">用户管理</h2>
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover table-striped">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>用户名</th>
+                            <th>邮箱</th>
+                            <th>用户类型</th>
+                            <th>状态</th>
+                            <th>所属机构/部门/组织</th>
+                            <th>角色细节</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for user in users %}
+                        <tr>
+                            <td>{{ user.user_id }}</td>
+                            <td>{{ user.username }}</td>
+                            <td>{{ user.email }}</td>
+                            <td>{{ user.user_type }}</td>
+                            <td>{% if user.is_active %}<span class="badge badge-success">激活</span>{% else %}<span class="badge badge-secondary">禁用</span>{% endif %}</td>
+                            <td>{{ user.affiliation or '—' }}</td>
+                            <td>{{ user.role_detail or '—' }}</td>
+                            <td>
+                                <a href="{{ url_for('admin.toggle_user_active', id=user.user_id) }}" class="btn btn-sm btn-outline-info">切换状态</a>
+                            </td>
+                        </tr>
+                        {% else %}
+                        <tr><td colspan="7" class="text-center">暂无用户数据</td></tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 
