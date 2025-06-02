@@ -16,13 +16,6 @@
 
 <div class="card mb-4">
     <div class="card-body">
-        <form method="get" class="form-inline mb-3">
-            <input type="text" name="gene_name" class="form-control mr-2" placeholder="基因名称" value="{{ gene_name }}">
-            <input type="text" name="species" class="form-control mr-2" placeholder="物种" value="{{ species }}">
-            <input type="text" name="chromosome" class="form-control mr-2" placeholder="染色体" value="{{ chromosome }}">
-            <button type="submit" class="btn btn-primary">检索</button>
-            <a href="{{ url_for('admin.gene_list') }}" class="btn btn-secondary ml-2">重置</a>
-        </form>
         <div class="table-responsive">
             <table class="table table-hover table-striped">
                 <thead class="thead-dark">
